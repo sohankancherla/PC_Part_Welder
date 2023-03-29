@@ -1,0 +1,601 @@
+<p-table #dt [value]="videoCard" [(selection)]="selectedVideoCard" dataKey="pid" editMode="row" styleClass="p-datatable-videoCard" [rowHover]="true"
+    [rows]="10" [showCurrentPageReport]="true" [rowsPerPageOptions]="[10,25,50,100,1000]" [loading]="loading"
+    [paginator]="true" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+    [filterDelay]="0" [globalFilterFields]="['pidRegistryEntity.manufacturerCodesEntity.dictionary', 'pidRegistryEntity.productName']" [autoLayout]="true"
+    sortField="pid" [sortOrder]="1">
+    <ng-template pTemplate="caption">
+        <div class="p-d-flex">
+            Video Card
+            <button pButton label="Clear" class="p-button-outlined" icon="pi pi-filter-slash" (click)="clear()"></button>
+            <span class="p-input-icon-left p-ml-auto">
+                <i class="pi pi-search"></i>
+                <input pInputText type="text" (input)="applyFilterGlobal($event, 'contains')" placeholder="Search keyword" />
+            </span>
+        </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+        <tr>
+            <th style="width: 3rem">
+                <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+            </th>
+            <th pSortableColumn="pid">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Pid
+                    <p-sortIcon field="pid"></p-sortIcon>
+                    <p-columnFilter type="text" field="pid" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.manufacturerCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Manufacturer
+                    <p-sortIcon field="pidRegistryEntity.manufacturerCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="pidRegistryEntity.manufacturer" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="manufacturerCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.productName">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Product Name
+                    <p-sortIcon field="pidRegistryEntity.productName"></p-sortIcon>
+                    <p-columnFilter type="text" field="pidRegistryEntity.productName" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.lowestPricingEntity.total">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Price
+                    <p-sortIcon field="pidRegistryEntity..lowestPricingEntity.total"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="pidRegistryEntity.lowestPricingEntity.total" matchMode="lte" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.colorCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Color
+                    <p-sortIcon field="pidRegistryEntity.colorCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="pidRegistryEntity.color" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="colorCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="chipsetCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Chipset
+                    <p-sortIcon field="chipsetCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="chipset" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="chipsetCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="memoryTypeCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Memory Type
+                    <p-sortIcon field="memoryTypeCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="memoryType" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="memoryTypeCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="interfaceCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Interface
+                    <p-sortIcon field="interfaceCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="interfaces" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="interfaceCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="frameSyncCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Frame Sync
+                    <p-sortIcon field="frameSyncCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="frameSync" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="frameSyncCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="length">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Memory
+                    <p-sortIcon field="memory"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="length" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="coreClock">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Core Frequency
+                    <p-sortIcon field="coreClock"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="coreClock" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="boostClock">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Boost Frequency
+                    <p-sortIcon field="boostClock"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="boostClock" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="effectiveMemoryClock">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Memory Frequency
+                    <p-sortIcon field="effectiveMemoryClock"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="effectiveMemoryClock" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="length">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Length
+                    <p-sortIcon field="length"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="length" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="tdp">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    TDP
+                    <p-sortIcon field="tdp"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="tdp" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="dviPorts">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    DVI
+                    <p-sortIcon field="dviPorts"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="dviPorts" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="hdmiPorts">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    HDMI
+                    <p-sortIcon field="hdmiPorts"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="hdmiPorts" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="miniHdmiPorts">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    mHDMI
+                    <p-sortIcon field="miniHdmiPorts"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="miniHdmiPorts" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="displayPortPorts">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    DisplayPort
+                    <p-sortIcon field="displayPortPorts"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="displayPortPorts" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="miniDisplayPortPorts">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    mDisplayPort
+                    <p-sortIcon field="miniDisplayPortPorts"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="miniDisplayPortPorts" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="expansionSlotWidth">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Expansion Slot Width
+                    <p-sortIcon field="expansionSlotWidth"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="expansionSlotWidth" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="cooling">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Cooling
+                    <p-sortIcon field="cooling"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="cooling" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="externalPower">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    External Power
+                    <p-sortIcon field="externalPower"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="externalPower" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="hdmi">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    HDMI
+                    <p-sortIcon field="hdmi"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="hdmi" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="dvidDualLink">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    DVI-D Dual
+                    <p-sortIcon field="dvidDualLink"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="dvidDualLink" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="vga">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    VGA
+                    <p-sortIcon field="vga"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="vga" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="dviiDualLink">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    DVI-I Dual
+                    <p-sortIcon field="dviiDualLink"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="dviiDualLink" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="virtualLink">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    VirtualLink
+                    <p-sortIcon field="virtualLink"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="virtualLink" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="dvidSingleLink">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    DVI-D Single
+                    <p-sortIcon field="dvidSingleLink"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="dvidSingleLink" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="svideo">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    S-Video
+                    <p-sortIcon field="svideo"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="svideo" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="vhdci">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    VHDCI
+                    <p-sortIcon field="vhdci"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="vhdci" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="dviA">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    DVI-A
+                    <p-sortIcon field="dviA"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="dviA" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+
+            <th style="width: 8rem"></th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-videoCard let-editing="editing" let-ri="rowIndex">
+        <tr [pEditableRow]="videoCard" class="p-selectable-row">
+            <td>
+                <p-tableCheckbox [value]="videoCard"></p-tableCheckbox>
+            </td>
+            <td>
+                {{videoCard.pid}}
+            </td>
+            <td>
+                {{videoCard.pidRegistryEntity.manufacturerCodesEntity?.dictionary}}
+            </td>
+            <td>
+                {{videoCard.pidRegistryEntity.productName}}
+            </td>
+            <td>
+                <p-overlayPanel #op [showCloseIcon]="true" [style]="{width: '450px'}">
+                    <ng-template pTemplate>
+                        <p-table [value]="videoCard.pidRegistryEntity.pricingEntities" [paginator]="true" [rows]="5" responsiveLayout="scroll"
+                        sortField="total" [sortOrder]="1">
+                            <ng-template pTemplate="header">
+                                <tr>
+                                    <th pSortableColumn="merchant">Name<p-sortIcon field="merchant"></p-sortIcon></th>
+                                    <th pSortableColumn="availability">Availability<p-sortIcon field="availability"></p-sortIcon></th>
+                                    <th pSortableColumn="total">Total<p-sortIcon field="total"></p-sortIcon></th>
+                                    <th style="width: 8rem"></th>
+                                </tr>
+                            </ng-template>
+                            <ng-template pTemplate="body" let-pricing let-ri="rowIndex">
+                                <tr>
+                                    <td>{{pricing.merchantCodesEntity?.dictionary}}</td>
+                                    <td>{{pricing.availabilityCodesEntity?.dictionary}}</td>
+                                    <td>{{pricing.total | currency: 'USD' : 'symbol': '1.2-2'}}</td>
+                                    <td style="text-align:center">
+                                        <button pButton pRipple type="button" pInitEditableRow icon="pi pi-plus" (click)="onRowAddProduct(pricing)" class="p-button-rounded p-button-text"></button>
+                                    </td>
+                                </tr>
+                            </ng-template>
+                        </p-table>
+                    </ng-template>
+                </p-overlayPanel>
+                <p-button label="{{videoCard.pidRegistryEntity.lowestPricingEntity?.total | currency: 'USD' : 'symbol': '1.2-2'}}" (click)="op.toggle($event)"></p-button>
+            </td>
+            <td>
+                {{videoCard.pidRegistryEntity.colorCodesEntity?.dictionary}}
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-dropdown [options]="chipsetCodesAllSelectItems" [(ngModel)]="videoCard.chipset" [style]="{'width':'100%'}"></p-dropdown>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.chipsetCodesEntity?.dictionary}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-dropdown [options]="memoryTypeCodesAllSelectItems" [(ngModel)]="videoCard.memoryType" [style]="{'width':'100%'}"></p-dropdown>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.memoryTypeCodesEntity?.dictionary}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-dropdown [options]="interfaceCodesAllSelectItems" [(ngModel)]="videoCard.interfaces" [style]="{'width':'100%'}"></p-dropdown>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.interfaceCodesEntity?.dictionary}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-dropdown [options]="frameSyncCodesAllSelectItems" [(ngModel)]="videoCard.frameSync" [style]="{'width':'100%'}"></p-dropdown>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.frameSyncCodesEntity?.dictionary}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.memory" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.memory | nonEmptyUnit:'GB'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.coreClock" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.coreClock | nonEmptyUnit:'MHz'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.boostClock" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.boostClock | nonEmptyUnit:'MHz'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.effectiveMemoryClock" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.effectiveMemoryClock | nonEmptyUnit:'MHz'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.length" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.length | nonEmptyUnit:'mm'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.tdp" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.tdp | nonEmptyUnit:'W'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.dviPorts" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.dviPorts}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.hdmiPorts" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.hdmiPorts}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.miniHdmiPorts" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.miniHdmiPorts}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.displayPortPorts" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.displayPortPorts}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.miniDisplayPortPorts" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.miniDisplayPortPorts}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.expansionSlotWidth" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.expansionSlotWidth}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.cooling" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.cooling}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.externalPower" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.externalPower}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.hdmi" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.hdmi}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.dvidDualLink" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.dvidDualLink}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.vga" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.vga}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.dviiDualLink" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.dviiDualLink}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.virtualLink" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.virtualLink}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.dvidSingleLink" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.dvidSingleLink}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.svideo" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.svideo}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.vhdci" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.vhdci}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>        
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="videoCard.dviA" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{videoCard.dviA}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>        
+            <td style="text-align:center">
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-pencil" (click)="onRowEditInit(videoCard)" class="p-button-rounded p-button-text"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pSaveEditableRow icon="pi pi-check" (click)="onRowEditSave(videoCard, ri)" class="p-button-rounded p-button-text p-button-success p-mr-2"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pCancelEditableRow icon="pi pi-times" (click)="onRowEditCancel(videoCard, ri)" class="p-button-rounded p-button-text p-button-danger"></button>
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-trash" (click)="onRowDelete(videoCard, ri)" class="p-button-rounded p-button-text"></button>
+            </td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="emptymessage">
+        <tr>
+            <td colspan="8">No Video Cards found.</td>
+        </tr>
+    </ng-template>
+</p-table>

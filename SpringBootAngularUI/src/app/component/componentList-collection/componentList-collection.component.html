@@ -1,0 +1,161 @@
+<p-table #dt [value]="componentList" [(selection)]="selectedComponentList" dataKey="pid" editMode="row" styleClass="p-datatable-componentList" [rowHover]="true"
+    [rows]="10" [showCurrentPageReport]="true" [rowsPerPageOptions]="[10,25,50,100]" [loading]="loading"
+    [paginator]="true" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+    [filterDelay]="0" [globalFilterFields]="['pidRegistryEntity.manufacturerCodesEntity.dictionary', 'pidRegistryEntity.productName']" [autoLayout]="true"
+    sortField="pid" [sortOrder]="1">
+    <ng-template pTemplate="caption">
+        <div class="p-d-flex">
+            Components
+            <button pButton label="Clear" class="p-button-outlined" icon="pi pi-filter-slash" (click)="clear()"></button>
+            <span class="p-input-icon-left p-ml-auto">
+                <i class="pi pi-search"></i>
+                <input pInputText type="text" (input)="applyFilterGlobal($event, 'contains')" placeholder="Search keyword" />
+            </span>
+        </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+        <tr>
+            <th style="width: 3rem">
+                <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+            </th>
+            <th pSortableColumn="pid">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Pid
+                    <p-sortIcon field="pid"></p-sortIcon>
+                    <p-columnFilter type="text" field="pid" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.manufacturerCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Manufacturer
+                    <p-sortIcon field="pidRegistryEntity.manufacturerCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="pidRegistryEntity.manufacturer" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="manufacturerCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.productName">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Product Name
+                    <p-sortIcon field="pidRegistryEntity.productName"></p-sortIcon>
+                    <p-columnFilter type="text" field="pidRegistryEntity.productName" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pricingEntity.merchantCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Merchant
+                    <p-sortIcon field="pricingEntity.merchantCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="merchant" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="merchantCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.colorCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Color
+                    <p-sortIcon field="pidRegistryEntity.colorCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="pidRegistryEntity.color" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="colorCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pricingEntity.total">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Price
+                    <p-sortIcon field="pricingEntity.total"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="pricingEntity.total" matchMode="lte" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="count">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Quantity
+                    <p-sortIcon field="count"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="count" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th style="width: 8rem"></th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-componentList let-editing="editing" let-ri="rowIndex">
+        <tr [pEditableRow]="componentList" class="p-selectable-row">
+            <td>
+                <p-tableCheckbox [value]="componentList"></p-tableCheckbox>
+            </td>
+            <td>
+                {{componentList.pid}}
+            </td>
+            <td>
+                {{componentList.pidRegistryEntity.manufacturerCodesEntity?.dictionary}}
+            </td>
+            <td>
+                {{componentList.pidRegistryEntity.productName}}
+            </td>
+            <td>
+                {{componentList.pricingEntity.merchantCodesEntity?.dictionary}}
+            </td>
+            <td>
+                {{componentList.pidRegistryEntity.colorCodesEntity?.dictionary}}
+            </td>
+            <td>
+                <p-overlayPanel #op [showCloseIcon]="true" [style]="{width: '450px'}">
+                    <ng-template pTemplate>
+                        <p-table [value]="componentList.pidRegistryEntity.pricingEntities" [paginator]="true" [rows]="5" responsiveLayout="scroll"
+                        sortField="total" [sortOrder]="1">
+                            <ng-template pTemplate="header">
+                                <tr>
+                                    <th pSortableColumn="merchant">Name<p-sortIcon field="merchant"></p-sortIcon></th>
+                                    <th pSortableColumn="availability">Availability<p-sortIcon field="availability"></p-sortIcon></th>
+                                    <th pSortableColumn="total">Total<p-sortIcon field="total"></p-sortIcon></th>
+                                    <th style="width: 8rem"></th>
+                                </tr>
+                            </ng-template>
+                            <ng-template pTemplate="body" let-pricing let-ri="rowIndex">
+                                <tr>
+                                    <td>{{pricing.merchantCodesEntity?.dictionary}}</td>
+                                    <td>{{pricing.availabilityCodesEntity?.dictionary}}</td>
+                                    <td>{{pricing.total | currency: 'USD' : 'symbol': '1.2-2'}}</td>
+                                    <td style="text-align:center">
+                                        <button pButton pRipple type="button" pInitEditableRow icon="pi pi-plus" (click)="onRowAddProduct(pricing)" class="p-button-rounded p-button-text"></button>
+                                    </td>
+                                </tr>
+                            </ng-template>
+                        </p-table>
+                    </ng-template>
+                </p-overlayPanel>
+                <p-button label="{{componentList.pricingEntity.total | currency: 'USD' : 'symbol': '1.2-2'}}" (click)="op.toggle($event)"></p-button>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="componentList.count" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{componentList.count}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td style="text-align:center">
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-pencil" (click)="onRowEditInit(componentList)" class="p-button-rounded p-button-text"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pSaveEditableRow icon="pi pi-check" (click)="onRowEditSave(componentList, ri)" class="p-button-rounded p-button-text p-button-success p-mr-2"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pCancelEditableRow icon="pi pi-times" (click)="onRowEditCancel(componentList, ri)" class="p-button-rounded p-button-text p-button-danger"></button>
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-trash" (click)="onRowDelete(componentList, ri)" class="p-button-rounded p-button-text"></button>
+            </td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="summary" style="text-align: right">
+        <div style="text-align: right">
+            Total Price {{addTotals(componentList) | currency: 'USD' : 'symbol': '1.2-2'}}
+        </div>
+    </ng-template>
+    <ng-template pTemplate="emptymessage">
+        <tr>
+            <td colspan="8">No components found.</td>
+        </tr>
+    </ng-template>
+</p-table>

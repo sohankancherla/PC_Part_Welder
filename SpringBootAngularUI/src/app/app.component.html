@@ -1,0 +1,53 @@
+<p-toast></p-toast>
+<div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card bg-dark my-5">
+        <div class="card-body">
+          <h2 class="card-title text-center text-white py-3">{{ title }}</h2>
+          <ul class="text-center list-inline py-3">
+            <li class="list-inline-item">
+              <a routerLink="/users" class="btn btn-info">View Users</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/adduser" class="btn btn-info">Add User</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/loginUser" class="btn btn-info">Login</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/componentList" class="btn btn-info">Components</a>
+            </li>
+          </ul>
+          <ul class="text-center list-inline py-3">
+            <li class="list-inline-item">
+              <a routerLink="/motherboard" class="btn btn-info">Motherboard</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/memory" class="btn btn-info">Memory</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/cpu" class="btn btn-info">CPU</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/cpuCooler" class="btn btn-info">CPU Cooler</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/cases" class="btn btn-info">Case</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/powerSupply" class="btn btn-info">Power Supply</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/storages" class="btn btn-info">Storage</a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/videoCard" class="btn btn-info">Video Card</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

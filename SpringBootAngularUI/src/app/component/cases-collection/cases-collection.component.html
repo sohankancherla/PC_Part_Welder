@@ -1,0 +1,473 @@
+<p-table #dt [value]="cases" [(selection)]="selectedCases" dataKey="pid" editMode="row" styleClass="p-datatable-cases" [rowHover]="true"
+    [rows]="10" [showCurrentPageReport]="true" [rowsPerPageOptions]="[10,25,50,100]" [loading]="loading"
+    [paginator]="true" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+    [filterDelay]="0" [globalFilterFields]="['pidRegistryEntity.manufacturerCodesEntity.dictionary', 'pidRegistryEntity.productName']" [autoLayout]="true"
+    sortField="pid" [sortOrder]="1">
+    <ng-template pTemplate="caption">
+        <div class="p-d-flex">
+            Cases
+            <button pButton label="Clear" class="p-button-outlined" icon="pi pi-filter-slash" (click)="clear()"></button>
+            <span class="p-input-icon-left p-ml-auto">
+                <i class="pi pi-search"></i>
+                <input pInputText type="text" (input)="applyFilterGlobal($event, 'contains')" placeholder="Search keyword" />
+            </span>
+        </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+        <tr>
+            <th style="width: 3rem">
+                <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+            </th>
+            <th pSortableColumn="pid">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Pid
+                    <p-sortIcon field="pid"></p-sortIcon>
+                    <p-columnFilter type="text" field="pid" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.manufacturerCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Manufacturer
+                    <p-sortIcon field="pidRegistryEntity.manufacturerCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="pidRegistryEntity.manufacturer" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="manufacturerCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.productName">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Product Name
+                    <p-sortIcon field="pidRegistryEntity.productName"></p-sortIcon>
+                    <p-columnFilter type="text" field="pidRegistryEntity.productName" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.lowestPricingEntity.total">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Price
+                    <p-sortIcon field="pidRegistryEntity..lowestPricingEntity.total"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="pidRegistryEntity.lowestPricingEntity.total" matchMode="lte" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.colorCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Color
+                    <p-sortIcon field="pidRegistryEntity.colorCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="pidRegistryEntity.color" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="colorCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="typeCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Series
+                    <p-sortIcon field="typeCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="type" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="typeCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="powerSupply">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Power Supply
+                    <p-sortIcon field="powerSupply"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="powerSupply" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="sidePanelWindowCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Side Panel Window
+                    <p-sortIcon field="sidePanelWindowCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="type" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="sidePanelWindowCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="powerSupplyShroud">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Power Supply Shroud
+                    <p-sortIcon field="powerSupplyShroud"></p-sortIcon>
+                    <p-columnFilter type="boolean" field="powerSupplyShroud" display="menu"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="fullHeightExpansionSlots">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Full Height Expansion Slots
+                    <p-sortIcon field="fullHeightExpansionSlots"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="fullHeightExpansionSlots" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="halfHeightExpansionSlots">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Half Height Expansion Slots
+                    <p-sortIcon field="halfHeightExpansionSlots"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="halfHeightExpansionSlots" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="internal25Bays">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Internal 2.5" Bays
+                    <p-sortIcon field="internal25Bays"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="internal25Bays" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="internal35Bays">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Internal 3.5" Bays
+                    <p-sortIcon field="internal35Bays"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="internal35Bays" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="maxGraphicsCardLength">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Max Graphics Card Length
+                    <p-sortIcon field="maxGraphicsCardLength"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="maxGraphicsCardLength" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="maxGraphicsCardLengthNoDriveBay">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Max Graphics Card Length (No Drive Bay)
+                    <p-sortIcon field="maxGraphicsCardLengthNoDriveBay"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="maxGraphicsCardLengthNoDriveBay" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="length">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Length
+                    <p-sortIcon field="length"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="length" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="width">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Width
+                    <p-sortIcon field="width"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="width" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="height">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Height
+                    <p-sortIcon field="height"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="height" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="external525Bays">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    External 5.25" Bays
+                    <p-sortIcon field="external525Bays"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="external525Bays" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="external35Bays">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    External 3.5" Bays
+                    <p-sortIcon field="external35Bays"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="external35Bays" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="external525SlimSlotLoadBays">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    External 5.25" Slim Slot Load Bays
+                    <p-sortIcon field="external525SlimSlotLoadBays"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="external525SlimSlotLoadBays" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="external25Bays">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    External 2.5" Bays
+                    <p-sortIcon field="external25Bays"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="external25Bays" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="external525Slimbays">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    External 5.25" Slim Bays
+                    <p-sortIcon field="external525Slimbays"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="external525Slimbays" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="internal525Bays">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Internal 5.25" Bays
+                    <p-sortIcon field="internal525Bays"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="internal525Bays" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="internal525SlimSlotLoadBays">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Internal 5.25" Slim Slot Load Bays
+                    <p-sortIcon field="internal525SlimSlotLoadBays"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="internal525SlimSlotLoadBays" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th style="width: 8rem"></th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-cases let-editing="editing" let-ri="rowIndex">
+        <tr [pEditableRow]="cases" class="p-selectable-row">
+            <td>
+                <p-tableCheckbox [value]="cases"></p-tableCheckbox>
+            </td>
+            <td>
+                {{cases.pid}}
+            </td>
+            <td>
+                {{cases.pidRegistryEntity.manufacturerCodesEntity?.dictionary}}
+            </td>
+            <td>
+                {{cases.pidRegistryEntity.productName}}
+            </td>
+            <td>
+                <p-overlayPanel #op [showCloseIcon]="true" [style]="{width: '450px'}">
+                    <ng-template pTemplate>
+                        <p-table [value]="cases.pidRegistryEntity.pricingEntities" [paginator]="true" [rows]="5" responsiveLayout="scroll"
+                        sortField="total" [sortOrder]="1">
+                            <ng-template pTemplate="header">
+                                <tr>
+                                    <th pSortableColumn="merchant">Name<p-sortIcon field="merchant"></p-sortIcon></th>
+                                    <th pSortableColumn="availability">Availability<p-sortIcon field="availability"></p-sortIcon></th>
+                                    <th pSortableColumn="total">Total<p-sortIcon field="total"></p-sortIcon></th>
+                                    <th style="width: 8rem"></th>
+                                </tr>
+                            </ng-template>
+                            <ng-template pTemplate="body" let-pricing let-ri="rowIndex">
+                                <tr>
+                                    <td>{{pricing.merchantCodesEntity?.dictionary}}</td>
+                                    <td>{{pricing.availabilityCodesEntity?.dictionary}}</td>
+                                    <td>{{pricing.total | currency: 'USD' : 'symbol': '1.2-2'}}</td>
+                                    <td style="text-align:center">
+                                        <button pButton pRipple type="button" pInitEditableRow icon="pi pi-plus" (click)="onRowAddProduct(pricing)" class="p-button-rounded p-button-text"></button>
+                                    </td>
+                                </tr>
+                            </ng-template>
+                        </p-table>
+                    </ng-template>
+                </p-overlayPanel>
+                <p-button label="{{cases.pidRegistryEntity.lowestPricingEntity?.total | currency: 'USD' : 'symbol': '1.2-2'}}" (click)="op.toggle($event)"></p-button>
+            </td>
+            <td>
+                {{cases.pidRegistryEntity.colorCodesEntity?.dictionary}}
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-dropdown [options]="typeCodesAllSelectItems" [(ngModel)]="cases.type" [style]="{'width':'100%'}"></p-dropdown>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.typeCodesEntity?.dictionary}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.powerSupply" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.powerSupply | nonEmptyUnit:'W'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-dropdown [options]="sidePanelWindowCodesAllSelectItems" [(ngModel)]="cases.sidePanelWindow" [style]="{'width':'100%'}"></p-dropdown>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.sidePanelWindowCodesEntity?.dictionary}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-checkbox [(ngModel)]="cases.powerSupplyShroud" [binary]="true"></p-checkbox>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        <i class="pi" [ngClass]="{'true-icon pi-check-circle': cases.powerSupplyShroud, 'false-icon pi-times-circle': !cases.powerSupplyShroud}"></i>
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.fullHeightExpansionSlots" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.fullHeightExpansionSlots}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.halfHeightExpansionSlots" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.halfHeightExpansionSlots}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.internal25Bays" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.internal25Bays}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.internal35Bays" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.internal35Bays}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.maxGraphicsCardLength" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.maxGraphicsCardLength | nonEmptyUnit:'mm'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.maxGraphicsCardLengthNoDriveBay" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.maxGraphicsCardLengthNoDriveBay | nonEmptyUnit:'mm'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.length" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.length | nonEmptyUnit:'mm'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.width" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.width | nonEmptyUnit:'mm'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.height" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.height | nonEmptyUnit:'mm'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.external525Bays" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.external525Bays}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.external35Bays" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.external35Bays}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.external525SlimSlotLoadBays" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.external525SlimSlotLoadBays}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.external25Bays" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.external25Bays}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.external525Slimbays" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.external525Slimbays}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.internal525Bays" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.internal525Bays}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cases.internal525SlimSlotLoadBays" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cases.internal525SlimSlotLoadBays}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td style="text-align:center">
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-pencil" (click)="onRowEditInit(cases)" class="p-button-rounded p-button-text"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pSaveEditableRow icon="pi pi-check" (click)="onRowEditSave(cases, ri)" class="p-button-rounded p-button-text p-button-success p-mr-2"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pCancelEditableRow icon="pi pi-times" (click)="onRowEditCancel(cases, ri)" class="p-button-rounded p-button-text p-button-danger"></button>
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-trash" (click)="onRowDelete(cases, ri)" class="p-button-rounded p-button-text"></button>
+            </td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="emptymessage">
+        <tr>
+            <td colspan="8">No casess found.</td>
+        </tr>
+    </ng-template>
+</p-table>

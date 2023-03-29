@@ -1,0 +1,86 @@
+<p-table #dt [value]="users" [(selection)]="selectedUsers" dataKey="uid" editMode="row" styleClass="p-datatable-users" [rowHover]="true"
+    [rows]="10" [showCurrentPageReport]="true" [rowsPerPageOptions]="[10,25,50,100]" [loading]="loading"
+    [paginator]="true" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+    [filterDelay]="0" [globalFilterFields]="['username','email']"
+    sortField="uid" [sortOrder]="1">
+    <ng-template pTemplate="caption">
+        <div class="table-header">
+            List of Users
+            <span class="p-input-icon-left">
+                <i class="pi pi-search"></i>
+                <input pInputText type="text" (input)="applyFilterGlobal($event, 'contains')" placeholder="Global Search" />
+            </span>
+        </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+        <tr>
+            <th style="width: 3rem">
+                <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+            </th>
+            <th pSortableColumn="uid">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Uid
+                    <p-sortIcon field="uid"></p-sortIcon>
+                    <p-columnFilter type="text" field="uid" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="username">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Username
+                    <p-sortIcon field="username"></p-sortIcon>
+                    <p-columnFilter type="text" field="username" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="email">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Email
+                    <p-sortIcon field="email"></p-sortIcon>
+                    <p-columnFilter type="text" field="email" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th style="width: 8rem"></th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-users let-editing="editing" let-ri="rowIndex">
+        <tr [pEditableRow]="users" class="p-selectable-row">
+            <td>
+                <p-tableCheckbox [value]="users"></p-tableCheckbox>
+            </td>
+            <td>
+                <span class="p-column-title">Uid</span>
+                {{users.uid}}
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="text" [(ngModel)]="users.username" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{users.username}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="text" [(ngModel)]="users.email" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{users.email}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td style="text-align:center">
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-pencil" (click)="onRowEditInit(users)" class="p-button-rounded p-button-text"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pSaveEditableRow icon="pi pi-check" (click)="onRowEditSave(users, ri)" class="p-button-rounded p-button-text p-button-success p-mr-2"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pCancelEditableRow icon="pi pi-times" (click)="onRowEditCancel(users, ri)" class="p-button-rounded p-button-text p-button-danger"></button>
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-trash" (click)="onRowDelete(users, ri)" class="p-button-rounded p-button-text"></button>
+            </td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="emptymessage">
+        <tr>
+            <td colspan="8">No users found.</td>
+        </tr>
+    </ng-template>
+</p-table>

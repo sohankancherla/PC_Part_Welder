@@ -1,0 +1,265 @@
+<p-table #dt [value]="cpuCooler" [(selection)]="selectedCpuCooler" dataKey="pid" editMode="row" styleClass="p-datatable-cpuCooler" [rowHover]="true"
+    [rows]="10" [showCurrentPageReport]="true" [rowsPerPageOptions]="[10,25,50,100]" [loading]="loading"
+    [paginator]="true" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+    [filterDelay]="0" [globalFilterFields]="['pidRegistryEntity.manufacturerCodesEntity.dictionary', 'pidRegistryEntity.productName']" [autoLayout]="true"
+    sortField="pid" [sortOrder]="1">
+    <ng-template pTemplate="caption">
+        <div class="p-d-flex">
+            CpuCooler
+            <button pButton label="Clear" class="p-button-outlined" icon="pi pi-filter-slash" (click)="clear()"></button>
+            <span class="p-input-icon-left p-ml-auto">
+                <i class="pi pi-search"></i>
+                <input pInputText type="text" (input)="applyFilterGlobal($event, 'contains')" placeholder="Search keyword" />
+            </span>
+        </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+        <tr>
+            <th style="width: 3rem">
+                <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+            </th>
+            <th pSortableColumn="pid">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Pid
+                    <p-sortIcon field="pid"></p-sortIcon>
+                    <p-columnFilter type="text" field="pid" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.manufacturerCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Manufacturer
+                    <p-sortIcon field="pidRegistryEntity.manufacturerCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="pidRegistryEntity.manufacturer" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="manufacturerCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.productName">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Product Name
+                    <p-sortIcon field="pidRegistryEntity.productName"></p-sortIcon>
+                    <p-columnFilter type="text" field="pidRegistryEntity.productName" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.lowestPricingEntity.total">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Price
+                    <p-sortIcon field="pidRegistryEntity..lowestPricingEntity.total"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="pidRegistryEntity.lowestPricingEntity.total" matchMode="lte" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.colorCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Color
+                    <p-sortIcon field="pidRegistryEntity.colorCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="pidRegistryEntity.color" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="colorCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="height">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Height
+                    <p-sortIcon field="height"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="height" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="fanless">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Fanless
+                    <p-sortIcon field="fanless"></p-sortIcon>
+                    <p-columnFilter type="boolean" field="fanless" display="menu"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="fanRpmMin">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Fan Speed Min
+                    <p-sortIcon field="fanRpmMin"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="fanRpmMin" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="fanRpmMax">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Fan Speed Max
+                    <p-sortIcon field="fanRpmMax"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="fanRpmMin" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="noiseLevelMin">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Noise Level Min
+                    <p-sortIcon field="noiseLevelMin"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="noiseLevelMin" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="noiseLevelMax">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Noise Level Max
+                    <p-sortIcon field="noiseLevelMax"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="noiseLevelMax" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="waterCoolerRadiator">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Radiator
+                    <p-sortIcon field="waterCoolerRadiator"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="waterCoolerRadiator" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="bearingCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Bearing
+                    <p-sortIcon field="bearingCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="bearing" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="bearingCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th style="width: 8rem"></th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-cpuCooler let-editing="editing" let-ri="rowIndex">
+        <tr [pEditableRow]="cpuCooler" class="p-selectable-row">
+            <td>
+                <p-tableCheckbox [value]="cpuCooler"></p-tableCheckbox>
+            </td>
+            <td>
+                {{cpuCooler.pid}}
+            </td>
+            <td>
+                {{cpuCooler.pidRegistryEntity.manufacturerCodesEntity?.dictionary}}
+            </td>
+            <td>
+                {{cpuCooler.pidRegistryEntity.productName}}
+            </td>
+            <td>
+                <p-overlayPanel #op [showCloseIcon]="true" [style]="{width: '450px'}">
+                    <ng-template pTemplate>
+                        <p-table [value]="cpuCooler.pidRegistryEntity.pricingEntities" [paginator]="true" [rows]="5" responsiveLayout="scroll"
+                        sortField="total" [sortOrder]="1">
+                            <ng-template pTemplate="header">
+                                <tr>
+                                    <th pSortableColumn="merchant">Name<p-sortIcon field="merchant"></p-sortIcon></th>
+                                    <th pSortableColumn="availability">Availability<p-sortIcon field="availability"></p-sortIcon></th>
+                                    <th pSortableColumn="total">Total<p-sortIcon field="total"></p-sortIcon></th>
+                                    <th style="width: 8rem"></th>
+                                </tr>
+                            </ng-template>
+                            <ng-template pTemplate="body" let-pricing let-ri="rowIndex">
+                                <tr>
+                                    <td>{{pricing.merchantCodesEntity?.dictionary}}</td>
+                                    <td>{{pricing.availabilityCodesEntity?.dictionary}}</td>
+                                    <td>{{pricing.total | currency: 'USD' : 'symbol': '1.2-2'}}</td>
+                                    <td style="text-align:center">
+                                        <button pButton pRipple type="button" pInitEditableRow icon="pi pi-plus" (click)="onRowAddProduct(pricing)" class="p-button-rounded p-button-text"></button>
+                                    </td>
+                                </tr>
+                            </ng-template>
+                        </p-table>
+                    </ng-template>
+                </p-overlayPanel>
+                <p-button label="{{cpuCooler.pidRegistryEntity.lowestPricingEntity?.total | currency: 'USD' : 'symbol': '1.2-2'}}" (click)="op.toggle($event)"></p-button>
+            </td>
+            <td>
+                {{cpuCooler.pidRegistryEntity.colorCodesEntity?.dictionary}}
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cpuCooler.height" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cpuCooler.height | nonEmptyUnit:'mm'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-checkbox [(ngModel)]="cpuCooler.fanless" [binary]="true"></p-checkbox>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        <i class="pi" [ngClass]="{'true-icon pi-check-circle': cpuCooler.fanless, 'false-icon pi-times-circle': !cpuCooler.fanless}"></i>
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cpuCooler.fanRpmMin" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cpuCooler.fanRpmMin | nonEmptyUnit:'RPM'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cpuCooler.fanRpmMax" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cpuCooler.fanRpmMax | nonEmptyUnit:'RPM'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cpuCooler.noiseLevelMin" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cpuCooler.noiseLevelMin | nonEmptyUnit:'dB'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cpuCooler.noiseLevelMax" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cpuCooler.noiseLevelMax | nonEmptyUnit:'dB'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="cpuCooler.waterCoolerRadiator" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cpuCooler.waterCoolerRadiator | nonEmptyUnit:'mm'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-dropdown [options]="bearingCodesAllSelectItems" [(ngModel)]="cpuCooler.bearing" [style]="{'width':'100%'}"></p-dropdown>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{cpuCooler.bearingCodesEntity?.dictionary}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td style="text-align:center">
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-pencil" (click)="onRowEditInit(cpuCooler)" class="p-button-rounded p-button-text"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pSaveEditableRow icon="pi pi-check" (click)="onRowEditSave(cpuCooler, ri)" class="p-button-rounded p-button-text p-button-success p-mr-2"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pCancelEditableRow icon="pi pi-times" (click)="onRowEditCancel(cpuCooler, ri)" class="p-button-rounded p-button-text p-button-danger"></button>
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-trash" (click)="onRowDelete(cpuCooler, ri)" class="p-button-rounded p-button-text"></button>
+            </td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="emptymessage">
+        <tr>
+            <td colspan="8">No cpuCoolers found.</td>
+        </tr>
+    </ng-template>
+</p-table>

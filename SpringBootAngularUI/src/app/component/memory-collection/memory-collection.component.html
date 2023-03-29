@@ -1,0 +1,375 @@
+<p-table #dt [value]="memory" [(selection)]="selectedMemory" dataKey="pid" editMode="row" styleClass="p-datatable-memory" [rowHover]="true"
+    [rows]="10" [showCurrentPageReport]="true" [rowsPerPageOptions]="[10,25,50,100]" [loading]="loading"
+    [paginator]="true" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+    [filterDelay]="0" [globalFilterFields]="['pidRegistryEntity.manufacturerCodesEntity.dictionary', 'pidRegistryEntity.productName']" [autoLayout]="true"
+    sortField="pid" [sortOrder]="1">
+    <ng-template pTemplate="caption">
+        <div class="p-d-flex">
+            Memory
+            <button pButton label="Clear" class="p-button-outlined" icon="pi pi-filter-slash" (click)="clear()"></button>
+            <span class="p-input-icon-left p-ml-auto">
+                <i class="pi pi-search"></i>
+                <input pInputText type="text" (input)="applyFilterGlobal($event, 'contains')" placeholder="Search keyword" />
+            </span>
+        </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+        <tr>
+            <th style="width: 3rem">
+                <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+            </th>
+            <th pSortableColumn="pid">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Pid
+                    <p-sortIcon field="pid"></p-sortIcon>
+                    <p-columnFilter type="text" field="pid" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.manufacturerCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Manufacturer
+                    <p-sortIcon field="pidRegistryEntity.manufacturerCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="pidRegistryEntity.manufacturer" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="manufacturerCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.productName">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Product Name
+                    <p-sortIcon field="pidRegistryEntity.productName"></p-sortIcon>
+                    <p-columnFilter type="text" field="pidRegistryEntity.productName" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.lowestPricingEntity.total">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Price
+                    <p-sortIcon field="pidRegistryEntity..lowestPricingEntity.total"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="pidRegistryEntity.lowestPricingEntity.total" matchMode="lte" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pidRegistryEntity.colorCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Color
+                    <p-sortIcon field="pidRegistryEntity.colorCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="pidRegistryEntity.color" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="colorCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="formFactorCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Form Factors
+                    <p-sortIcon field="formFactorCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="formFactor" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="formFactorCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="modules">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Modules
+                    <p-sortIcon field="modules"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="modules" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="pricePerGb">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Price per GB
+                    <p-sortIcon field="pricePerGb"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="pricePerGb" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="firstWordLatency">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    First Word Latency
+                    <p-sortIcon field="firstWordLatency"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="firstWordLatency" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="voltage">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Voltage
+                    <p-sortIcon field="voltage"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="voltage" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="eccRegisteredCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    ECC Registered
+                    <p-sortIcon field="eccRegisteredCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="eccRegistered" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="eccRegisteredCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="heatSpreader">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Heat Spreader
+                    <p-sortIcon field="heatSpreader"></p-sortIcon>
+                    <p-columnFilter type="boolean" field="heatSpreader" display="menu"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="memoryTypeCodesEntity.dictionary">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Memory Type
+                    <p-sortIcon field="memoryTypeCodesEntity.dictionary"></p-sortIcon>
+                    <p-columnFilter field="memoryType" matchMode="equals" display="menu">
+                        <ng-template pTemplate="filter" let-value let-filter="filterCallback">
+                            <p-dropdown [ngModel]="value" [options]="memoryTypeCodesFilteredSelectItems" (onChange)="filter($event.value)" placeholder="Any"></p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="memorySpeed">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Memory Speed
+                    <p-sortIcon field="memorySpeed"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="memorySpeed" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="capacity">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    Capacity
+                    <p-sortIcon field="capacity"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="capacity" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="cl">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    CAS Latency
+                    <p-sortIcon field="cl"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="cl" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="trcd">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    tRCD
+                    <p-sortIcon field="trcd"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="trcd" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="trp">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    tRP
+                    <p-sortIcon field="trp"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="trp" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th pSortableColumn="tras">
+                <div class="p-d-flex p-jc-between p-ai-center">
+                    tRAS
+                    <p-sortIcon field="tras"></p-sortIcon>
+                    <p-columnFilter type="numeric" field="tras" display="menu" class="p-ml-auto"></p-columnFilter>
+                </div>
+            </th>
+            <th style="width: 8rem"></th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-memory let-editing="editing" let-ri="rowIndex">
+        <tr [pEditableRow]="memory" class="p-selectable-row">
+            <td>
+                <p-tableCheckbox [value]="memory"></p-tableCheckbox>
+            </td>
+            <td>
+                {{memory.pid}}
+            </td>
+            <td>
+                {{memory.pidRegistryEntity.manufacturerCodesEntity?.dictionary}}
+            </td>
+            <td>
+                {{memory.pidRegistryEntity.productName}}
+            </td>
+            <td>
+                <p-overlayPanel #op [showCloseIcon]="true" [style]="{width: '450px'}">
+                    <ng-template pTemplate>
+                        <p-table [value]="memory.pidRegistryEntity.pricingEntities" [paginator]="true" [rows]="5" responsiveLayout="scroll"
+                        sortField="total" [sortOrder]="1">
+                            <ng-template pTemplate="header">
+                                <tr>
+                                    <th pSortableColumn="merchant">Name<p-sortIcon field="merchant"></p-sortIcon></th>
+                                    <th pSortableColumn="availability">Availability<p-sortIcon field="availability"></p-sortIcon></th>
+                                    <th pSortableColumn="total">Total<p-sortIcon field="total"></p-sortIcon></th>
+                                    <th style="width: 8rem"></th>
+                                </tr>
+                            </ng-template>
+                            <ng-template pTemplate="body" let-pricing let-ri="rowIndex">
+                                <tr>
+                                    <td>{{pricing.merchantCodesEntity?.dictionary}}</td>
+                                    <td>{{pricing.availabilityCodesEntity?.dictionary}}</td>
+                                    <td>{{pricing.total | currency: 'USD' : 'symbol': '1.2-2'}}</td>
+                                    <td style="text-align:center">
+                                        <button pButton pRipple type="button" pInitEditableRow icon="pi pi-plus" (click)="onRowAddProduct(pricing)" class="p-button-rounded p-button-text"></button>
+                                    </td>
+                                </tr>
+                            </ng-template>
+                        </p-table>
+                    </ng-template>
+                </p-overlayPanel>
+                <p-button label="{{memory.pidRegistryEntity.lowestPricingEntity?.total | currency: 'USD' : 'symbol': '1.2-2'}}" (click)="op.toggle($event)"></p-button>
+            </td>
+            <td>
+                {{memory.pidRegistryEntity.colorCodesEntity?.dictionary}}
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-dropdown [options]="formFactorCodesAllSelectItems" [(ngModel)]="memory.formFactor" [style]="{'width':'100%'}"></p-dropdown>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.formFactorCodesEntity?.dictionary}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="memory.modules" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.modules}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="memory.pricePerGb" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.pricePerGb | currency: 'USD' : 'symbol': '1.2-10'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="memory.firstWordLatency" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.firstWordLatency | nonEmptyUnit:'ns'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="memory.voltage" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.voltage | nonEmptyUnit:'V'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-dropdown [options]="eccRegisteredCodesAllSelectItems" [(ngModel)]="memory.eccRegistered" [style]="{'width':'100%'}"></p-dropdown>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.eccRegisteredCodesEntity?.dictionary}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-checkbox [(ngModel)]="memory.heatSpreader" [binary]="true"></p-checkbox>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        <i class="pi" [ngClass]="{'true-icon pi-check-circle': memory.heatSpreader, 'false-icon pi-times-circle': !memory.heatSpreader}"></i>
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <p-dropdown [options]="memoryTypeCodesAllSelectItems" [(ngModel)]="memory.memoryType" [style]="{'width':'100%'}"></p-dropdown>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.memoryTypeCodesEntity?.dictionary}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="memory.memorySpeed" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.memorySpeed | nonEmptyUnit:'MHz'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="memory.capacity" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.capacity | nonEmptyUnit:'MB'}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="memory.cl" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.cl}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="memory.trcd" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.trcd}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="memory.trp" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.trp}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td>
+                <p-cellEditor>
+                    <ng-template pTemplate="input">
+                        <input pInputText type="number" [(ngModel)]="memory.tras" required>
+                    </ng-template>
+                    <ng-template pTemplate="output">
+                        {{memory.tras}}
+                    </ng-template>
+                </p-cellEditor>
+            </td>
+            <td style="text-align:center">
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-pencil" (click)="onRowEditInit(memory)" class="p-button-rounded p-button-text"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pSaveEditableRow icon="pi pi-check" (click)="onRowEditSave(memory, ri)" class="p-button-rounded p-button-text p-button-success p-mr-2"></button>
+                <button *ngIf="editing" pButton pRipple type="button" pCancelEditableRow icon="pi pi-times" (click)="onRowEditCancel(memory, ri)" class="p-button-rounded p-button-text p-button-danger"></button>
+                <button *ngIf="!editing" pButton pRipple type="button" pInitEditableRow icon="pi pi-trash" (click)="onRowDelete(memory, ri)" class="p-button-rounded p-button-text"></button>
+            </td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="emptymessage">
+        <tr>
+            <td colspan="8">No memorys found.</td>
+        </tr>
+    </ng-template>
+</p-table>
