@@ -1,0 +1,4736 @@
+[
+  {
+    "PID": 16167,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 299
+  },
+  {
+    "PID": 16167,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 299
+  },
+  {
+    "PID": 16167,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 16167,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 16167,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 309.99
+  },
+  {
+    "PID": 16167,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 332.99
+  },
+  {
+    "PID": 16168,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 393.99
+  },
+  {
+    "PID": 16168,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 393.99
+  },
+  {
+    "PID": 16168,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 393.99
+  },
+  {
+    "PID": 16168,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 399
+  },
+  {
+    "PID": 16168,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 419
+  },
+  {
+    "PID": 16168,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 449.99
+  },
+  {
+    "PID": 16168,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 491.98
+  },
+  {
+    "PID": 16169,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 279.99
+  },
+  {
+    "PID": 16169,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 319.99
+  },
+  {
+    "PID": 16169,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 322.64
+  },
+  {
+    "PID": 16169,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 16169,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 369.36
+  },
+  {
+    "PID": 16170,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 16170,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 209.99
+  },
+  {
+    "PID": 16170,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 235.98
+  },
+  {
+    "PID": 16170,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 298.12
+  },
+  {
+    "PID": 16171,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 519
+  },
+  {
+    "PID": 16171,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 549.99
+  },
+  {
+    "PID": 16171,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 559.99
+  },
+  {
+    "PID": 16171,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 672.53
+  },
+  {
+    "PID": 16172,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 229
+  },
+  {
+    "PID": 16172,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 229
+  },
+  {
+    "PID": 16172,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 239
+  },
+  {
+    "PID": 16172,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 16172,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 268.08
+  },
+  {
+    "PID": 16172,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 299.99
+  },
+  {
+    "PID": 16173,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 319.95
+  },
+  {
+    "PID": 16173,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 326.14
+  },
+  {
+    "PID": 16173,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 329.99
+  },
+  {
+    "PID": 16173,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 16173,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 339.99
+  },
+  {
+    "PID": 16173,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 349.99
+  },
+  {
+    "PID": 16173,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 434.61
+  },
+  {
+    "PID": 16174,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 745.89
+  },
+  {
+    "PID": 16174,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 749
+  },
+  {
+    "PID": 16174,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 749
+  },
+  {
+    "PID": 16174,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 769
+  },
+  {
+    "PID": 16174,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 799.99
+  },
+  {
+    "PID": 16174,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 919.09
+  },
+  {
+    "PID": 16175,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 16175,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 177
+  },
+  {
+    "PID": 16175,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 180.5
+  },
+  {
+    "PID": 16176,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 389.99
+  },
+  {
+    "PID": 16176,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 389.99
+  },
+  {
+    "PID": 16176,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 389.99
+  },
+  {
+    "PID": 16176,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 394.99
+  },
+  {
+    "PID": 16176,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 407.9
+  },
+  {
+    "PID": 16176,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 419.99
+  },
+  {
+    "PID": 16176,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 453.59
+  },
+  {
+    "PID": 16177,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 544.89
+  },
+  {
+    "PID": 16177,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 544.89
+  },
+  {
+    "PID": 16177,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 544.89
+  },
+  {
+    "PID": 16177,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 544.89
+  },
+  {
+    "PID": 16177,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 549.99
+  },
+  {
+    "PID": 16177,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 549.99
+  },
+  {
+    "PID": 16178,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.92
+  },
+  {
+    "PID": 16178,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 16178,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 103.83
+  },
+  {
+    "PID": 16178,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 119.99
+  },
+  {
+    "PID": 16179,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 16179,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 239.95
+  },
+  {
+    "PID": 16179,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 16179,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 254.95
+  },
+  {
+    "PID": 16179,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 285.34
+  },
+  {
+    "PID": 16180,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 259.99
+  },
+  {
+    "PID": 16180,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 16180,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 16180,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 16180,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 269.99
+  },
+  {
+    "PID": 16180,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 278.99
+  },
+  {
+    "PID": 16180,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 318.65
+  },
+  {
+    "PID": 16181,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 324.99
+  },
+  {
+    "PID": 16181,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 329
+  },
+  {
+    "PID": 16181,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 339
+  },
+  {
+    "PID": 16181,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 339.99
+  },
+  {
+    "PID": 16181,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 369.99
+  },
+  {
+    "PID": 16182,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 255.99
+  },
+  {
+    "PID": 16183,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 3964.99
+  },
+  {
+    "PID": 16183,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 3990
+  },
+  {
+    "PID": 16183,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 3990
+  },
+  {
+    "PID": 16183,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 4827.94
+  },
+  {
+    "PID": 16183,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 5078.8
+  },
+  {
+    "PID": 16184,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 150.99
+  },
+  {
+    "PID": 16184,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 151.88
+  },
+  {
+    "PID": 16185,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 429.99
+  },
+  {
+    "PID": 16185,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 429.99
+  },
+  {
+    "PID": 16185,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 429.99
+  },
+  {
+    "PID": 16185,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 499
+  },
+  {
+    "PID": 16185,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 539.99
+  },
+  {
+    "PID": 16186,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 458.99
+  },
+  {
+    "PID": 16186,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 459.99
+  },
+  {
+    "PID": 16186,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 469.99
+  },
+  {
+    "PID": 16186,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 469.99
+  },
+  {
+    "PID": 16186,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 499.99
+  },
+  {
+    "PID": 16186,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 631.08
+  },
+  {
+    "PID": 16187,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 16187,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 255.95
+  },
+  {
+    "PID": 16187,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 284.99
+  },
+  {
+    "PID": 16187,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 309.95
+  },
+  {
+    "PID": 16188,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 300.99
+  },
+  {
+    "PID": 16188,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 328.44
+  },
+  {
+    "PID": 16188,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 16188,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 349.99
+  },
+  {
+    "PID": 16189,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 164.99
+  },
+  {
+    "PID": 16189,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 178.98
+  },
+  {
+    "PID": 16189,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 16189,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 186.99
+  },
+  {
+    "PID": 16189,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 223.78
+  },
+  {
+    "PID": 16190,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 394.99
+  },
+  {
+    "PID": 16190,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 399.99
+  },
+  {
+    "PID": 16190,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 439.99
+  },
+  {
+    "PID": 16191,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 16191,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 128.99
+  },
+  {
+    "PID": 16191,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 16192,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 304.99
+  },
+  {
+    "PID": 16192,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 339.99
+  },
+  {
+    "PID": 16192,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 339.99
+  },
+  {
+    "PID": 16192,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 365.61
+  },
+  {
+    "PID": 16192,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 399
+  },
+  {
+    "PID": 16193,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 399
+  },
+  {
+    "PID": 16193,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 399
+  },
+  {
+    "PID": 16193,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 409.99
+  },
+  {
+    "PID": 16193,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 409.99
+  },
+  {
+    "PID": 16193,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 429.95
+  },
+  {
+    "PID": 16194,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 55.95
+  },
+  {
+    "PID": 16194,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 16194,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 80.98
+  },
+  {
+    "PID": 16194,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 16195,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.97
+  },
+  {
+    "PID": 16195,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 183.29
+  },
+  {
+    "PID": 16196,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 129
+  },
+  {
+    "PID": 16196,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.24
+  },
+  {
+    "PID": 16197,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 174.99
+  },
+  {
+    "PID": 16197,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 174.99
+  },
+  {
+    "PID": 16197,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 279.98
+  },
+  {
+    "PID": 16197,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 290.52
+  },
+  {
+    "PID": 16198,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 16198,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 166.94
+  },
+  {
+    "PID": 16198,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 298.99
+  },
+  {
+    "PID": 16199,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 16199,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 284.99
+  },
+  {
+    "PID": 16199,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 284.99
+  },
+  {
+    "PID": 16199,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 299
+  },
+  {
+    "PID": 16199,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 381.29
+  },
+  {
+    "PID": 16200,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 397.97
+  },
+  {
+    "PID": 16201,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 249
+  },
+  {
+    "PID": 16202,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 189.99
+  },
+  {
+    "PID": 16202,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 215.74
+  },
+  {
+    "PID": 16202,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 16202,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 16202,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 253.39
+  },
+  {
+    "PID": 16202,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 272.49
+  },
+  {
+    "PID": 16203,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 108
+  },
+  {
+    "PID": 16203,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 116.31
+  },
+  {
+    "PID": 16204,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 308.94
+  },
+  {
+    "PID": 16204,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 341.75
+  },
+  {
+    "PID": 16204,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 349.99
+  },
+  {
+    "PID": 16204,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 349.99
+  },
+  {
+    "PID": 16204,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 383.27
+  },
+  {
+    "PID": 16205,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 99
+  },
+  {
+    "PID": 16205,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 16205,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 351.02
+  },
+  {
+    "PID": 16206,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 114.99
+  },
+  {
+    "PID": 16206,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 16206,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 156.94
+  },
+  {
+    "PID": 16206,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 158.3
+  },
+  {
+    "PID": 16207,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 117
+  },
+  {
+    "PID": 16207,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 118.39
+  },
+  {
+    "PID": 16208,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 156.99
+  },
+  {
+    "PID": 16208,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 196.07
+  },
+  {
+    "PID": 16209,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 16209,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 445.99
+  },
+  {
+    "PID": 16210,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 208.6
+  },
+  {
+    "PID": 16210,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 229.99
+  },
+  {
+    "PID": 16211,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 749
+  },
+  {
+    "PID": 16211,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 749
+  },
+  {
+    "PID": 16211,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 749.99
+  },
+  {
+    "PID": 16211,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 749.99
+  },
+  {
+    "PID": 16212,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 375
+  },
+  {
+    "PID": 16214,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 11.95
+  },
+  {
+    "PID": 16215,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 2099.99
+  },
+  {
+    "PID": 16215,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 2613.34
+  },
+  {
+    "PID": 16215,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2933.99
+  },
+  {
+    "PID": 16216,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 339.99
+  },
+  {
+    "PID": 16216,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 339.99
+  },
+  {
+    "PID": 16216,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 349.99
+  },
+  {
+    "PID": 16216,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 354.99
+  },
+  {
+    "PID": 16216,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 457.48
+  },
+  {
+    "PID": 16217,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 1449.99
+  },
+  {
+    "PID": 16217,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1499.99
+  },
+  {
+    "PID": 16217,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1837.38
+  },
+  {
+    "PID": 16217,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 1944.75
+  },
+  {
+    "PID": 16218,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 16218,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 16218,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 240.03
+  },
+  {
+    "PID": 16219,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 437.99
+  },
+  {
+    "PID": 16219,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 437.99
+  },
+  {
+    "PID": 16219,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 467.49
+  },
+  {
+    "PID": 16219,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 557.21
+  },
+  {
+    "PID": 16220,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 340
+  },
+  {
+    "PID": 16221,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 16221,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 16222,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 143.63
+  },
+  {
+    "PID": 16223,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 304
+  },
+  {
+    "PID": 16223,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 399
+  },
+  {
+    "PID": 16223,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 466.19
+  },
+  {
+    "PID": 16224,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 16224,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 16224,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 258.63
+  },
+  {
+    "PID": 16224,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 265.99
+  },
+  {
+    "PID": 16225,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 260.99
+  },
+  {
+    "PID": 16226,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.75
+  },
+  {
+    "PID": 16226,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 91.13
+  },
+  {
+    "PID": 16229,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 364.99
+  },
+  {
+    "PID": 16229,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 399.99
+  },
+  {
+    "PID": 16230,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 210
+  },
+  {
+    "PID": 16230,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 218.99
+  },
+  {
+    "PID": 16231,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 264.49
+  },
+  {
+    "PID": 16231,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 330.19
+  },
+  {
+    "PID": 16232,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 1099.99
+  },
+  {
+    "PID": 16232,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 1226.8
+  },
+  {
+    "PID": 16232,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1340.84
+  },
+  {
+    "PID": 16233,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 230
+  },
+  {
+    "PID": 16234,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 459.39
+  },
+  {
+    "PID": 16234,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 486.18
+  },
+  {
+    "PID": 16234,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 519.99
+  },
+  {
+    "PID": 16235,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 289.99
+  },
+  {
+    "PID": 16235,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 335.99
+  },
+  {
+    "PID": 16235,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 386.28
+  },
+  {
+    "PID": 16236,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 539.99
+  },
+  {
+    "PID": 16236,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 623.1
+  },
+  {
+    "PID": 16236,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 648.41
+  },
+  {
+    "PID": 16236,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 659.23
+  },
+  {
+    "PID": 16237,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 312
+  },
+  {
+    "PID": 16238,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 479
+  },
+  {
+    "PID": 16238,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 928.75
+  },
+  {
+    "PID": 16240,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 333.99
+  },
+  {
+    "PID": 16240,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 339.99
+  },
+  {
+    "PID": 16240,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 359.99
+  },
+  {
+    "PID": 16240,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 379.99
+  },
+  {
+    "PID": 16240,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 446.04
+  },
+  {
+    "PID": 16241,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 340
+  },
+  {
+    "PID": 16242,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 324.99
+  },
+  {
+    "PID": 16242,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 365.49
+  },
+  {
+    "PID": 16242,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 431.06
+  },
+  {
+    "PID": 16243,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 193
+  },
+  {
+    "PID": 16244,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 139
+  },
+  {
+    "PID": 16244,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 158.92
+  },
+  {
+    "PID": 16244,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 180.21
+  },
+  {
+    "PID": 16245,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 239.99
+  },
+  {
+    "PID": 16247,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 249
+  },
+  {
+    "PID": 16247,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 16247,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 373.6
+  },
+  {
+    "PID": 16248,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 668.99
+  },
+  {
+    "PID": 16248,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1090.99
+  },
+  {
+    "PID": 16248,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 1229.99
+  },
+  {
+    "PID": 16248,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 1299
+  },
+  {
+    "PID": 16248,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 1399.99
+  },
+  {
+    "PID": 16249,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 224.99
+  },
+  {
+    "PID": 16249,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 267.04
+  },
+  {
+    "PID": 16249,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 354.99
+  },
+  {
+    "PID": 16250,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 296.45
+  },
+  {
+    "PID": 16250,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 314.99
+  },
+  {
+    "PID": 16250,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 324.17
+  },
+  {
+    "PID": 16250,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 327.99
+  },
+  {
+    "PID": 16250,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 327.99
+  },
+  {
+    "PID": 16251,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 325.22
+  },
+  {
+    "PID": 16252,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 156.99
+  },
+  {
+    "PID": 16252,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 160.39
+  },
+  {
+    "PID": 16253,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 90
+  },
+  {
+    "PID": 16253,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 116.99
+  },
+  {
+    "PID": 16255,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 430
+  },
+  {
+    "PID": 16256,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 328.49
+  },
+  {
+    "PID": 16257,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 197.35
+  },
+  {
+    "PID": 16257,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 204
+  },
+  {
+    "PID": 16258,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 145
+  },
+  {
+    "PID": 16259,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 289.85
+  },
+  {
+    "PID": 16259,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 299.99
+  },
+  {
+    "PID": 16259,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 339.99
+  },
+  {
+    "PID": 16259,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 345.89
+  },
+  {
+    "PID": 16260,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 81.61
+  },
+  {
+    "PID": 16260,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 16261,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 300
+  },
+  {
+    "PID": 16262,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 16263,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 548.78
+  },
+  {
+    "PID": 16264,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 235
+  },
+  {
+    "PID": 16265,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 365.99
+  },
+  {
+    "PID": 16265,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 483.48
+  },
+  {
+    "PID": 16265,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 624.99
+  },
+  {
+    "PID": 16266,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 399.99
+  },
+  {
+    "PID": 16266,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 419.99
+  },
+  {
+    "PID": 16266,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 419.99
+  },
+  {
+    "PID": 16266,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 479.99
+  },
+  {
+    "PID": 16266,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 515.13
+  },
+  {
+    "PID": 16267,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 140
+  },
+  {
+    "PID": 16268,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 345
+  },
+  {
+    "PID": 16269,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 1370
+  },
+  {
+    "PID": 16269,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1389.99
+  },
+  {
+    "PID": 16269,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 1799.99
+  },
+  {
+    "PID": 16270,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 391
+  },
+  {
+    "PID": 16271,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 225
+  },
+  {
+    "PID": 16272,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.56
+  },
+  {
+    "PID": 16273,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 589.99
+  },
+  {
+    "PID": 16273,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 589.99
+  },
+  {
+    "PID": 16273,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 589.99
+  },
+  {
+    "PID": 16273,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 621.45
+  },
+  {
+    "PID": 16273,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 717.32
+  },
+  {
+    "PID": 16274,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 200
+  },
+  {
+    "PID": 16275,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 449.99
+  },
+  {
+    "PID": 16275,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 469
+  },
+  {
+    "PID": 16275,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 499.99
+  },
+  {
+    "PID": 16275,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 511.34
+  },
+  {
+    "PID": 16275,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 533
+  },
+  {
+    "PID": 16276,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 313.86
+  },
+  {
+    "PID": 16277,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 349
+  },
+  {
+    "PID": 16279,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 16279,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 16280,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 323.99
+  },
+  {
+    "PID": 16280,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 525
+  },
+  {
+    "PID": 16281,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 71.59
+  },
+  {
+    "PID": 16282,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 265.23
+  },
+  {
+    "PID": 16283,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 205
+  },
+  {
+    "PID": 16285,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 235.95
+  },
+  {
+    "PID": 16286,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1965
+  },
+  {
+    "PID": 16287,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 203.95
+  },
+  {
+    "PID": 16288,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 243.2
+  },
+  {
+    "PID": 16288,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 256.89
+  },
+  {
+    "PID": 16288,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 258.8
+  },
+  {
+    "PID": 16289,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1577.22
+  },
+  {
+    "PID": 16292,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 57
+  },
+  {
+    "PID": 16293,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.93
+  },
+  {
+    "PID": 16294,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 202.41
+  },
+  {
+    "PID": 16296,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 4804.22
+  },
+  {
+    "PID": 16297,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 679.99
+  },
+  {
+    "PID": 16297,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 679.99
+  },
+  {
+    "PID": 16297,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 699.99
+  },
+  {
+    "PID": 16297,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 703.98
+  },
+  {
+    "PID": 16297,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 800.26
+  },
+  {
+    "PID": 16300,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 348.6
+  },
+  {
+    "PID": 16301,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 268.2
+  },
+  {
+    "PID": 16301,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 279.98
+  },
+  {
+    "PID": 16301,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 283.25
+  },
+  {
+    "PID": 16302,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 260
+  },
+  {
+    "PID": 16303,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 124.99
+  },
+  {
+    "PID": 16304,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 322.99
+  },
+  {
+    "PID": 16305,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 297.88
+  },
+  {
+    "PID": 16306,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 168.71
+  },
+  {
+    "PID": 16307,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 418.86
+  },
+  {
+    "PID": 16310,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 30
+  },
+  {
+    "PID": 16311,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 178.12
+  },
+  {
+    "PID": 16312,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 255
+  },
+  {
+    "PID": 16313,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 242.17
+  },
+  {
+    "PID": 16315,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 229
+  },
+  {
+    "PID": 16317,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 227.83
+  },
+  {
+    "PID": 16318,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 999.99
+  },
+  {
+    "PID": 16319,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 39.2
+  },
+  {
+    "PID": 16320,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 689.99
+  },
+  {
+    "PID": 16320,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 743
+  },
+  {
+    "PID": 16321,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 439.99
+  },
+  {
+    "PID": 16321,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 439.99
+  },
+  {
+    "PID": 16324,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 221.29
+  },
+  {
+    "PID": 16326,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 16329,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 95
+  },
+  {
+    "PID": 16330,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 255.99
+  },
+  {
+    "PID": 16331,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54.8
+  },
+  {
+    "PID": 16332,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 196.78
+  },
+  {
+    "PID": 16332,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 205
+  },
+  {
+    "PID": 16333,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 220
+  },
+  {
+    "PID": 16333,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 287.02
+  },
+  {
+    "PID": 16334,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 202.76
+  },
+  {
+    "PID": 16335,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 349.99
+  },
+  {
+    "PID": 16336,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 14
+  },
+  {
+    "PID": 16337,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 459.98
+  },
+  {
+    "PID": 16338,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 633.69
+  },
+  {
+    "PID": 16341,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 324.11
+  },
+  {
+    "PID": 16342,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 550
+  },
+  {
+    "PID": 16343,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 799.99
+  },
+  {
+    "PID": 16343,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 799.99
+  },
+  {
+    "PID": 16343,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 800.01
+  },
+  {
+    "PID": 16343,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 893.01
+  },
+  {
+    "PID": 16343,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 944.14
+  },
+  {
+    "PID": 16344,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 306.63
+  },
+  {
+    "PID": 16346,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 177.5
+  },
+  {
+    "PID": 16346,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 189.5
+  },
+  {
+    "PID": 16347,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 30
+  },
+  {
+    "PID": 16349,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 123.73
+  },
+  {
+    "PID": 16353,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 615.01
+  },
+  {
+    "PID": 16354,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 103.38
+  },
+  {
+    "PID": 16356,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 227.97
+  },
+  {
+    "PID": 16356,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 231.98
+  },
+  {
+    "PID": 16356,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 236.25
+  },
+  {
+    "PID": 16357,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 120
+  },
+  {
+    "PID": 16358,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.09
+  },
+  {
+    "PID": 16359,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1999.95
+  },
+  {
+    "PID": 16360,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 434.18
+  },
+  {
+    "PID": 16360,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 520.41
+  },
+  {
+    "PID": 16361,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 384.95
+  },
+  {
+    "PID": 16362,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2004.51
+  },
+  {
+    "PID": 16363,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.9
+  },
+  {
+    "PID": 16363,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 190
+  },
+  {
+    "PID": 16365,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3405.95
+  },
+  {
+    "PID": 16366,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 164.99
+  },
+  {
+    "PID": 16367,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 118.16
+  },
+  {
+    "PID": 16368,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 37
+  },
+  {
+    "PID": 16370,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 527.25
+  },
+  {
+    "PID": 16371,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 100.62
+  },
+  {
+    "PID": 16372,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 158.38
+  },
+  {
+    "PID": 16373,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 386.63
+  },
+  {
+    "PID": 16374,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 100.01
+  },
+  {
+    "PID": 16375,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 190
+  },
+  {
+    "PID": 16378,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3004.17
+  },
+  {
+    "PID": 16379,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 104.14
+  },
+  {
+    "PID": 16379,
+    "Merchant": "Other World Computing",
+    "Availability": "Out of stock",
+    "Total": 1249
+  },
+  {
+    "PID": 16381,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.81
+  },
+  {
+    "PID": 16383,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 16384,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 373.08
+  },
+  {
+    "PID": 16385,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 168.57
+  },
+  {
+    "PID": 16387,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 168
+  },
+  {
+    "PID": 16387,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 193.99
+  },
+  {
+    "PID": 16388,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1706.2
+  },
+  {
+    "PID": 16389,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 16390,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 444.04
+  },
+  {
+    "PID": 16391,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 223
+  },
+  {
+    "PID": 16392,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.03
+  },
+  {
+    "PID": 16393,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 460
+  },
+  {
+    "PID": 16398,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 50
+  },
+  {
+    "PID": 16399,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1153.99
+  },
+  {
+    "PID": 16400,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 42.53
+  },
+  {
+    "PID": 16402,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 750
+  },
+  {
+    "PID": 16403,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 145.62
+  },
+  {
+    "PID": 16404,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 174.43
+  },
+  {
+    "PID": 16404,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 177.5
+  },
+  {
+    "PID": 16405,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1969.95
+  },
+  {
+    "PID": 16408,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 67.01
+  },
+  {
+    "PID": 16412,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 484
+  },
+  {
+    "PID": 16414,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 354.16
+  },
+  {
+    "PID": 16415,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 420
+  },
+  {
+    "PID": 16416,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 112.53
+  },
+  {
+    "PID": 16419,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 42.6
+  },
+  {
+    "PID": 16420,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 52.6
+  },
+  {
+    "PID": 16421,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 999.99
+  },
+  {
+    "PID": 16421,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1655.35
+  },
+  {
+    "PID": 16422,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 45
+  },
+  {
+    "PID": 16423,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 375.27
+  },
+  {
+    "PID": 16426,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 219.95
+  },
+  {
+    "PID": 16427,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 273.19
+  },
+  {
+    "PID": 16428,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 227.22
+  },
+  {
+    "PID": 16432,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 122.98
+  },
+  {
+    "PID": 16433,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 328.24
+  },
+  {
+    "PID": 16435,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1255.06
+  },
+  {
+    "PID": 16436,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 170.38
+  },
+  {
+    "PID": 16437,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 428
+  },
+  {
+    "PID": 16438,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 133.69
+  },
+  {
+    "PID": 16438,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 689
+  },
+  {
+    "PID": 16439,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 549
+  },
+  {
+    "PID": 16440,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 409.99
+  },
+  {
+    "PID": 16440,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 409.99
+  },
+  {
+    "PID": 16440,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 409.99
+  },
+  {
+    "PID": 16440,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 448.99
+  },
+  {
+    "PID": 16440,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 512.13
+  },
+  {
+    "PID": 16441,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 102.21
+  },
+  {
+    "PID": 16443,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.94
+  },
+  {
+    "PID": 16444,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 300.73
+  },
+  {
+    "PID": 16445,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 29.48
+  },
+  {
+    "PID": 16447,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 50
+  },
+  {
+    "PID": 16448,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 13.99
+  },
+  {
+    "PID": 16450,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 16454,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 53.39
+  },
+  {
+    "PID": 16455,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1800.82
+  },
+  {
+    "PID": 16456,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 699.95
+  },
+  {
+    "PID": 16457,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 207.98
+  },
+  {
+    "PID": 16458,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 206.68
+  },
+  {
+    "PID": 16462,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 499.95
+  },
+  {
+    "PID": 16463,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 206.59
+  },
+  {
+    "PID": 16464,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 185.52
+  },
+  {
+    "PID": 16465,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 245.33
+  },
+  {
+    "PID": 16468,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1736.04
+  },
+  {
+    "PID": 16469,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 335.32
+  },
+  {
+    "PID": 16471,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 156.56
+  },
+  {
+    "PID": 16472,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 376.8
+  },
+  {
+    "PID": 16472,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1199.99
+  },
+  {
+    "PID": 16473,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 172.63
+  },
+  {
+    "PID": 16474,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 45
+  },
+  {
+    "PID": 16476,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.98
+  },
+  {
+    "PID": 16477,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 120
+  },
+  {
+    "PID": 16479,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 397.17
+  },
+  {
+    "PID": 16480,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 14.99
+  },
+  {
+    "PID": 16481,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 696
+  },
+  {
+    "PID": 16482,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 72.98
+  },
+  {
+    "PID": 16485,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 305
+  },
+  {
+    "PID": 16486,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 39.99
+  },
+  {
+    "PID": 16490,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 49.95
+  },
+  {
+    "PID": 16492,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1304.1
+  },
+  {
+    "PID": 16494,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 227.94
+  },
+  {
+    "PID": 16495,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.95
+  },
+  {
+    "PID": 16497,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 322.59
+  },
+  {
+    "PID": 16497,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 334.99
+  },
+  {
+    "PID": 16499,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 167.95
+  },
+  {
+    "PID": 16503,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 300.94
+  },
+  {
+    "PID": 16503,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 305.99
+  },
+  {
+    "PID": 16503,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 317.99
+  },
+  {
+    "PID": 16503,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 356.4
+  },
+  {
+    "PID": 16504,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 998.95
+  },
+  {
+    "PID": 16505,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199
+  },
+  {
+    "PID": 16507,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 141.19
+  },
+  {
+    "PID": 16508,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 505.1
+  },
+  {
+    "PID": 16512,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 203.97
+  },
+  {
+    "PID": 16513,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 16514,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 248.59
+  },
+  {
+    "PID": 16515,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 900
+  },
+  {
+    "PID": 16521,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 799
+  },
+  {
+    "PID": 16522,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.49
+  },
+  {
+    "PID": 16523,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 404.35
+  },
+  {
+    "PID": 16524,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 249.95
+  },
+  {
+    "PID": 16528,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 270
+  },
+  {
+    "PID": 16530,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 287.54
+  },
+  {
+    "PID": 16531,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 228.99
+  },
+  {
+    "PID": 16531,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 16531,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 233.85
+  },
+  {
+    "PID": 16532,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 242.6
+  },
+  {
+    "PID": 16534,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 16535,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 36.2
+  },
+  {
+    "PID": 16536,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 144.03
+  },
+  {
+    "PID": 16537,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 486
+  },
+  {
+    "PID": 16538,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 16539,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 88.29
+  },
+  {
+    "PID": 16546,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 818.77
+  },
+  {
+    "PID": 16549,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 207.99
+  },
+  {
+    "PID": 16549,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 207.99
+  },
+  {
+    "PID": 16549,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 248.47
+  },
+  {
+    "PID": 16550,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 60
+  },
+  {
+    "PID": 16551,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.63
+  },
+  {
+    "PID": 16553,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 691.95
+  },
+  {
+    "PID": 16554,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 214.94
+  },
+  {
+    "PID": 16555,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 261.83
+  },
+  {
+    "PID": 16556,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 16557,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 196.26
+  },
+  {
+    "PID": 16558,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1159.36
+  },
+  {
+    "PID": 16560,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 172
+  },
+  {
+    "PID": 16561,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 155.79
+  },
+  {
+    "PID": 16562,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 225
+  },
+  {
+    "PID": 16567,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.49
+  },
+  {
+    "PID": 16568,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 707.57
+  },
+  {
+    "PID": 16571,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 363.66
+  },
+  {
+    "PID": 16572,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 321.14
+  },
+  {
+    "PID": 16573,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 92.99
+  },
+  {
+    "PID": 16574,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 358.49
+  },
+  {
+    "PID": 16575,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 187.46
+  },
+  {
+    "PID": 16576,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 505.44
+  },
+  {
+    "PID": 16578,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 16579,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 21
+  },
+  {
+    "PID": 16580,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1350
+  },
+  {
+    "PID": 16581,
+    "Merchant": "Other World Computing",
+    "Availability": "In stock",
+    "Total": 2147
+  },
+  {
+    "PID": 16585,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 402.68
+  },
+  {
+    "PID": 16586,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 16587,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 50
+  },
+  {
+    "PID": 16588,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 205.99
+  },
+  {
+    "PID": 16591,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 96.94
+  },
+  {
+    "PID": 16591,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 1599.99
+  },
+  {
+    "PID": 16592,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 232
+  },
+  {
+    "PID": 16593,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 449.95
+  },
+  {
+    "PID": 16594,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 303.86
+  },
+  {
+    "PID": 16596,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 889.5
+  },
+  {
+    "PID": 16597,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 239.99
+  },
+  {
+    "PID": 16599,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 298.81
+  },
+  {
+    "PID": 16600,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2175
+  },
+  {
+    "PID": 16606,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1504.21
+  },
+  {
+    "PID": 16607,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 16609,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 921.95
+  },
+  {
+    "PID": 16610,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 379
+  },
+  {
+    "PID": 16612,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 278.02
+  },
+  {
+    "PID": 16615,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 555.1
+  },
+  {
+    "PID": 16615,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 2451.42
+  },
+  {
+    "PID": 16616,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1105
+  },
+  {
+    "PID": 16617,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 255.99
+  },
+  {
+    "PID": 16618,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 233.53
+  },
+  {
+    "PID": 16620,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 231.95
+  },
+  {
+    "PID": 16621,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 237.42
+  },
+  {
+    "PID": 16622,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 154.99
+  },
+  {
+    "PID": 16625,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 151.16
+  },
+  {
+    "PID": 16626,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 182.81
+  },
+  {
+    "PID": 16631,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 376.15
+  },
+  {
+    "PID": 16642,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 204.05
+  },
+  {
+    "PID": 16643,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 53.45
+  },
+  {
+    "PID": 16648,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 379.99
+  },
+  {
+    "PID": 16648,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 412.99
+  },
+  {
+    "PID": 16648,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 413.05
+  },
+  {
+    "PID": 16648,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 447.03
+  },
+  {
+    "PID": 16649,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 269.87
+  },
+  {
+    "PID": 16650,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 402.87
+  },
+  {
+    "PID": 16651,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.58
+  },
+  {
+    "PID": 16652,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 87.88
+  },
+  {
+    "PID": 16657,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 209
+  },
+  {
+    "PID": 16658,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 699
+  },
+  {
+    "PID": 16660,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 385.29
+  },
+  {
+    "PID": 16661,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1099.95
+  },
+  {
+    "PID": 16662,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 104.99
+  },
+  {
+    "PID": 16665,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 401
+  },
+  {
+    "PID": 16676,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 133.88
+  },
+  {
+    "PID": 16677,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 477.82
+  },
+  {
+    "PID": 16678,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 16680,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 503.97
+  },
+  {
+    "PID": 16684,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 58.99
+  },
+  {
+    "PID": 16689,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 170.45
+  },
+  {
+    "PID": 16691,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 345
+  },
+  {
+    "PID": 16692,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 499.95
+  },
+  {
+    "PID": 16693,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 235
+  },
+  {
+    "PID": 16697,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1105.02
+  },
+  {
+    "PID": 16698,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 374.33
+  },
+  {
+    "PID": 16698,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 472.99
+  },
+  {
+    "PID": 16699,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 63.14
+  },
+  {
+    "PID": 16702,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 629.99
+  },
+  {
+    "PID": 16704,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 260.58
+  },
+  {
+    "PID": 16707,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.95
+  },
+  {
+    "PID": 16718,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 304.43
+  },
+  {
+    "PID": 16719,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1176.84
+  },
+  {
+    "PID": 16720,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 64.78
+  },
+  {
+    "PID": 16721,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.95
+  },
+  {
+    "PID": 16722,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 749.99
+  },
+  {
+    "PID": 16723,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 254.94
+  },
+  {
+    "PID": 16725,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 139.94
+  },
+  {
+    "PID": 16729,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.95
+  },
+  {
+    "PID": 16731,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.9
+  },
+  {
+    "PID": 16732,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 192.46
+  },
+  {
+    "PID": 16734,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 895
+  },
+  {
+    "PID": 16735,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.57
+  },
+  {
+    "PID": 16736,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 531.54
+  },
+  {
+    "PID": 16738,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 498
+  },
+  {
+    "PID": 16741,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.97
+  },
+  {
+    "PID": 16743,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 298.91
+  },
+  {
+    "PID": 16746,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 315.05
+  },
+  {
+    "PID": 16754,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 204.09
+  },
+  {
+    "PID": 16755,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 153.36
+  },
+  {
+    "PID": 16757,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 367.5
+  },
+  {
+    "PID": 16762,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 170
+  },
+  {
+    "PID": 16763,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 235.4
+  },
+  {
+    "PID": 16764,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 101.04
+  },
+  {
+    "PID": 16765,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 55
+  },
+  {
+    "PID": 16766,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.1
+  },
+  {
+    "PID": 16770,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 177.32
+  },
+  {
+    "PID": 16771,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 80.98
+  },
+  {
+    "PID": 16772,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 85.01
+  },
+  {
+    "PID": 16773,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 398.95
+  },
+  {
+    "PID": 16779,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 185.23
+  },
+  {
+    "PID": 16780,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 105.32
+  },
+  {
+    "PID": 16781,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 150
+  },
+  {
+    "PID": 16782,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 445.17
+  },
+  {
+    "PID": 16784,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 102.59
+  },
+  {
+    "PID": 16786,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.94
+  },
+  {
+    "PID": 16793,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 749
+  },
+  {
+    "PID": 16794,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 479
+  },
+  {
+    "PID": 16794,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 688.9
+  },
+  {
+    "PID": 16795,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 455
+  },
+  {
+    "PID": 16796,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 998.95
+  },
+  {
+    "PID": 16796,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 1213.69
+  },
+  {
+    "PID": 16797,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2998.95
+  },
+  {
+    "PID": 16798,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 232.95
+  },
+  {
+    "PID": 16799,
+    "Merchant": "Other World Computing",
+    "Availability": "In stock",
+    "Total": 1129
+  },
+  {
+    "PID": 16799,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1804.07
+  },
+  {
+    "PID": 16803,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 61.37
+  },
+  {
+    "PID": 16804,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 379.98
+  },
+  {
+    "PID": 16813,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 264.86
+  },
+  {
+    "PID": 16813,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 272.99
+  },
+  {
+    "PID": 16815,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 435.53
+  },
+  {
+    "PID": 16816,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199.95
+  },
+  {
+    "PID": 16817,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1004.74
+  },
+  {
+    "PID": 16819,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 16820,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 607.66
+  },
+  {
+    "PID": 16821,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1495
+  },
+  {
+    "PID": 16826,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 220
+  },
+  {
+    "PID": 16827,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2499.94
+  },
+  {
+    "PID": 16828,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 941.97
+  },
+  {
+    "PID": 16828,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 4229
+  },
+  {
+    "PID": 16835,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 880
+  },
+  {
+    "PID": 16836,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89
+  },
+  {
+    "PID": 16837,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 204.37
+  },
+  {
+    "PID": 16838,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 585
+  },
+  {
+    "PID": 16844,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 325
+  },
+  {
+    "PID": 16845,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 595.19
+  },
+  {
+    "PID": 16846,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 119.95
+  },
+  {
+    "PID": 16850,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 241.68
+  },
+  {
+    "PID": 16851,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 245
+  },
+  {
+    "PID": 16852,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 229.95
+  },
+  {
+    "PID": 16853,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 499.95
+  },
+  {
+    "PID": 16859,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 75
+  },
+  {
+    "PID": 16860,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 93.35
+  },
+  {
+    "PID": 16871,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 130.63
+  },
+  {
+    "PID": 16872,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 57.99
+  },
+  {
+    "PID": 16873,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.94
+  },
+  {
+    "PID": 16876,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 153.1
+  },
+  {
+    "PID": 16880,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 77
+  },
+  {
+    "PID": 16883,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 183.5
+  },
+  {
+    "PID": 16887,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2214.31
+  },
+  {
+    "PID": 16888,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 284.83
+  },
+  {
+    "PID": 16890,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 799.99
+  },
+  {
+    "PID": 16892,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 172.56
+  },
+  {
+    "PID": 16893,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 294.98
+  },
+  {
+    "PID": 16895,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54
+  },
+  {
+    "PID": 16899,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 541.07
+  },
+  {
+    "PID": 16902,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 98.95
+  },
+  {
+    "PID": 16910,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 403.96
+  },
+  {
+    "PID": 16919,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 324.99
+  },
+  {
+    "PID": 16920,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 253.57
+  },
+  {
+    "PID": 16921,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1065.06
+  },
+  {
+    "PID": 16922,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 249.95
+  },
+  {
+    "PID": 16924,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 307.13
+  },
+  {
+    "PID": 16926,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 599.95
+  },
+  {
+    "PID": 16928,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 269.95
+  },
+  {
+    "PID": 16932,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 229.95
+  },
+  {
+    "PID": 16934,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 704.4
+  },
+  {
+    "PID": 16936,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 152
+  },
+  {
+    "PID": 16937,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 270.66
+  },
+  {
+    "PID": 16938,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 97.25
+  },
+  {
+    "PID": 16939,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 108
+  },
+  {
+    "PID": 16940,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 289.95
+  },
+  {
+    "PID": 16941,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 417.95
+  },
+  {
+    "PID": 16942,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 320.74
+  },
+  {
+    "PID": 16947,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 188.99
+  },
+  {
+    "PID": 16952,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 349.95
+  },
+  {
+    "PID": 16953,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 237
+  },
+  {
+    "PID": 16956,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 495.03
+  },
+  {
+    "PID": 16959,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1255.03
+  },
+  {
+    "PID": 16965,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 140
+  },
+  {
+    "PID": 16971,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 95.71
+  },
+  {
+    "PID": 16972,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.94
+  },
+  {
+    "PID": 16976,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 247.5
+  },
+  {
+    "PID": 16979,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 279
+  },
+  {
+    "PID": 16990,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 369.98
+  },
+  {
+    "PID": 16992,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.4
+  },
+  {
+    "PID": 16994,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 749
+  },
+  {
+    "PID": 16996,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 359.32
+  },
+  {
+    "PID": 17000,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.95
+  },
+  {
+    "PID": 17012,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 339.95
+  },
+  {
+    "PID": 17016,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 426.43
+  },
+  {
+    "PID": 17017,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 898.95
+  },
+  {
+    "PID": 17018,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 97.85
+  },
+  {
+    "PID": 17019,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 115.47
+  },
+  {
+    "PID": 17021,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 189.95
+  },
+  {
+    "PID": 17022,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.94
+  },
+  {
+    "PID": 17047,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 348.99
+  },
+  {
+    "PID": 17047,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 368.12
+  },
+  {
+    "PID": 17051,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 504.46
+  },
+  {
+    "PID": 17052,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 399.31
+  },
+  {
+    "PID": 17053,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 865
+  },
+  {
+    "PID": 17053,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 1812.5
+  },
+  {
+    "PID": 17054,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 240.86
+  },
+  {
+    "PID": 17058,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.95
+  },
+  {
+    "PID": 17061,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 398
+  },
+  {
+    "PID": 17074,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 274.94
+  },
+  {
+    "PID": 17076,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2399
+  },
+  {
+    "PID": 17079,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 340.62
+  },
+  {
+    "PID": 17080,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 870
+  },
+  {
+    "PID": 17084,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 1553.5
+  },
+  {
+    "PID": 17084,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1989.95
+  },
+  {
+    "PID": 17085,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 98.93
+  },
+  {
+    "PID": 17086,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.95
+  },
+  {
+    "PID": 17092,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 198.95
+  },
+  {
+    "PID": 17093,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 98.95
+  },
+  {
+    "PID": 17094,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 204.03
+  },
+  {
+    "PID": 17095,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.94
+  },
+  {
+    "PID": 17099,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 172
+  },
+  {
+    "PID": 17109,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 391.59
+  },
+  {
+    "PID": 17123,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 898.95
+  },
+  {
+    "PID": 17134,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 358.01
+  },
+  {
+    "PID": 17142,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 395
+  },
+  {
+    "PID": 17143,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 397.99
+  },
+  {
+    "PID": 17144,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 334.37
+  },
+  {
+    "PID": 17145,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 524.73
+  },
+  {
+    "PID": 17149,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 499.95
+  },
+  {
+    "PID": 17151,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 499.95
+  },
+  {
+    "PID": 17153,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 227.14
+  },
+  {
+    "PID": 17164,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.4
+  },
+  {
+    "PID": 17168,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.94
+  },
+  {
+    "PID": 17173,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 249.95
+  },
+  {
+    "PID": 17175,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 803.96
+  },
+  {
+    "PID": 17183,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 616.26
+  },
+  {
+    "PID": 17203,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 221.78
+  },
+  {
+    "PID": 17206,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 269
+  },
+  {
+    "PID": 17216,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 320.45
+  },
+  {
+    "PID": 17217,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 395.07
+  },
+  {
+    "PID": 17220,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 429.95
+  },
+  {
+    "PID": 17237,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.95
+  },
+  {
+    "PID": 17248,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 234
+  }
+]

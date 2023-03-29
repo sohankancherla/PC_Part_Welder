@@ -1,0 +1,9968 @@
+[
+  {
+    "PID": 23957,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 23957,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 23957,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 23957,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 79.99
+  },
+  {
+    "PID": 23957,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 82.98
+  },
+  {
+    "PID": 23957,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 23958,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 23958,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 23958,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 100.98
+  },
+  {
+    "PID": 23958,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 111.42
+  },
+  {
+    "PID": 23959,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 72.98
+  },
+  {
+    "PID": 23959,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 72.99
+  },
+  {
+    "PID": 23959,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 23959,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 80.98
+  },
+  {
+    "PID": 23959,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 23959,
+    "Merchant": "NZXT",
+    "Availability": "Out of stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 23960,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 149.99
+  },
+  {
+    "PID": 23960,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 23960,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 23960,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 186.69
+  },
+  {
+    "PID": 23961,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 128.99
+  },
+  {
+    "PID": 23961,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 23961,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 133.12
+  },
+  {
+    "PID": 23961,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 152.79
+  },
+  {
+    "PID": 23962,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 23962,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 23963,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 94.18
+  },
+  {
+    "PID": 23963,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 94.18
+  },
+  {
+    "PID": 23963,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 23964,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 23964,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 23965,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 149.99
+  },
+  {
+    "PID": 23965,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 154.99
+  },
+  {
+    "PID": 23965,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 165.99
+  },
+  {
+    "PID": 23965,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 195.55
+  },
+  {
+    "PID": 23966,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 23966,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 23966,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 23966,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 23967,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 23967,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 99.98
+  },
+  {
+    "PID": 23967,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 23968,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 23968,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.98
+  },
+  {
+    "PID": 23969,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 23969,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 23969,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 23969,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 58.81
+  },
+  {
+    "PID": 23969,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 23970,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 23970,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 23971,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 136.98
+  },
+  {
+    "PID": 23972,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 23972,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 164.99
+  },
+  {
+    "PID": 23972,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 164.99
+  },
+  {
+    "PID": 23972,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 164.99
+  },
+  {
+    "PID": 23972,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 190.64
+  },
+  {
+    "PID": 23973,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 23973,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 23973,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 23973,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 23974,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 999.99
+  },
+  {
+    "PID": 23974,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 999.99
+  },
+  {
+    "PID": 23975,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 23975,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 23975,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 23975,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 154.98
+  },
+  {
+    "PID": 23975,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 23976,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 23976,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 23976,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 120.81
+  },
+  {
+    "PID": 23977,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 255.99
+  },
+  {
+    "PID": 23977,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 272.14
+  },
+  {
+    "PID": 23978,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 23978,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 23978,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 156.98
+  },
+  {
+    "PID": 23978,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 23979,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.98
+  },
+  {
+    "PID": 23979,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 215.49
+  },
+  {
+    "PID": 23980,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 23980,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 23980,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 88.54
+  },
+  {
+    "PID": 23980,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 219
+  },
+  {
+    "PID": 23981,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.9
+  },
+  {
+    "PID": 23981,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 110.8
+  },
+  {
+    "PID": 23982,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 45.44
+  },
+  {
+    "PID": 23982,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 50.98
+  },
+  {
+    "PID": 23983,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 125.99
+  },
+  {
+    "PID": 23983,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 125.99
+  },
+  {
+    "PID": 23983,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 132.4
+  },
+  {
+    "PID": 23983,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 152.79
+  },
+  {
+    "PID": 23984,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 23984,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 23984,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 23984,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 23985,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 23985,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 23985,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 23985,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 120.98
+  },
+  {
+    "PID": 23985,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 147.18
+  },
+  {
+    "PID": 23986,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 23986,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 23987,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 23988,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 39.99
+  },
+  {
+    "PID": 23988,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 39.99
+  },
+  {
+    "PID": 23988,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 23988,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 23989,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 108.11
+  },
+  {
+    "PID": 23989,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 108.11
+  },
+  {
+    "PID": 23989,
+    "Merchant": "B&H",
+    "Availability": "Preorder",
+    "Total": 111.69
+  },
+  {
+    "PID": 23989,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 117.99
+  },
+  {
+    "PID": 23990,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 919.98
+  },
+  {
+    "PID": 23991,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 204.99
+  },
+  {
+    "PID": 23991,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 204.99
+  },
+  {
+    "PID": 23991,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 204.99
+  },
+  {
+    "PID": 23991,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 204.99
+  },
+  {
+    "PID": 23992,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 23992,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 23992,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 23992,
+    "Merchant": "B&H",
+    "Availability": "Preorder",
+    "Total": 114.99
+  },
+  {
+    "PID": 23992,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 114.99
+  },
+  {
+    "PID": 23992,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 114.99
+  },
+  {
+    "PID": 23993,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 23994,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 23994,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 99.95
+  },
+  {
+    "PID": 23994,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 99.98
+  },
+  {
+    "PID": 23995,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 23995,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 84.98
+  },
+  {
+    "PID": 23995,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 88.59
+  },
+  {
+    "PID": 23996,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 205.99
+  },
+  {
+    "PID": 23996,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 242.99
+  },
+  {
+    "PID": 23997,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 34.95
+  },
+  {
+    "PID": 23998,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 154.98
+  },
+  {
+    "PID": 23998,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 154.99
+  },
+  {
+    "PID": 23999,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 100.99
+  },
+  {
+    "PID": 23999,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 100.99
+  },
+  {
+    "PID": 23999,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 114.99
+  },
+  {
+    "PID": 23999,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 117.98
+  },
+  {
+    "PID": 23999,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 144.99
+  },
+  {
+    "PID": 24000,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24000,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24001,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 125.99
+  },
+  {
+    "PID": 24001,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24001,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 141.37
+  },
+  {
+    "PID": 24002,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24002,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 176.66
+  },
+  {
+    "PID": 24003,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 24003,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 87.73
+  },
+  {
+    "PID": 24004,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 24004,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24004,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24004,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24004,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 85.98
+  },
+  {
+    "PID": 24004,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 94.24
+  },
+  {
+    "PID": 24005,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24005,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24005,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24005,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 185.98
+  },
+  {
+    "PID": 24005,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 186.29
+  },
+  {
+    "PID": 24005,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 234.99
+  },
+  {
+    "PID": 24006,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 158.88
+  },
+  {
+    "PID": 24006,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 164.99
+  },
+  {
+    "PID": 24006,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 164.99
+  },
+  {
+    "PID": 24006,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 169.99
+  },
+  {
+    "PID": 24007,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24007,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24007,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 120.81
+  },
+  {
+    "PID": 24008,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 514.99
+  },
+  {
+    "PID": 24008,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 514.99
+  },
+  {
+    "PID": 24008,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 514.99
+  },
+  {
+    "PID": 24008,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 545.94
+  },
+  {
+    "PID": 24008,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 572.98
+  },
+  {
+    "PID": 24009,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 24009,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 24009,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 24009,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 24010,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 184.99
+  },
+  {
+    "PID": 24010,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 189.99
+  },
+  {
+    "PID": 24010,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 189.99
+  },
+  {
+    "PID": 24010,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 209.99
+  },
+  {
+    "PID": 24011,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 80.99
+  },
+  {
+    "PID": 24012,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24012,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 100.98
+  },
+  {
+    "PID": 24012,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 121.49
+  },
+  {
+    "PID": 24013,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24013,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24013,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24013,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24014,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24014,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 24014,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 24014,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 91.84
+  },
+  {
+    "PID": 24015,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 123.99
+  },
+  {
+    "PID": 24015,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 123.99
+  },
+  {
+    "PID": 24015,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 123.99
+  },
+  {
+    "PID": 24015,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 127.99
+  },
+  {
+    "PID": 24016,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 88.99
+  },
+  {
+    "PID": 24016,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 99.98
+  },
+  {
+    "PID": 24016,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 102.31
+  },
+  {
+    "PID": 24016,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24017,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 99.98
+  },
+  {
+    "PID": 24017,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 111.82
+  },
+  {
+    "PID": 24018,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 90.99
+  },
+  {
+    "PID": 24019,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24019,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24020,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 184.99
+  },
+  {
+    "PID": 24020,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 184.99
+  },
+  {
+    "PID": 24020,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 194.99
+  },
+  {
+    "PID": 24020,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 194.99
+  },
+  {
+    "PID": 24021,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 103.9
+  },
+  {
+    "PID": 24021,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 103.9
+  },
+  {
+    "PID": 24021,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 104.99
+  },
+  {
+    "PID": 24021,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24022,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 56.9
+  },
+  {
+    "PID": 24023,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 52.99
+  },
+  {
+    "PID": 24023,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 59.98
+  },
+  {
+    "PID": 24024,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 34.99
+  },
+  {
+    "PID": 24025,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24025,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 122.98
+  },
+  {
+    "PID": 24025,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 142.07
+  },
+  {
+    "PID": 24026,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 256
+  },
+  {
+    "PID": 24026,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24026,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 264.99
+  },
+  {
+    "PID": 24026,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 264.99
+  },
+  {
+    "PID": 24027,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24027,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 24028,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.63
+  },
+  {
+    "PID": 24028,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24029,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 59.98
+  },
+  {
+    "PID": 24029,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 63.49
+  },
+  {
+    "PID": 24029,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 67.97
+  },
+  {
+    "PID": 24030,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24030,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 24030,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 79.99
+  },
+  {
+    "PID": 24030,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 84.98
+  },
+  {
+    "PID": 24030,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.98
+  },
+  {
+    "PID": 24030,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24031,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 122.98
+  },
+  {
+    "PID": 24031,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 301
+  },
+  {
+    "PID": 24032,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24032,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24032,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.98
+  },
+  {
+    "PID": 24033,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 44.99
+  },
+  {
+    "PID": 24033,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 24033,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54.23
+  },
+  {
+    "PID": 24034,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24034,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 170.36
+  },
+  {
+    "PID": 24036,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24036,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24036,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 24036,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 24037,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24037,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24038,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24038,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 84.49
+  },
+  {
+    "PID": 24039,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24039,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 155.98
+  },
+  {
+    "PID": 24039,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 162.29
+  },
+  {
+    "PID": 24039,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 171
+  },
+  {
+    "PID": 24039,
+    "Merchant": "NZXT",
+    "Availability": "Out of stock",
+    "Total": 204.99
+  },
+  {
+    "PID": 24040,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 68.09
+  },
+  {
+    "PID": 24040,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 78.09
+  },
+  {
+    "PID": 24040,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 80.98
+  },
+  {
+    "PID": 24040,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24040,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 108.79
+  },
+  {
+    "PID": 24041,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24041,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24041,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 59.99
+  },
+  {
+    "PID": 24042,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 53.98
+  },
+  {
+    "PID": 24042,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 78.56
+  },
+  {
+    "PID": 24043,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 99.9
+  },
+  {
+    "PID": 24043,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24043,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24044,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 151.62
+  },
+  {
+    "PID": 24044,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 154.99
+  },
+  {
+    "PID": 24044,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 154.99
+  },
+  {
+    "PID": 24044,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 154.99
+  },
+  {
+    "PID": 24045,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 53.98
+  },
+  {
+    "PID": 24045,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 61.61
+  },
+  {
+    "PID": 24048,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 24048,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24048,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24048,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24048,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 89.98
+  },
+  {
+    "PID": 24048,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 94.24
+  },
+  {
+    "PID": 24049,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24049,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24049,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24050,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 34.99
+  },
+  {
+    "PID": 24051,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24051,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24051,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 183.98
+  },
+  {
+    "PID": 24051,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 186.41
+  },
+  {
+    "PID": 24051,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 196.29
+  },
+  {
+    "PID": 24051,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 234.99
+  },
+  {
+    "PID": 24052,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 279.99
+  },
+  {
+    "PID": 24053,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24053,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24054,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24055,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 125.5
+  },
+  {
+    "PID": 24055,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24056,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24056,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 264.99
+  },
+  {
+    "PID": 24056,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 276.94
+  },
+  {
+    "PID": 24057,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24057,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 246
+  },
+  {
+    "PID": 24058,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 24058,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 24058,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 24059,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24059,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 103.67
+  },
+  {
+    "PID": 24060,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 108
+  },
+  {
+    "PID": 24060,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 109.99
+  },
+  {
+    "PID": 24060,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 111.98
+  },
+  {
+    "PID": 24060,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 118.99
+  },
+  {
+    "PID": 24061,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24061,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24061,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 95.98
+  },
+  {
+    "PID": 24062,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 24062,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 24063,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 194.98
+  },
+  {
+    "PID": 24063,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 199.99
+  },
+  {
+    "PID": 24063,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24063,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 207.64
+  },
+  {
+    "PID": 24064,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24064,
+    "Merchant": "ASUS",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24064,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24065,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 36.98
+  },
+  {
+    "PID": 24066,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 24066,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 89
+  },
+  {
+    "PID": 24066,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.98
+  },
+  {
+    "PID": 24066,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24067,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24067,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24067,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 174.98
+  },
+  {
+    "PID": 24067,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 184.99
+  },
+  {
+    "PID": 24068,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 112.5
+  },
+  {
+    "PID": 24068,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 118.99
+  },
+  {
+    "PID": 24068,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24068,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24068,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 125.98
+  },
+  {
+    "PID": 24069,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 105.58
+  },
+  {
+    "PID": 24069,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24069,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 123.4
+  },
+  {
+    "PID": 24069,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 123.4
+  },
+  {
+    "PID": 24070,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24070,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 72.98
+  },
+  {
+    "PID": 24071,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 57.99
+  },
+  {
+    "PID": 24071,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24071,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 67.98
+  },
+  {
+    "PID": 24072,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 64.98
+  },
+  {
+    "PID": 24072,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24072,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24073,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 46.42
+  },
+  {
+    "PID": 24073,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24073,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24074,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24074,
+    "Merchant": "ASUS",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24074,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24074,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24074,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 107.98
+  },
+  {
+    "PID": 24076,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 43.98
+  },
+  {
+    "PID": 24076,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 68.34
+  },
+  {
+    "PID": 24077,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 106.99
+  },
+  {
+    "PID": 24077,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 106.99
+  },
+  {
+    "PID": 24077,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24077,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 115.54
+  },
+  {
+    "PID": 24077,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 117.98
+  },
+  {
+    "PID": 24077,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 144.99
+  },
+  {
+    "PID": 24078,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24078,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 116.99
+  },
+  {
+    "PID": 24079,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24079,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24079,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 264.99
+  },
+  {
+    "PID": 24079,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 264.99
+  },
+  {
+    "PID": 24080,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 60.99
+  },
+  {
+    "PID": 24080,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 61.98
+  },
+  {
+    "PID": 24080,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 67.53
+  },
+  {
+    "PID": 24081,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 24081,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 24082,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 127.66
+  },
+  {
+    "PID": 24082,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24083,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 24083,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 87.98
+  },
+  {
+    "PID": 24083,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24084,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24084,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 24085,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 120.71
+  },
+  {
+    "PID": 24085,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 122.98
+  },
+  {
+    "PID": 24085,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 141.88
+  },
+  {
+    "PID": 24086,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24086,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 88.2
+  },
+  {
+    "PID": 24087,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 43.97
+  },
+  {
+    "PID": 24088,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24088,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24089,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24090,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24090,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24090,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24091,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24091,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 151.88
+  },
+  {
+    "PID": 24091,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 157.98
+  },
+  {
+    "PID": 24091,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 167.29
+  },
+  {
+    "PID": 24091,
+    "Merchant": "NZXT",
+    "Availability": "Out of stock",
+    "Total": 204.99
+  },
+  {
+    "PID": 24092,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 24092,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 24092,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 59.99
+  },
+  {
+    "PID": 24092,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24093,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 138.97
+  },
+  {
+    "PID": 24094,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 42.99
+  },
+  {
+    "PID": 24094,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 61.98
+  },
+  {
+    "PID": 24094,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 73.23
+  },
+  {
+    "PID": 24095,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 39.99
+  },
+  {
+    "PID": 24096,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 41.99
+  },
+  {
+    "PID": 24096,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 56.99
+  },
+  {
+    "PID": 24097,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24097,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24097,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 24097,
+    "Merchant": "Razer",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 24097,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 257.98
+  },
+  {
+    "PID": 24098,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 64.04
+  },
+  {
+    "PID": 24099,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24100,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 51.99
+  },
+  {
+    "PID": 24100,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 52.99
+  },
+  {
+    "PID": 24101,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 105.58
+  },
+  {
+    "PID": 24101,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24101,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 123.4
+  },
+  {
+    "PID": 24101,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 123.4
+  },
+  {
+    "PID": 24101,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 151.08
+  },
+  {
+    "PID": 24103,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 121.23
+  },
+  {
+    "PID": 24103,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 122.98
+  },
+  {
+    "PID": 24103,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 131.56
+  },
+  {
+    "PID": 24104,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24105,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 58.98
+  },
+  {
+    "PID": 24105,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 78.97
+  },
+  {
+    "PID": 24105,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 105.79
+  },
+  {
+    "PID": 24106,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24106,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 73.73
+  },
+  {
+    "PID": 24107,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 49.98
+  },
+  {
+    "PID": 24107,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 54.98
+  },
+  {
+    "PID": 24107,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 57.49
+  },
+  {
+    "PID": 24108,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24108,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.98
+  },
+  {
+    "PID": 24108,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 133.19
+  },
+  {
+    "PID": 24110,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 47.98
+  },
+  {
+    "PID": 24111,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24111,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 121.98
+  },
+  {
+    "PID": 24111,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 124.99
+  },
+  {
+    "PID": 24111,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 157.04
+  },
+  {
+    "PID": 24113,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 66.98
+  },
+  {
+    "PID": 24113,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 71.98
+  },
+  {
+    "PID": 24114,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 65.99
+  },
+  {
+    "PID": 24114,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24114,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 72.84
+  },
+  {
+    "PID": 24115,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 24115,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24116,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24116,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 398
+  },
+  {
+    "PID": 24117,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.89
+  },
+  {
+    "PID": 24118,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24118,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 118.31
+  },
+  {
+    "PID": 24119,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24119,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 84.93
+  },
+  {
+    "PID": 24120,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 91.44
+  },
+  {
+    "PID": 24121,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 64.98
+  },
+  {
+    "PID": 24121,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24122,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24122,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 137.19
+  },
+  {
+    "PID": 24122,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 194.95
+  },
+  {
+    "PID": 24123,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24123,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24124,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 126.99
+  },
+  {
+    "PID": 24124,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 24124,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 148.48
+  },
+  {
+    "PID": 24125,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 109.99
+  },
+  {
+    "PID": 24125,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24125,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24126,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24126,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 240.26
+  },
+  {
+    "PID": 24127,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 201.98
+  },
+  {
+    "PID": 24128,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 269
+  },
+  {
+    "PID": 24128,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 269
+  },
+  {
+    "PID": 24129,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 89.13
+  },
+  {
+    "PID": 24129,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 93.78
+  },
+  {
+    "PID": 24129,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 93.94
+  },
+  {
+    "PID": 24131,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24131,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24131,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24132,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 209.99
+  },
+  {
+    "PID": 24132,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 215.99
+  },
+  {
+    "PID": 24132,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 216.98
+  },
+  {
+    "PID": 24132,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 230.46
+  },
+  {
+    "PID": 24134,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24134,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 97.55
+  },
+  {
+    "PID": 24135,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24135,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24136,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 148.93
+  },
+  {
+    "PID": 24136,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24136,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 154.99
+  },
+  {
+    "PID": 24136,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.38
+  },
+  {
+    "PID": 24137,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24137,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 114.99
+  },
+  {
+    "PID": 24137,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 126.59
+  },
+  {
+    "PID": 24138,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 154.98
+  },
+  {
+    "PID": 24138,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 154.99
+  },
+  {
+    "PID": 24138,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 166.96
+  },
+  {
+    "PID": 24139,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 55.95
+  },
+  {
+    "PID": 24139,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 56.98
+  },
+  {
+    "PID": 24140,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24140,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24140,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24140,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24140,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 196.29
+  },
+  {
+    "PID": 24141,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24142,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24142,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24142,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24142,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24143,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 239.97
+  },
+  {
+    "PID": 24144,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 750.1
+  },
+  {
+    "PID": 24145,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24145,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24146,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24146,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 120.89
+  },
+  {
+    "PID": 24146,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 239.49
+  },
+  {
+    "PID": 24147,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 77.59
+  },
+  {
+    "PID": 24147,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 96.8
+  },
+  {
+    "PID": 24148,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 201.98
+  },
+  {
+    "PID": 24148,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 402
+  },
+  {
+    "PID": 24149,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 61.39
+  },
+  {
+    "PID": 24149,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24150,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24150,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24151,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 449.99
+  },
+  {
+    "PID": 24151,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 449.99
+  },
+  {
+    "PID": 24152,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 24152,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24152,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24152,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24153,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 47.97
+  },
+  {
+    "PID": 24153,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 53.14
+  },
+  {
+    "PID": 24154,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 221.19
+  },
+  {
+    "PID": 24154,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24154,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24155,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24156,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 174.9
+  },
+  {
+    "PID": 24156,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24156,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 189.9
+  },
+  {
+    "PID": 24157,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 49.98
+  },
+  {
+    "PID": 24157,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 60.24
+  },
+  {
+    "PID": 24157,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 64.65
+  },
+  {
+    "PID": 24159,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 115.98
+  },
+  {
+    "PID": 24159,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 144.99
+  },
+  {
+    "PID": 24160,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 35.95
+  },
+  {
+    "PID": 24161,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 163.22
+  },
+  {
+    "PID": 24161,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 171.67
+  },
+  {
+    "PID": 24161,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 172.99
+  },
+  {
+    "PID": 24161,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 174.99
+  },
+  {
+    "PID": 24163,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24163,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 90.55
+  },
+  {
+    "PID": 24164,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24166,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 397.99
+  },
+  {
+    "PID": 24167,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.9
+  },
+  {
+    "PID": 24168,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24168,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 214.99
+  },
+  {
+    "PID": 24169,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 70.98
+  },
+  {
+    "PID": 24169,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 92.99
+  },
+  {
+    "PID": 24170,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 100.99
+  },
+  {
+    "PID": 24171,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 24171,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 56.98
+  },
+  {
+    "PID": 24171,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 57.3
+  },
+  {
+    "PID": 24172,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 174.99
+  },
+  {
+    "PID": 24172,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 174.99
+  },
+  {
+    "PID": 24172,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24172,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 180.29
+  },
+  {
+    "PID": 24173,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 110.98
+  },
+  {
+    "PID": 24173,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 119.99
+  },
+  {
+    "PID": 24173,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 120.17
+  },
+  {
+    "PID": 24174,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 76.34
+  },
+  {
+    "PID": 24174,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 115.04
+  },
+  {
+    "PID": 24175,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 317.54
+  },
+  {
+    "PID": 24175,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 317.54
+  },
+  {
+    "PID": 24176,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 72.98
+  },
+  {
+    "PID": 24177,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24177,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24178,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 143.98
+  },
+  {
+    "PID": 24178,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 155.78
+  },
+  {
+    "PID": 24179,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24179,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 67.98
+  },
+  {
+    "PID": 24180,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24180,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 259.99
+  },
+  {
+    "PID": 24181,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24182,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 65.98
+  },
+  {
+    "PID": 24183,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 24183,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 225.98
+  },
+  {
+    "PID": 24183,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24183,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 234.18
+  },
+  {
+    "PID": 24184,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 64.7
+  },
+  {
+    "PID": 24185,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24185,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24185,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 119.79
+  },
+  {
+    "PID": 24185,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.79
+  },
+  {
+    "PID": 24186,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 94.9
+  },
+  {
+    "PID": 24186,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 247.99
+  },
+  {
+    "PID": 24187,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24188,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24188,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24189,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24190,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24190,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24190,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 159.98
+  },
+  {
+    "PID": 24190,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 166.29
+  },
+  {
+    "PID": 24190,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 204.99
+  },
+  {
+    "PID": 24191,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24191,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24191,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24191,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 116.08
+  },
+  {
+    "PID": 24192,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24192,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24193,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24194,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 499.99
+  },
+  {
+    "PID": 24194,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 499.99
+  },
+  {
+    "PID": 24195,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24195,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 97.98
+  },
+  {
+    "PID": 24196,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 61.98
+  },
+  {
+    "PID": 24196,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24196,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 66.05
+  },
+  {
+    "PID": 24197,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24197,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24197,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 116.99
+  },
+  {
+    "PID": 24198,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 83.99
+  },
+  {
+    "PID": 24199,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 79.9
+  },
+  {
+    "PID": 24199,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 84.9
+  },
+  {
+    "PID": 24199,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 98.16
+  },
+  {
+    "PID": 24200,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 411
+  },
+  {
+    "PID": 24201,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24201,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24202,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 49.58
+  },
+  {
+    "PID": 24202,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 57.1
+  },
+  {
+    "PID": 24203,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 85
+  },
+  {
+    "PID": 24204,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24204,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24204,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 115.98
+  },
+  {
+    "PID": 24204,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 144.99
+  },
+  {
+    "PID": 24205,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 139.99
+  },
+  {
+    "PID": 24205,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24205,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 339
+  },
+  {
+    "PID": 24207,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 98.98
+  },
+  {
+    "PID": 24207,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 117.13
+  },
+  {
+    "PID": 24207,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 117.81
+  },
+  {
+    "PID": 24208,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24208,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24208,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 238.99
+  },
+  {
+    "PID": 24209,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 73.64
+  },
+  {
+    "PID": 24210,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 244
+  },
+  {
+    "PID": 24211,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.98
+  },
+  {
+    "PID": 24212,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 499.99
+  },
+  {
+    "PID": 24213,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 124.99
+  },
+  {
+    "PID": 24213,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 144.99
+  },
+  {
+    "PID": 24213,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 144.99
+  },
+  {
+    "PID": 24214,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 680
+  },
+  {
+    "PID": 24215,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24215,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 369
+  },
+  {
+    "PID": 24216,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 225.98
+  },
+  {
+    "PID": 24216,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 229.99
+  },
+  {
+    "PID": 24216,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 240.36
+  },
+  {
+    "PID": 24217,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 64.98
+  },
+  {
+    "PID": 24218,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24218,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24218,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 238
+  },
+  {
+    "PID": 24219,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 24219,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 24219,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 232.98
+  },
+  {
+    "PID": 24221,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 64.98
+  },
+  {
+    "PID": 24221,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 81.98
+  },
+  {
+    "PID": 24222,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24222,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 416
+  },
+  {
+    "PID": 24224,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24225,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 54.87
+  },
+  {
+    "PID": 24227,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199
+  },
+  {
+    "PID": 24229,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 625
+  },
+  {
+    "PID": 24230,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 79.9
+  },
+  {
+    "PID": 24230,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 222.99
+  },
+  {
+    "PID": 24231,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24231,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 226.25
+  },
+  {
+    "PID": 24232,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24234,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24234,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24236,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24237,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 189.99
+  },
+  {
+    "PID": 24237,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 445
+  },
+  {
+    "PID": 24238,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 77.98
+  },
+  {
+    "PID": 24238,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 77.99
+  },
+  {
+    "PID": 24238,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24238,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24238,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 85.98
+  },
+  {
+    "PID": 24238,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 94.24
+  },
+  {
+    "PID": 24239,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24239,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 63.98
+  },
+  {
+    "PID": 24240,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24240,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24241,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24241,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24244,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 222
+  },
+  {
+    "PID": 24246,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24246,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 253.56
+  },
+  {
+    "PID": 24246,
+    "Merchant": "ASUS",
+    "Availability": "In stock",
+    "Total": 279.99
+  },
+  {
+    "PID": 24246,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 279.99
+  },
+  {
+    "PID": 24247,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24247,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 85.4
+  },
+  {
+    "PID": 24249,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 101.34
+  },
+  {
+    "PID": 24250,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 147.46
+  },
+  {
+    "PID": 24250,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 148.74
+  },
+  {
+    "PID": 24250,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 153.98
+  },
+  {
+    "PID": 24251,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24251,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24251,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24251,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 138.68
+  },
+  {
+    "PID": 24252,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 269
+  },
+  {
+    "PID": 24252,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 269
+  },
+  {
+    "PID": 24252,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 269.9
+  },
+  {
+    "PID": 24253,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 202.98
+  },
+  {
+    "PID": 24255,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 44.99
+  },
+  {
+    "PID": 24255,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 64.98
+  },
+  {
+    "PID": 24256,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 192.6
+  },
+  {
+    "PID": 24257,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 199.98
+  },
+  {
+    "PID": 24258,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 194.99
+  },
+  {
+    "PID": 24258,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 209.99
+  },
+  {
+    "PID": 24259,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 213.99
+  },
+  {
+    "PID": 24259,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24259,
+    "Merchant": "Razer",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24259,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 238.98
+  },
+  {
+    "PID": 24260,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 114.09
+  },
+  {
+    "PID": 24260,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 114.09
+  },
+  {
+    "PID": 24260,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 114.99
+  },
+  {
+    "PID": 24260,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 116.99
+  },
+  {
+    "PID": 24261,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 298.99
+  },
+  {
+    "PID": 24261,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 24261,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 331.64
+  },
+  {
+    "PID": 24262,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 122.98
+  },
+  {
+    "PID": 24262,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 133.72
+  },
+  {
+    "PID": 24263,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24264,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 104.99
+  },
+  {
+    "PID": 24264,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24264,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24264,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 124.84
+  },
+  {
+    "PID": 24265,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24266,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 106.99
+  },
+  {
+    "PID": 24267,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 549.99
+  },
+  {
+    "PID": 24267,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 549.99
+  },
+  {
+    "PID": 24268,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 66.06
+  },
+  {
+    "PID": 24269,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 24269,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 24270,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24270,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 97.89
+  },
+  {
+    "PID": 24271,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24271,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24271,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 106.91
+  },
+  {
+    "PID": 24272,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 103.34
+  },
+  {
+    "PID": 24272,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 120.16
+  },
+  {
+    "PID": 24273,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24273,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24274,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 112.98
+  },
+  {
+    "PID": 24274,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 135.31
+  },
+  {
+    "PID": 24275,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24275,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24276,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79
+  },
+  {
+    "PID": 24277,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 319.89
+  },
+  {
+    "PID": 24281,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24281,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 80.54
+  },
+  {
+    "PID": 24282,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24283,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 152.98
+  },
+  {
+    "PID": 24283,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 165.08
+  },
+  {
+    "PID": 24283,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 182.13
+  },
+  {
+    "PID": 24284,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 122.84
+  },
+  {
+    "PID": 24285,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24285,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 125.58
+  },
+  {
+    "PID": 24286,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 254.9
+  },
+  {
+    "PID": 24286,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 269
+  },
+  {
+    "PID": 24286,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 269
+  },
+  {
+    "PID": 24287,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 24287,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 259.98
+  },
+  {
+    "PID": 24287,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 365
+  },
+  {
+    "PID": 24288,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24288,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 65.98
+  },
+  {
+    "PID": 24289,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24289,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 150.99
+  },
+  {
+    "PID": 24291,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 219
+  },
+  {
+    "PID": 24291,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 224.98
+  },
+  {
+    "PID": 24291,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 234.99
+  },
+  {
+    "PID": 24291,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 250.23
+  },
+  {
+    "PID": 24292,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 348
+  },
+  {
+    "PID": 24293,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 106.99
+  },
+  {
+    "PID": 24293,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24294,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 135.98
+  },
+  {
+    "PID": 24294,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 203.72
+  },
+  {
+    "PID": 24295,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 50.79
+  },
+  {
+    "PID": 24296,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 44.99
+  },
+  {
+    "PID": 24296,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54.33
+  },
+  {
+    "PID": 24296,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 62.99
+  },
+  {
+    "PID": 24297,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 78.98
+  },
+  {
+    "PID": 24297,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 90.39
+  },
+  {
+    "PID": 24298,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24298,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24299,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 68.9
+  },
+  {
+    "PID": 24299,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 79.9
+  },
+  {
+    "PID": 24299,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 79.9
+  },
+  {
+    "PID": 24300,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24300,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 237.5
+  },
+  {
+    "PID": 24301,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 51.99
+  },
+  {
+    "PID": 24302,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 626
+  },
+  {
+    "PID": 24303,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 71.14
+  },
+  {
+    "PID": 24305,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24306,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 197
+  },
+  {
+    "PID": 24307,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.94
+  },
+  {
+    "PID": 24307,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24307,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24307,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 125.19
+  },
+  {
+    "PID": 24308,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 392
+  },
+  {
+    "PID": 24309,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 56.99
+  },
+  {
+    "PID": 24309,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 68.9
+  },
+  {
+    "PID": 24310,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 179.98
+  },
+  {
+    "PID": 24310,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 184.99
+  },
+  {
+    "PID": 24310,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 205.71
+  },
+  {
+    "PID": 24311,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24311,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 103.39
+  },
+  {
+    "PID": 24311,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24311,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24312,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 24312,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 356.26
+  },
+  {
+    "PID": 24313,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 53.98
+  },
+  {
+    "PID": 24313,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24315,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 127.69
+  },
+  {
+    "PID": 24315,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24316,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 189.99
+  },
+  {
+    "PID": 24316,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 449
+  },
+  {
+    "PID": 24317,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24317,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 114.99
+  },
+  {
+    "PID": 24317,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 116.18
+  },
+  {
+    "PID": 24318,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 62.98
+  },
+  {
+    "PID": 24318,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24318,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 66.48
+  },
+  {
+    "PID": 24319,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 223
+  },
+  {
+    "PID": 24320,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 46.98
+  },
+  {
+    "PID": 24320,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 68.34
+  },
+  {
+    "PID": 24322,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 66.98
+  },
+  {
+    "PID": 24322,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 72.41
+  },
+  {
+    "PID": 24323,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 44.98
+  },
+  {
+    "PID": 24324,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 24325,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 24326,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 84.9
+  },
+  {
+    "PID": 24326,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 89.9
+  },
+  {
+    "PID": 24326,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 103.12
+  },
+  {
+    "PID": 24327,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 209.99
+  },
+  {
+    "PID": 24327,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 219.98
+  },
+  {
+    "PID": 24328,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 503.44
+  },
+  {
+    "PID": 24329,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 151.98
+  },
+  {
+    "PID": 24329,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 253.29
+  },
+  {
+    "PID": 24330,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24330,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24333,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 24334,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24335,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24336,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24336,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 207
+  },
+  {
+    "PID": 24337,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 201.98
+  },
+  {
+    "PID": 24338,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 64.98
+  },
+  {
+    "PID": 24339,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 197.5
+  },
+  {
+    "PID": 24344,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24344,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24344,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 183.98
+  },
+  {
+    "PID": 24344,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 184.99
+  },
+  {
+    "PID": 24345,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 95.99
+  },
+  {
+    "PID": 24345,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 104.74
+  },
+  {
+    "PID": 24346,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24346,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24346,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24346,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24346,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 232.9
+  },
+  {
+    "PID": 24346,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 261.84
+  },
+  {
+    "PID": 24349,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 66.98
+  },
+  {
+    "PID": 24351,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24352,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 108.99
+  },
+  {
+    "PID": 24352,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 122.98
+  },
+  {
+    "PID": 24354,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 195.98
+  },
+  {
+    "PID": 24354,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 199.99
+  },
+  {
+    "PID": 24354,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24354,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 207.48
+  },
+  {
+    "PID": 24355,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 46.99
+  },
+  {
+    "PID": 24355,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 58.08
+  },
+  {
+    "PID": 24357,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 60.98
+  },
+  {
+    "PID": 24357,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24358,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199
+  },
+  {
+    "PID": 24360,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24360,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 142.99
+  },
+  {
+    "PID": 24361,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 158.44
+  },
+  {
+    "PID": 24364,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 66.06
+  },
+  {
+    "PID": 24365,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 149
+  },
+  {
+    "PID": 24366,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 48.99
+  },
+  {
+    "PID": 24367,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24369,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 84.41
+  },
+  {
+    "PID": 24370,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 117.71
+  },
+  {
+    "PID": 24374,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 196.95
+  },
+  {
+    "PID": 24374,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 206.98
+  },
+  {
+    "PID": 24374,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 234.99
+  },
+  {
+    "PID": 24378,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.9
+  },
+  {
+    "PID": 24379,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24379,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.72
+  },
+  {
+    "PID": 24380,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24380,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24382,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 320.99
+  },
+  {
+    "PID": 24382,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 320.99
+  },
+  {
+    "PID": 24383,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 24383,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 309.98
+  },
+  {
+    "PID": 24383,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 314.81
+  },
+  {
+    "PID": 24384,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 83.99
+  },
+  {
+    "PID": 24385,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 62.99
+  },
+  {
+    "PID": 24386,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 175.99
+  },
+  {
+    "PID": 24386,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 175.99
+  },
+  {
+    "PID": 24386,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 185.98
+  },
+  {
+    "PID": 24387,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 124.99
+  },
+  {
+    "PID": 24387,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 144.99
+  },
+  {
+    "PID": 24387,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 144.99
+  },
+  {
+    "PID": 24390,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24390,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24390,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24393,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 367.98
+  },
+  {
+    "PID": 24394,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 51.99
+  },
+  {
+    "PID": 24395,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.98
+  },
+  {
+    "PID": 24395,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 124.26
+  },
+  {
+    "PID": 24395,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 130.15
+  },
+  {
+    "PID": 24396,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 53.91
+  },
+  {
+    "PID": 24398,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 94.9
+  },
+  {
+    "PID": 24398,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 122.53
+  },
+  {
+    "PID": 24399,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24399,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 209
+  },
+  {
+    "PID": 24400,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 242.98
+  },
+  {
+    "PID": 24402,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 135.98
+  },
+  {
+    "PID": 24402,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 365
+  },
+  {
+    "PID": 24405,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 83.99
+  },
+  {
+    "PID": 24406,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 201.98
+  },
+  {
+    "PID": 24407,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24407,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24410,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 647
+  },
+  {
+    "PID": 24411,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 182.49
+  },
+  {
+    "PID": 24412,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 24414,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 62.99
+  },
+  {
+    "PID": 24414,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 76.34
+  },
+  {
+    "PID": 24415,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.98
+  },
+  {
+    "PID": 24415,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 121.13
+  },
+  {
+    "PID": 24415,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.96
+  },
+  {
+    "PID": 24418,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24419,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 157.55
+  },
+  {
+    "PID": 24420,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 145.87
+  },
+  {
+    "PID": 24420,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24423,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 279.99
+  },
+  {
+    "PID": 24423,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 279.99
+  },
+  {
+    "PID": 24423,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 299.99
+  },
+  {
+    "PID": 24424,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24424,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24424,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 170.64
+  },
+  {
+    "PID": 24425,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 57.99
+  },
+  {
+    "PID": 24425,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 57.99
+  },
+  {
+    "PID": 24425,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 60.99
+  },
+  {
+    "PID": 24426,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24426,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 195.99
+  },
+  {
+    "PID": 24428,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 203
+  },
+  {
+    "PID": 24429,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 24430,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 57.99
+  },
+  {
+    "PID": 24431,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 139.99
+  },
+  {
+    "PID": 24434,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24434,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 289.17
+  },
+  {
+    "PID": 24437,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24437,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 181.98
+  },
+  {
+    "PID": 24437,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 194.99
+  },
+  {
+    "PID": 24438,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 57.99
+  },
+  {
+    "PID": 24438,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 68.81
+  },
+  {
+    "PID": 24438,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.06
+  },
+  {
+    "PID": 24439,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24439,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 419
+  },
+  {
+    "PID": 24440,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 128.15
+  },
+  {
+    "PID": 24444,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 246.98
+  },
+  {
+    "PID": 24445,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24446,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 73.98
+  },
+  {
+    "PID": 24446,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 86.06
+  },
+  {
+    "PID": 24447,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 24450,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 73.98
+  },
+  {
+    "PID": 24450,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 76.09
+  },
+  {
+    "PID": 24451,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 189.99
+  },
+  {
+    "PID": 24451,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24451,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 217.61
+  },
+  {
+    "PID": 24452,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24452,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24454,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24454,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24454,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 183.47
+  },
+  {
+    "PID": 24454,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 204.37
+  },
+  {
+    "PID": 24455,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 64.98
+  },
+  {
+    "PID": 24457,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.98
+  },
+  {
+    "PID": 24457,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24457,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 124.25
+  },
+  {
+    "PID": 24457,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 130.94
+  },
+  {
+    "PID": 24458,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 55.99
+  },
+  {
+    "PID": 24460,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24461,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 113.99
+  },
+  {
+    "PID": 24461,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 113.99
+  },
+  {
+    "PID": 24461,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 118.99
+  },
+  {
+    "PID": 24461,
+    "Merchant": "NZXT",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24461,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 125.24
+  },
+  {
+    "PID": 24461,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 125.98
+  },
+  {
+    "PID": 24464,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24464,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24465,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24467,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 198.26
+  },
+  {
+    "PID": 24467,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 209.99
+  },
+  {
+    "PID": 24468,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 69.99
+  },
+  {
+    "PID": 24468,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 101.85
+  },
+  {
+    "PID": 24469,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 52.99
+  },
+  {
+    "PID": 24470,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24471,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 274
+  },
+  {
+    "PID": 24473,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 214
+  },
+  {
+    "PID": 24473,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 24473,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 227.99
+  },
+  {
+    "PID": 24475,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 274.39
+  },
+  {
+    "PID": 24476,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 434.43
+  },
+  {
+    "PID": 24476,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 439.99
+  },
+  {
+    "PID": 24476,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 913
+  },
+  {
+    "PID": 24477,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 209.99
+  },
+  {
+    "PID": 24477,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 218.33
+  },
+  {
+    "PID": 24478,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 86.35
+  },
+  {
+    "PID": 24479,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 108.99
+  },
+  {
+    "PID": 24482,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 257
+  },
+  {
+    "PID": 24483,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24484,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24484,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.17
+  },
+  {
+    "PID": 24485,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 199.9
+  },
+  {
+    "PID": 24485,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 199.9
+  },
+  {
+    "PID": 24485,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 199.9
+  },
+  {
+    "PID": 24486,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 24486,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 24486,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 309.98
+  },
+  {
+    "PID": 24487,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 24487,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 240
+  },
+  {
+    "PID": 24488,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 57.99
+  },
+  {
+    "PID": 24489,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 100.87
+  },
+  {
+    "PID": 24489,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 100.98
+  },
+  {
+    "PID": 24492,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 84.36
+  },
+  {
+    "PID": 24493,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119
+  },
+  {
+    "PID": 24493,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24493,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 197.05
+  },
+  {
+    "PID": 24494,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24494,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 346.78
+  },
+  {
+    "PID": 24495,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 24496,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 62.49
+  },
+  {
+    "PID": 24497,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24499,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24500,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 24502,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 135.98
+  },
+  {
+    "PID": 24502,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 365
+  },
+  {
+    "PID": 24503,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199
+  },
+  {
+    "PID": 24505,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 68.9
+  },
+  {
+    "PID": 24505,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.91
+  },
+  {
+    "PID": 24506,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 63.56
+  },
+  {
+    "PID": 24507,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 56.99
+  },
+  {
+    "PID": 24507,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 68.81
+  },
+  {
+    "PID": 24507,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.33
+  },
+  {
+    "PID": 24508,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 75.99
+  },
+  {
+    "PID": 24508,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 97.14
+  },
+  {
+    "PID": 24508,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.98
+  },
+  {
+    "PID": 24511,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 456
+  },
+  {
+    "PID": 24512,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 189.99
+  },
+  {
+    "PID": 24512,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 411
+  },
+  {
+    "PID": 24513,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 84.9
+  },
+  {
+    "PID": 24513,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 89.9
+  },
+  {
+    "PID": 24513,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 103.12
+  },
+  {
+    "PID": 24514,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 24515,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 61.29
+  },
+  {
+    "PID": 24515,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 112.61
+  },
+  {
+    "PID": 24516,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24517,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 66.95
+  },
+  {
+    "PID": 24518,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 125.99
+  },
+  {
+    "PID": 24518,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 168.99
+  },
+  {
+    "PID": 24520,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 89.98
+  },
+  {
+    "PID": 24520,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 101.63
+  },
+  {
+    "PID": 24521,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 135.98
+  },
+  {
+    "PID": 24521,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 202.14
+  },
+  {
+    "PID": 24522,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24522,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 269.08
+  },
+  {
+    "PID": 24525,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24525,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199.02
+  },
+  {
+    "PID": 24525,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24525,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 212.02
+  },
+  {
+    "PID": 24527,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 195.99
+  },
+  {
+    "PID": 24527,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 195.99
+  },
+  {
+    "PID": 24531,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24533,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24533,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 132.21
+  },
+  {
+    "PID": 24533,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 132.21
+  },
+  {
+    "PID": 24533,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 138.65
+  },
+  {
+    "PID": 24534,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24534,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24534,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.98
+  },
+  {
+    "PID": 24536,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 401
+  },
+  {
+    "PID": 24538,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 78.98
+  },
+  {
+    "PID": 24538,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 91.56
+  },
+  {
+    "PID": 24539,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 493.99
+  },
+  {
+    "PID": 24541,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24543,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 108.1
+  },
+  {
+    "PID": 24544,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24545,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 181.98
+  },
+  {
+    "PID": 24545,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 192.06
+  },
+  {
+    "PID": 24546,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24548,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.49
+  },
+  {
+    "PID": 24549,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 233.17
+  },
+  {
+    "PID": 24550,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24550,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 205.99
+  },
+  {
+    "PID": 24553,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 53.99
+  },
+  {
+    "PID": 24554,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 96.69
+  },
+  {
+    "PID": 24556,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24558,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.09
+  },
+  {
+    "PID": 24558,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24558,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24558,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24559,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24560,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 71.98
+  },
+  {
+    "PID": 24561,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 225.03
+  },
+  {
+    "PID": 24563,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 86.98
+  },
+  {
+    "PID": 24563,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 115.04
+  },
+  {
+    "PID": 24564,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 236
+  },
+  {
+    "PID": 24565,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 383.14
+  },
+  {
+    "PID": 24566,
+    "Merchant": "Amazon",
+    "Availability": "Available soon",
+    "Total": 215.1
+  },
+  {
+    "PID": 24568,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 109.98
+  },
+  {
+    "PID": 24568,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 124.6
+  },
+  {
+    "PID": 24569,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 95.98
+  },
+  {
+    "PID": 24569,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24570,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24571,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 200
+  },
+  {
+    "PID": 24572,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 333.29
+  },
+  {
+    "PID": 24573,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 257.98
+  },
+  {
+    "PID": 24576,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 277
+  },
+  {
+    "PID": 24577,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 149
+  },
+  {
+    "PID": 24577,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 149
+  },
+  {
+    "PID": 24577,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 151.99
+  },
+  {
+    "PID": 24578,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 66.98
+  },
+  {
+    "PID": 24578,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 68.73
+  },
+  {
+    "PID": 24579,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24580,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 139.99
+  },
+  {
+    "PID": 24580,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24585,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.59
+  },
+  {
+    "PID": 24587,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 318
+  },
+  {
+    "PID": 24588,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24588,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 24589,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 363.99
+  },
+  {
+    "PID": 24589,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 363.99
+  },
+  {
+    "PID": 24592,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 199.9
+  },
+  {
+    "PID": 24592,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 199.9
+  },
+  {
+    "PID": 24592,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 331.34
+  },
+  {
+    "PID": 24593,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 263
+  },
+  {
+    "PID": 24594,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 206.71
+  },
+  {
+    "PID": 24595,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 78.22
+  },
+  {
+    "PID": 24596,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 75.67
+  },
+  {
+    "PID": 24597,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 68.99
+  },
+  {
+    "PID": 24597,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 97.26
+  },
+  {
+    "PID": 24599,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 49.99
+  },
+  {
+    "PID": 24600,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 77.67
+  },
+  {
+    "PID": 24601,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 239.99
+  },
+  {
+    "PID": 24602,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 140.98
+  },
+  {
+    "PID": 24602,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 379
+  },
+  {
+    "PID": 24603,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24603,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 127.66
+  },
+  {
+    "PID": 24607,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.6
+  },
+  {
+    "PID": 24607,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 100.98
+  },
+  {
+    "PID": 24608,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24608,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 171.27
+  },
+  {
+    "PID": 24608,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 181.93
+  },
+  {
+    "PID": 24609,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.55
+  },
+  {
+    "PID": 24610,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 399.99
+  },
+  {
+    "PID": 24612,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 110.7
+  },
+  {
+    "PID": 24615,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 79.9
+  },
+  {
+    "PID": 24615,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24615,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.65
+  },
+  {
+    "PID": 24616,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24616,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 144.99
+  },
+  {
+    "PID": 24616,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 144.99
+  },
+  {
+    "PID": 24617,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 24619,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 118.88
+  },
+  {
+    "PID": 24620,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 235.98
+  },
+  {
+    "PID": 24620,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 288.27
+  },
+  {
+    "PID": 24621,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 81.99
+  },
+  {
+    "PID": 24622,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24622,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 173.72
+  },
+  {
+    "PID": 24625,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 67.98
+  },
+  {
+    "PID": 24626,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24628,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 77.98
+  },
+  {
+    "PID": 24628,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24628,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 99.94
+  },
+  {
+    "PID": 24629,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 235.98
+  },
+  {
+    "PID": 24630,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 129.9
+  },
+  {
+    "PID": 24630,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 160.46
+  },
+  {
+    "PID": 24631,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 119.93
+  },
+  {
+    "PID": 24631,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 122.99
+  },
+  {
+    "PID": 24631,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 122.99
+  },
+  {
+    "PID": 24632,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 360.98
+  },
+  {
+    "PID": 24637,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 179.99
+  },
+  {
+    "PID": 24637,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 181.98
+  },
+  {
+    "PID": 24637,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 198.5
+  },
+  {
+    "PID": 24638,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 79.87
+  },
+  {
+    "PID": 24639,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 169
+  },
+  {
+    "PID": 24639,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 169.98
+  },
+  {
+    "PID": 24639,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 191.26
+  },
+  {
+    "PID": 24641,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24641,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 101.79
+  },
+  {
+    "PID": 24642,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24647,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 51
+  },
+  {
+    "PID": 24648,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 58.04
+  },
+  {
+    "PID": 24651,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 24651,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 200.5
+  },
+  {
+    "PID": 24652,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24653,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 104.99
+  },
+  {
+    "PID": 24653,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 399.99
+  },
+  {
+    "PID": 24655,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 76.95
+  },
+  {
+    "PID": 24656,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24656,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 115.42
+  },
+  {
+    "PID": 24657,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24657,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 137.21
+  },
+  {
+    "PID": 24658,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24659,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 432.43
+  },
+  {
+    "PID": 24659,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 439.99
+  },
+  {
+    "PID": 24659,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 914
+  },
+  {
+    "PID": 24660,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 128.22
+  },
+  {
+    "PID": 24662,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.9
+  },
+  {
+    "PID": 24663,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24665,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 51.99
+  },
+  {
+    "PID": 24666,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 203.99
+  },
+  {
+    "PID": 24666,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 24667,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 118.08
+  },
+  {
+    "PID": 24669,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24670,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 287
+  },
+  {
+    "PID": 24671,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 247.42
+  },
+  {
+    "PID": 24672,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 369.99
+  },
+  {
+    "PID": 24673,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 79.99
+  },
+  {
+    "PID": 24673,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24675,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24676,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 84.76
+  },
+  {
+    "PID": 24677,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 461
+  },
+  {
+    "PID": 24678,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 170.89
+  },
+  {
+    "PID": 24678,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 195.41
+  },
+  {
+    "PID": 24678,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 197.44
+  },
+  {
+    "PID": 24679,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.47
+  },
+  {
+    "PID": 24682,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 24682,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 86.19
+  },
+  {
+    "PID": 24684,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 78
+  },
+  {
+    "PID": 24684,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 83.52
+  },
+  {
+    "PID": 24685,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 173
+  },
+  {
+    "PID": 24687,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24687,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 101.98
+  },
+  {
+    "PID": 24688,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 139.9
+  },
+  {
+    "PID": 24688,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 139.9
+  },
+  {
+    "PID": 24688,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 139.9
+  },
+  {
+    "PID": 24689,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 75.14
+  },
+  {
+    "PID": 24691,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 108.21
+  },
+  {
+    "PID": 24692,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24696,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24697,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 298
+  },
+  {
+    "PID": 24698,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 139.9
+  },
+  {
+    "PID": 24698,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 139.9
+  },
+  {
+    "PID": 24698,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 233.83
+  },
+  {
+    "PID": 24701,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24703,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.9
+  },
+  {
+    "PID": 24704,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.31
+  },
+  {
+    "PID": 24705,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24706,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 82.99
+  },
+  {
+    "PID": 24708,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 24710,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.83
+  },
+  {
+    "PID": 24710,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24711,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.17
+  },
+  {
+    "PID": 24711,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24712,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24712,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 131.07
+  },
+  {
+    "PID": 24713,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24716,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 24716,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 59.98
+  },
+  {
+    "PID": 24717,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 24717,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 202.98
+  },
+  {
+    "PID": 24718,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 190.87
+  },
+  {
+    "PID": 24719,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 188.98
+  },
+  {
+    "PID": 24719,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 209.86
+  },
+  {
+    "PID": 24723,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 64.94
+  },
+  {
+    "PID": 24724,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.9
+  },
+  {
+    "PID": 24726,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 185.99
+  },
+  {
+    "PID": 24727,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 88.79
+  },
+  {
+    "PID": 24728,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 224.99
+  },
+  {
+    "PID": 24732,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 294
+  },
+  {
+    "PID": 24733,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24736,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 214
+  },
+  {
+    "PID": 24738,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 24738,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24739,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 609
+  },
+  {
+    "PID": 24742,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24744,
+    "Merchant": "Amazon",
+    "Availability": "Available soon",
+    "Total": 110.19
+  },
+  {
+    "PID": 24745,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 78.5
+  },
+  {
+    "PID": 24745,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24746,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24750,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 24751,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 145.62
+  },
+  {
+    "PID": 24752,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 267
+  },
+  {
+    "PID": 24758,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 226.59
+  },
+  {
+    "PID": 24759,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 24759,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 259.98
+  },
+  {
+    "PID": 24760,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 24760,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 24761,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 71.98
+  },
+  {
+    "PID": 24762,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 24762,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 170.05
+  },
+  {
+    "PID": 24767,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24768,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 206
+  },
+  {
+    "PID": 24773,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 68.84
+  },
+  {
+    "PID": 24774,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 221.7
+  },
+  {
+    "PID": 24785,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 59.86
+  },
+  {
+    "PID": 24789,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 72.81
+  },
+  {
+    "PID": 24790,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24791,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 314
+  },
+  {
+    "PID": 24792,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 138.93
+  },
+  {
+    "PID": 24794,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 62.99
+  },
+  {
+    "PID": 24798,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 207.98
+  },
+  {
+    "PID": 24801,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 83.99
+  },
+  {
+    "PID": 24806,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 138.69
+  },
+  {
+    "PID": 24807,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 65.98
+  },
+  {
+    "PID": 24808,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24808,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 324.99
+  },
+  {
+    "PID": 24809,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24812,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24812,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 91.3
+  },
+  {
+    "PID": 24813,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 92.24
+  },
+  {
+    "PID": 24816,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 24820,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24823,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 71.98
+  },
+  {
+    "PID": 24823,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 72.45
+  },
+  {
+    "PID": 24829,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24830,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 146.81
+  },
+  {
+    "PID": 24832,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 199.9
+  },
+  {
+    "PID": 24832,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 199.9
+  },
+  {
+    "PID": 24832,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 199.9
+  },
+  {
+    "PID": 24838,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24838,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 65
+  },
+  {
+    "PID": 24839,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 168.15
+  },
+  {
+    "PID": 24840,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 235
+  },
+  {
+    "PID": 24842,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 139.9
+  },
+  {
+    "PID": 24842,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 139.9
+  },
+  {
+    "PID": 24842,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 139.9
+  },
+  {
+    "PID": 24843,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 110.99
+  },
+  {
+    "PID": 24846,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 119.9
+  },
+  {
+    "PID": 24847,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 139.99
+  },
+  {
+    "PID": 24847,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24847,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 339
+  },
+  {
+    "PID": 24848,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 179.9
+  },
+  {
+    "PID": 24850,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 24851,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.17
+  },
+  {
+    "PID": 24851,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24852,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24853,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 24858,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.98
+  },
+  {
+    "PID": 24859,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 82.99
+  },
+  {
+    "PID": 24860,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 111.34
+  },
+  {
+    "PID": 24869,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 602.62
+  },
+  {
+    "PID": 24871,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 24879,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 62.99
+  },
+  {
+    "PID": 24879,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 73.16
+  },
+  {
+    "PID": 24879,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 73.16
+  },
+  {
+    "PID": 24882,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 107.98
+  },
+  {
+    "PID": 24885,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 64.99
+  },
+  {
+    "PID": 24885,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 77.2
+  },
+  {
+    "PID": 24886,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 24889,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24892,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 90.98
+  },
+  {
+    "PID": 24893,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 443
+  },
+  {
+    "PID": 24894,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 158.4
+  },
+  {
+    "PID": 24895,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 104.66
+  },
+  {
+    "PID": 24896,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 507
+  },
+  {
+    "PID": 24897,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 74.95
+  },
+  {
+    "PID": 24897,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 90.98
+  },
+  {
+    "PID": 24903,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 24904,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 91.62
+  },
+  {
+    "PID": 24905,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 235
+  },
+  {
+    "PID": 24907,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 24915,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 71.98
+  },
+  {
+    "PID": 24915,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 100
+  },
+  {
+    "PID": 24916,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 104.9
+  },
+  {
+    "PID": 24916,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.26
+  },
+  {
+    "PID": 24917,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.63
+  },
+  {
+    "PID": 24919,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 124.47
+  },
+  {
+    "PID": 24919,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24919,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 24925,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 281
+  },
+  {
+    "PID": 24926,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 104.99
+  },
+  {
+    "PID": 24927,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 630
+  },
+  {
+    "PID": 24928,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 100.63
+  },
+  {
+    "PID": 24929,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 24931,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 72.98
+  },
+  {
+    "PID": 24931,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 72.99
+  },
+  {
+    "PID": 24939,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199.98
+  },
+  {
+    "PID": 24940,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 110.38
+  },
+  {
+    "PID": 24946,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 86.98
+  },
+  {
+    "PID": 24946,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 93.99
+  },
+  {
+    "PID": 24947,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89
+  },
+  {
+    "PID": 24950,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 24951,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 65.84
+  },
+  {
+    "PID": 24953,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 129.9
+  },
+  {
+    "PID": 24953,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 160.46
+  },
+  {
+    "PID": 24954,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 24955,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 409.9
+  },
+  {
+    "PID": 24957,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 283
+  },
+  {
+    "PID": 24968,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.9
+  },
+  {
+    "PID": 24970,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 161.83
+  },
+  {
+    "PID": 24971,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 168.71
+  },
+  {
+    "PID": 24980,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 122.28
+  },
+  {
+    "PID": 24984,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 441
+  },
+  {
+    "PID": 24985,
+    "Merchant": "Amazon",
+    "Availability": "Available soon",
+    "Total": 169.23
+  },
+  {
+    "PID": 24990,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 168
+  },
+  {
+    "PID": 24992,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 139.99
+  },
+  {
+    "PID": 24993,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 24998,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 179.98
+  },
+  {
+    "PID": 24998,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 189.99
+  },
+  {
+    "PID": 24998,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 198.99
+  },
+  {
+    "PID": 24999,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199.95
+  },
+  {
+    "PID": 25000,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 139.9
+  },
+  {
+    "PID": 25001,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 206
+  },
+  {
+    "PID": 25009,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109
+  },
+  {
+    "PID": 25010,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 221
+  },
+  {
+    "PID": 25011,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 285
+  },
+  {
+    "PID": 25014,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 104.99
+  },
+  {
+    "PID": 25022,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 25024,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 25025,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 25026,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 76
+  },
+  {
+    "PID": 25026,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 91.35
+  },
+  {
+    "PID": 25029,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 25030,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 25044,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 98.69
+  },
+  {
+    "PID": 25045,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 67.01
+  },
+  {
+    "PID": 25046,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 232.54
+  },
+  {
+    "PID": 25047,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 220.92
+  },
+  {
+    "PID": 25048,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 120.29
+  },
+  {
+    "PID": 25059,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.98
+  },
+  {
+    "PID": 25061,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 25062,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 168.04
+  },
+  {
+    "PID": 25064,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 25069,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 25069,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 25070,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 324.44
+  },
+  {
+    "PID": 25072,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 187.98
+  },
+  {
+    "PID": 25072,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 210.11
+  },
+  {
+    "PID": 25073,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 25074,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299
+  },
+  {
+    "PID": 25076,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 129.63
+  },
+  {
+    "PID": 25084,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.13
+  },
+  {
+    "PID": 25086,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 104.99
+  },
+  {
+    "PID": 25093,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 171.65
+  },
+  {
+    "PID": 25094,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 82.99
+  },
+  {
+    "PID": 25096,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 25096,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 341.4
+  },
+  {
+    "PID": 25097,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 25097,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 25102,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 70.98
+  },
+  {
+    "PID": 25115,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 25115,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 156.29
+  },
+  {
+    "PID": 25116,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 74.99
+  },
+  {
+    "PID": 25116,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 98.47
+  },
+  {
+    "PID": 25117,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 25118,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 25121,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 25122,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 25133,
+    "Merchant": "Corsair",
+    "Availability": "In stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 25134,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 143.91
+  },
+  {
+    "PID": 25135,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 132.84
+  },
+  {
+    "PID": 25138,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 277
+  },
+  {
+    "PID": 25141,
+    "Merchant": "ModMyMods",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 25143,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 25154,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.9
+  },
+  {
+    "PID": 25155,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.9
+  },
+  {
+    "PID": 25165,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 154.86
+  },
+  {
+    "PID": 25166,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 364.7
+  },
+  {
+    "PID": 25168,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.33
+  },
+  {
+    "PID": 25169,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 243.42
+  },
+  {
+    "PID": 25170,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 208.99
+  },
+  {
+    "PID": 25173,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 210.21
+  },
+  {
+    "PID": 25181,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 25183,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 120.24
+  },
+  {
+    "PID": 25184,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 139.99
+  },
+  {
+    "PID": 25187,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 25188,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 459
+  },
+  {
+    "PID": 25191,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 25192,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 293
+  },
+  {
+    "PID": 25196,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 449.99
+  },
+  {
+    "PID": 25204,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 65.97
+  },
+  {
+    "PID": 25205,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 25207,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 25208,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 156.97
+  },
+  {
+    "PID": 25209,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 170.98
+  },
+  {
+    "PID": 25219,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 116.57
+  },
+  {
+    "PID": 25220,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 25221,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.79
+  },
+  {
+    "PID": 25223,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 128.05
+  },
+  {
+    "PID": 25224,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 98.68
+  },
+  {
+    "PID": 25225,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 63.18
+  },
+  {
+    "PID": 25227,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 25232,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 189.9
+  },
+  {
+    "PID": 25239,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 105.99
+  },
+  {
+    "PID": 25239,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 133.33
+  },
+  {
+    "PID": 25240,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 166.91
+  },
+  {
+    "PID": 25240,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 25240,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 25241,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 257.98
+  },
+  {
+    "PID": 25242,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 172.99
+  },
+  {
+    "PID": 25242,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 194.35
+  },
+  {
+    "PID": 25243,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 132.69
+  },
+  {
+    "PID": 25255,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 25255,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 25256,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 95.35
+  },
+  {
+    "PID": 25257,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 256
+  },
+  {
+    "PID": 25258,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 25259,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 81.99
+  },
+  {
+    "PID": 25260,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 176.98
+  },
+  {
+    "PID": 25262,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129
+  },
+  {
+    "PID": 25262,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 129.9
+  },
+  {
+    "PID": 25281,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 25282,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 123.14
+  },
+  {
+    "PID": 25283,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 139.99
+  },
+  {
+    "PID": 25286,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 133.72
+  },
+  {
+    "PID": 25290,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 234.99
+  },
+  {
+    "PID": 25292,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 285
+  },
+  {
+    "PID": 25293,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 218
+  },
+  {
+    "PID": 25311,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 25312,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 25313,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 301
+  },
+  {
+    "PID": 25314,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 25317,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 86.22
+  },
+  {
+    "PID": 25320,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 25324,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 25325,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 25328,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 25341,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.9
+  },
+  {
+    "PID": 25342,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 253
+  },
+  {
+    "PID": 25343,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 81.99
+  },
+  {
+    "PID": 25344,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 89.1
+  },
+  {
+    "PID": 25345,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 359.99
+  },
+  {
+    "PID": 25346,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 25348,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 25351,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 596
+  },
+  {
+    "PID": 25372,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 132
+  },
+  {
+    "PID": 25376,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 291
+  },
+  {
+    "PID": 25380,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 228.71
+  },
+  {
+    "PID": 25394,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.99
+  },
+  {
+    "PID": 25396,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 139.9
+  },
+  {
+    "PID": 25397,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 25402,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 229
+  },
+  {
+    "PID": 25404,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 104.74
+  },
+  {
+    "PID": 25404,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 25428,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 91.99
+  },
+  {
+    "PID": 25429,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 25430,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 98.67
+  },
+  {
+    "PID": 25431,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 208
+  },
+  {
+    "PID": 25433,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 269.99
+  },
+  {
+    "PID": 25433,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 269.99
+  },
+  {
+    "PID": 25435,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 125.72
+  },
+  {
+    "PID": 25442,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 270
+  },
+  {
+    "PID": 25465,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 139.99
+  },
+  {
+    "PID": 25466,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 25470,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 25509,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 194.99
+  },
+  {
+    "PID": 25509,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 263.02
+  },
+  {
+    "PID": 25514,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 148.99
+  },
+  {
+    "PID": 25520,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 25521,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 25555,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.6
+  },
+  {
+    "PID": 25556,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 25557,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 124.99
+  },
+  {
+    "PID": 25559,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 25561,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 25563,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 166.49
+  },
+  {
+    "PID": 25564,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 25568,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 492
+  },
+  {
+    "PID": 25569,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 284
+  },
+  {
+    "PID": 25577,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 54.99
+  },
+  {
+    "PID": 25578,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 191.24
+  },
+  {
+    "PID": 25581,
+    "Merchant": "ModMyMods",
+    "Availability": "Out of stock",
+    "Total": 159.94
+  },
+  {
+    "PID": 25622,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 25623,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 25625,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 92.99
+  },
+  {
+    "PID": 25625,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.44
+  },
+  {
+    "PID": 25627,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 25628,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 105.99
+  },
+  {
+    "PID": 25630,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 25631,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.95
+  },
+  {
+    "PID": 25632,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 341
+  },
+  {
+    "PID": 25634,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 139.99
+  },
+  {
+    "PID": 25635,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 25673,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 399
+  },
+  {
+    "PID": 25675,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 127.16
+  },
+  {
+    "PID": 25676,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 92.86
+  },
+  {
+    "PID": 25677,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 25685,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 48.82
+  },
+  {
+    "PID": 25686,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 155.47
+  },
+  {
+    "PID": 25742,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 147.49
+  },
+  {
+    "PID": 25743,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 175
+  },
+  {
+    "PID": 25744,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 150.79
+  },
+  {
+    "PID": 25745,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 120
+  },
+  {
+    "PID": 25830,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 202.99
+  },
+  {
+    "PID": 25831,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 175
+  },
+  {
+    "PID": 25832,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 159.9
+  },
+  {
+    "PID": 25835,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 296
+  },
+  {
+    "PID": 25837,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 172.97
+  },
+  {
+    "PID": 25864,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 103.21
+  },
+  {
+    "PID": 25897,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199.95
+  },
+  {
+    "PID": 25898,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 109.98
+  },
+  {
+    "PID": 25898,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 163.63
+  },
+  {
+    "PID": 25899,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 159.9
+  },
+  {
+    "PID": 25900,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 25903,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 251
+  },
+  {
+    "PID": 25906,
+    "Merchant": "ModMyMods",
+    "Availability": "Out of stock",
+    "Total": 139.99
+  },
+  {
+    "PID": 25909,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 297
+  },
+  {
+    "PID": 25913,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 230
+  },
+  {
+    "PID": 25956,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 26006,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 82.99
+  },
+  {
+    "PID": 26011,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 158.67
+  },
+  {
+    "PID": 26013,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 26015,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 212.77
+  },
+  {
+    "PID": 26017,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 26066,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 26142,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 120.07
+  },
+  {
+    "PID": 26143,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 85.19
+  },
+  {
+    "PID": 26147,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 79.9
+  },
+  {
+    "PID": 26148,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 80.15
+  },
+  {
+    "PID": 26157,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 26159,
+    "Merchant": "ModMyMods",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 26215,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 26300,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 84.99
+  },
+  {
+    "PID": 26302,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 294.57
+  },
+  {
+    "PID": 26305,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 159.9
+  },
+  {
+    "PID": 26306,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 26307,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 124.3
+  },
+  {
+    "PID": 26312,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299
+  },
+  {
+    "PID": 26316,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 118.68
+  },
+  {
+    "PID": 26404,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 26414,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 26475,
+    "Merchant": "ModMyMods",
+    "Availability": "Out of stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 26494,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 119.9
+  },
+  {
+    "PID": 26498,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 159.9
+  },
+  {
+    "PID": 26777,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 159.9
+  },
+  {
+    "PID": 26780,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 330.06
+  },
+  {
+    "PID": 26782,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 114.17
+  },
+  {
+    "PID": 26784,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 26796,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 159.9
+  },
+  {
+    "PID": 26797,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 159.9
+  },
+  {
+    "PID": 27187,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 851.16
+  },
+  {
+    "PID": 27278,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 136.1
+  },
+  {
+    "PID": 27278,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 331.98
+  },
+  {
+    "PID": 27283,
+    "Merchant": "Newegg Sellers",
+    "Availability": "In stock",
+    "Total": 155.9
+  },
+  {
+    "PID": 27291,
+    "Merchant": "ModMyMods",
+    "Availability": "Out of stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 28177,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 144.8
+  },
+  {
+    "PID": 28347,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 144.35
+  }
+]

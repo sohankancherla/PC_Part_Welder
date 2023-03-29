@@ -1,0 +1,4838 @@
+[
+  {
+    "PID": 3538,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 419.98
+  },
+  {
+    "PID": 3538,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 427.99
+  },
+  {
+    "PID": 3538,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 459.99
+  },
+  {
+    "PID": 3538,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 766.99
+  },
+  {
+    "PID": 3539,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 294.98
+  },
+  {
+    "PID": 3540,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 209.99
+  },
+  {
+    "PID": 3540,
+    "Merchant": "Adorama",
+    "Availability": "",
+    "Total": 210
+  },
+  {
+    "PID": 3540,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 439.99
+  },
+  {
+    "PID": 3541,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 539.98
+  },
+  {
+    "PID": 3541,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 543.99
+  },
+  {
+    "PID": 3541,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 797
+  },
+  {
+    "PID": 3544,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1927.99
+  },
+  {
+    "PID": 3544,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2935.99
+  },
+  {
+    "PID": 3545,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 439
+  },
+  {
+    "PID": 3545,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 649.98
+  },
+  {
+    "PID": 3547,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 1419.99
+  },
+  {
+    "PID": 3547,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1437.99
+  },
+  {
+    "PID": 3547,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1439.98
+  },
+  {
+    "PID": 3547,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 1499.99
+  },
+  {
+    "PID": 3547,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2097.94
+  },
+  {
+    "PID": 3548,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 800
+  },
+  {
+    "PID": 3549,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 837.99
+  },
+  {
+    "PID": 3549,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 859.98
+  },
+  {
+    "PID": 3549,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 862.49
+  },
+  {
+    "PID": 3549,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1299.99
+  },
+  {
+    "PID": 3550,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 196.94
+  },
+  {
+    "PID": 3550,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 199.99
+  },
+  {
+    "PID": 3550,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 254.11
+  },
+  {
+    "PID": 3551,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 583.99
+  },
+  {
+    "PID": 3552,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 2349.99
+  },
+  {
+    "PID": 3552,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3230
+  },
+  {
+    "PID": 3553,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 379.99
+  },
+  {
+    "PID": 3553,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 642
+  },
+  {
+    "PID": 3554,
+    "Merchant": "Dell Technologies",
+    "Availability": "",
+    "Total": 11247.99
+  },
+  {
+    "PID": 3555,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 94.99
+  },
+  {
+    "PID": 3555,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.49
+  },
+  {
+    "PID": 3556,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 524.88
+  },
+  {
+    "PID": 3557,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 509.98
+  },
+  {
+    "PID": 3557,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 764.48
+  },
+  {
+    "PID": 3559,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 379.99
+  },
+  {
+    "PID": 3560,
+    "Merchant": "ASUS",
+    "Availability": "In stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 3560,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 3560,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 359.98
+  },
+  {
+    "PID": 3560,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 399.99
+  },
+  {
+    "PID": 3560,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 685
+  },
+  {
+    "PID": 3562,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 1099.99
+  },
+  {
+    "PID": 3563,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 727.99
+  },
+  {
+    "PID": 3563,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 829.95
+  },
+  {
+    "PID": 3563,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1225.99
+  },
+  {
+    "PID": 3565,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 2229.99
+  },
+  {
+    "PID": 3566,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 599.99
+  },
+  {
+    "PID": 3566,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 869.33
+  },
+  {
+    "PID": 3567,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 519.98
+  },
+  {
+    "PID": 3567,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 739.94
+  },
+  {
+    "PID": 3568,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 868.99
+  },
+  {
+    "PID": 3569,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1286.94
+  },
+  {
+    "PID": 3570,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 549.98
+  },
+  {
+    "PID": 3570,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 700
+  },
+  {
+    "PID": 3571,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 416.99
+  },
+  {
+    "PID": 3571,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 489.98
+  },
+  {
+    "PID": 3572,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.44
+  },
+  {
+    "PID": 3572,
+    "Merchant": "Monoprice",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 3572,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 82.66
+  },
+  {
+    "PID": 3573,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 925
+  },
+  {
+    "PID": 3575,
+    "Merchant": "ASUS",
+    "Availability": "In stock",
+    "Total": 1899.99
+  },
+  {
+    "PID": 3575,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2141.89
+  },
+  {
+    "PID": 3576,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 699.99
+  },
+  {
+    "PID": 3577,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 942.99
+  },
+  {
+    "PID": 3577,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1386.58
+  },
+  {
+    "PID": 3578,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 3578,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 625.9
+  },
+  {
+    "PID": 3578,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 672.92
+  },
+  {
+    "PID": 3579,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 1159.99
+  },
+  {
+    "PID": 3580,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 479
+  },
+  {
+    "PID": 3582,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 459.98
+  },
+  {
+    "PID": 3582,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 649.99
+  },
+  {
+    "PID": 3583,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 749.99
+  },
+  {
+    "PID": 3585,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 399.99
+  },
+  {
+    "PID": 3588,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1299
+  },
+  {
+    "PID": 3589,
+    "Merchant": "Newegg",
+    "Availability": "",
+    "Total": 889.98
+  },
+  {
+    "PID": 3589,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1025
+  },
+  {
+    "PID": 3590,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 89.99
+  },
+  {
+    "PID": 3590,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 123
+  },
+  {
+    "PID": 3593,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 2379.98
+  },
+  {
+    "PID": 3593,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2899.99
+  },
+  {
+    "PID": 3594,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 405.99
+  },
+  {
+    "PID": 3595,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 293.72
+  },
+  {
+    "PID": 3596,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 593.67
+  },
+  {
+    "PID": 3597,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 599.99
+  },
+  {
+    "PID": 3597,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 719.99
+  },
+  {
+    "PID": 3600,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 239.99
+  },
+  {
+    "PID": 3600,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 699
+  },
+  {
+    "PID": 3601,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 1779
+  },
+  {
+    "PID": 3601,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1779.98
+  },
+  {
+    "PID": 3601,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2035
+  },
+  {
+    "PID": 3602,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 457.99
+  },
+  {
+    "PID": 3603,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 609.99
+  },
+  {
+    "PID": 3604,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 699.99
+  },
+  {
+    "PID": 3607,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 749.99
+  },
+  {
+    "PID": 3607,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 758.99
+  },
+  {
+    "PID": 3608,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 2259.98
+  },
+  {
+    "PID": 3608,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2880
+  },
+  {
+    "PID": 3608,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 3827.66
+  },
+  {
+    "PID": 3609,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 1312.49
+  },
+  {
+    "PID": 3609,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1920
+  },
+  {
+    "PID": 3610,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 525.99
+  },
+  {
+    "PID": 3611,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 1049.99
+  },
+  {
+    "PID": 3612,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 54.76
+  },
+  {
+    "PID": 3612,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 54.76
+  },
+  {
+    "PID": 3612,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 3613,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 279.99
+  },
+  {
+    "PID": 3613,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 820.12
+  },
+  {
+    "PID": 3613,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 820.13
+  },
+  {
+    "PID": 3614,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 949.99
+  },
+  {
+    "PID": 3614,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1399.99
+  },
+  {
+    "PID": 3615,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 324.99
+  },
+  {
+    "PID": 3615,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 489.99
+  },
+  {
+    "PID": 3616,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 779.99
+  },
+  {
+    "PID": 3617,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 176.94
+  },
+  {
+    "PID": 3617,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 249.99
+  },
+  {
+    "PID": 3617,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 500
+  },
+  {
+    "PID": 3621,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 2129.99
+  },
+  {
+    "PID": 3621,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 2229.98
+  },
+  {
+    "PID": 3621,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2949.99
+  },
+  {
+    "PID": 3622,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1069.98
+  },
+  {
+    "PID": 3622,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1195.88
+  },
+  {
+    "PID": 3623,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 847.59
+  },
+  {
+    "PID": 3624,
+    "Merchant": "Monoprice",
+    "Availability": "In stock",
+    "Total": 1699.99
+  },
+  {
+    "PID": 3624,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2099
+  },
+  {
+    "PID": 3625,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1479.11
+  },
+  {
+    "PID": 3626,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 849.99
+  },
+  {
+    "PID": 3627,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 207.99
+  },
+  {
+    "PID": 3629,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 902.49
+  },
+  {
+    "PID": 3629,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 927.99
+  },
+  {
+    "PID": 3629,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 949.98
+  },
+  {
+    "PID": 3629,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1669.99
+  },
+  {
+    "PID": 3630,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1799.99
+  },
+  {
+    "PID": 3630,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1799.99
+  },
+  {
+    "PID": 3631,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 723.78
+  },
+  {
+    "PID": 3632,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 829.99
+  },
+  {
+    "PID": 3634,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 394.49
+  },
+  {
+    "PID": 3634,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 397.99
+  },
+  {
+    "PID": 3636,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 999.99
+  },
+  {
+    "PID": 3636,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1267.99
+  },
+  {
+    "PID": 3637,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1659.98
+  },
+  {
+    "PID": 3637,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2199
+  },
+  {
+    "PID": 3638,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 389.99
+  },
+  {
+    "PID": 3641,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1419.99
+  },
+  {
+    "PID": 3642,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 633.5
+  },
+  {
+    "PID": 3643,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 397.99
+  },
+  {
+    "PID": 3643,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 476
+  },
+  {
+    "PID": 3647,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 699.95
+  },
+  {
+    "PID": 3647,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 778.34
+  },
+  {
+    "PID": 3649,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1089.98
+  },
+  {
+    "PID": 3651,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 779.99
+  },
+  {
+    "PID": 3652,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 649.99
+  },
+  {
+    "PID": 3653,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 4990.55
+  },
+  {
+    "PID": 3653,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 5384.36
+  },
+  {
+    "PID": 3653,
+    "Merchant": "Dell Technologies",
+    "Availability": "",
+    "Total": 5999.99
+  },
+  {
+    "PID": 3653,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 6999
+  },
+  {
+    "PID": 3654,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 309.99
+  },
+  {
+    "PID": 3654,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 336.94
+  },
+  {
+    "PID": 3654,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 594.97
+  },
+  {
+    "PID": 3655,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3099
+  },
+  {
+    "PID": 3656,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 309.99
+  },
+  {
+    "PID": 3656,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 448.98
+  },
+  {
+    "PID": 3657,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 109.99
+  },
+  {
+    "PID": 3657,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 114.44
+  },
+  {
+    "PID": 3657,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 119.98
+  },
+  {
+    "PID": 3657,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 128.78
+  },
+  {
+    "PID": 3658,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 549.98
+  },
+  {
+    "PID": 3658,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 654.99
+  },
+  {
+    "PID": 3659,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 841.98
+  },
+  {
+    "PID": 3660,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 989.99
+  },
+  {
+    "PID": 3661,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 127.08
+  },
+  {
+    "PID": 3661,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 142.54
+  },
+  {
+    "PID": 3662,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 4786.6
+  },
+  {
+    "PID": 3663,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3287.33
+  },
+  {
+    "PID": 3665,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1609.98
+  },
+  {
+    "PID": 3665,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1794.45
+  },
+  {
+    "PID": 3667,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1209.98
+  },
+  {
+    "PID": 3667,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1945.5
+  },
+  {
+    "PID": 3671,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1784.9
+  },
+  {
+    "PID": 3673,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 989.98
+  },
+  {
+    "PID": 3675,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 4500
+  },
+  {
+    "PID": 3677,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 229.9
+  },
+  {
+    "PID": 3678,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 5358.95
+  },
+  {
+    "PID": 3678,
+    "Merchant": "Dell Technologies",
+    "Availability": "",
+    "Total": 6699.99
+  },
+  {
+    "PID": 3678,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 8899
+  },
+  {
+    "PID": 3679,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 522.08
+  },
+  {
+    "PID": 3680,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 349.99
+  },
+  {
+    "PID": 3680,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 567.47
+  },
+  {
+    "PID": 3683,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2399.98
+  },
+  {
+    "PID": 3685,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1139.98
+  },
+  {
+    "PID": 3686,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 569.99
+  },
+  {
+    "PID": 3688,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2499.98
+  },
+  {
+    "PID": 3690,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1845
+  },
+  {
+    "PID": 3691,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1199
+  },
+  {
+    "PID": 3692,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 328.99
+  },
+  {
+    "PID": 3692,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 419.97
+  },
+  {
+    "PID": 3693,
+    "Merchant": "Monoprice",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 3693,
+    "Merchant": "Best Buy",
+    "Availability": "In stock",
+    "Total": 69.99
+  },
+  {
+    "PID": 3693,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79
+  },
+  {
+    "PID": 3694,
+    "Merchant": "Monoprice",
+    "Availability": "In stock",
+    "Total": 679.99
+  },
+  {
+    "PID": 3694,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 799.99
+  },
+  {
+    "PID": 3695,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2950
+  },
+  {
+    "PID": 3696,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2035.99
+  },
+  {
+    "PID": 3697,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1629.99
+  },
+  {
+    "PID": 3697,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1759
+  },
+  {
+    "PID": 3698,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 909.98
+  },
+  {
+    "PID": 3698,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1649.99
+  },
+  {
+    "PID": 3699,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 609
+  },
+  {
+    "PID": 3700,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 489
+  },
+  {
+    "PID": 3701,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 649
+  },
+  {
+    "PID": 3703,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 2359.98
+  },
+  {
+    "PID": 3703,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 3399.99
+  },
+  {
+    "PID": 3704,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 849.99
+  },
+  {
+    "PID": 3705,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 599.49
+  },
+  {
+    "PID": 3706,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 1199.99
+  },
+  {
+    "PID": 3707,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 959.99
+  },
+  {
+    "PID": 3707,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 993.99
+  },
+  {
+    "PID": 3709,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1709.98
+  },
+  {
+    "PID": 3709,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2089
+  },
+  {
+    "PID": 3710,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 399.99
+  },
+  {
+    "PID": 3711,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 929.99
+  },
+  {
+    "PID": 3711,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1249
+  },
+  {
+    "PID": 3712,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3954.24
+  },
+  {
+    "PID": 3713,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 3713,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 469
+  },
+  {
+    "PID": 3714,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1757.99
+  },
+  {
+    "PID": 3714,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2869.87
+  },
+  {
+    "PID": 3715,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.76
+  },
+  {
+    "PID": 3716,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 549
+  },
+  {
+    "PID": 3720,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2198
+  },
+  {
+    "PID": 3722,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1896.43
+  },
+  {
+    "PID": 3723,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2856.69
+  },
+  {
+    "PID": 3724,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 3724,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 549.99
+  },
+  {
+    "PID": 3725,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 649.99
+  },
+  {
+    "PID": 3726,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1813.68
+  },
+  {
+    "PID": 3729,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 257.99
+  },
+  {
+    "PID": 3729,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 470
+  },
+  {
+    "PID": 3730,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1497.02
+  },
+  {
+    "PID": 3732,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 2127.99
+  },
+  {
+    "PID": 3734,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 76.94
+  },
+  {
+    "PID": 3734,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 3735,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 615
+  },
+  {
+    "PID": 3736,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 489.98
+  },
+  {
+    "PID": 3736,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 959
+  },
+  {
+    "PID": 3737,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 2139.98
+  },
+  {
+    "PID": 3737,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2908
+  },
+  {
+    "PID": 3739,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 145.99
+  },
+  {
+    "PID": 3740,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1001.25
+  },
+  {
+    "PID": 3740,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 1001.25
+  },
+  {
+    "PID": 3740,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1028.99
+  },
+  {
+    "PID": 3741,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 799.99
+  },
+  {
+    "PID": 3743,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 1399.99
+  },
+  {
+    "PID": 3744,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 989.99
+  },
+  {
+    "PID": 3745,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3299.99
+  },
+  {
+    "PID": 3748,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1333.17
+  },
+  {
+    "PID": 3751,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 246.94
+  },
+  {
+    "PID": 3751,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 329.99
+  },
+  {
+    "PID": 3751,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 779.99
+  },
+  {
+    "PID": 3754,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3415.78
+  },
+  {
+    "PID": 3756,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 347.99
+  },
+  {
+    "PID": 3756,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 399.99
+  },
+  {
+    "PID": 3756,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 738.88
+  },
+  {
+    "PID": 3757,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 729.99
+  },
+  {
+    "PID": 3757,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 759.98
+  },
+  {
+    "PID": 3758,
+    "Merchant": "Newegg",
+    "Availability": "",
+    "Total": 2459.98
+  },
+  {
+    "PID": 3758,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2885.96
+  },
+  {
+    "PID": 3759,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 509.98
+  },
+  {
+    "PID": 3760,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 499.99
+  },
+  {
+    "PID": 3760,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 728
+  },
+  {
+    "PID": 3763,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 1029.99
+  },
+  {
+    "PID": 3765,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1099.99
+  },
+  {
+    "PID": 3769,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 429.95
+  },
+  {
+    "PID": 3771,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 1729.99
+  },
+  {
+    "PID": 3771,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2349.98
+  },
+  {
+    "PID": 3772,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1294
+  },
+  {
+    "PID": 3773,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1599.99
+  },
+  {
+    "PID": 3774,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 347.99
+  },
+  {
+    "PID": 3774,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 359.98
+  },
+  {
+    "PID": 3775,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 769.98
+  },
+  {
+    "PID": 3777,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1609.98
+  },
+  {
+    "PID": 3777,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2300
+  },
+  {
+    "PID": 3779,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 67.99
+  },
+  {
+    "PID": 3779,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 67.99
+  },
+  {
+    "PID": 3779,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 119.95
+  },
+  {
+    "PID": 3785,
+    "Merchant": "Newegg",
+    "Availability": "",
+    "Total": 919.98
+  },
+  {
+    "PID": 3785,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1149.99
+  },
+  {
+    "PID": 3786,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3592.97
+  },
+  {
+    "PID": 3791,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 429.99
+  },
+  {
+    "PID": 3792,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 73.11
+  },
+  {
+    "PID": 3793,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 744.99
+  },
+  {
+    "PID": 3795,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 699
+  },
+  {
+    "PID": 3796,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 469.99
+  },
+  {
+    "PID": 3797,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 779
+  },
+  {
+    "PID": 3798,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1097.99
+  },
+  {
+    "PID": 3799,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 679.99
+  },
+  {
+    "PID": 3799,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 699.98
+  },
+  {
+    "PID": 3801,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 819
+  },
+  {
+    "PID": 3803,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2207.3
+  },
+  {
+    "PID": 3804,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 230.95
+  },
+  {
+    "PID": 3805,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 549.96
+  },
+  {
+    "PID": 3808,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 849.98
+  },
+  {
+    "PID": 3808,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 949.99
+  },
+  {
+    "PID": 3808,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1054.25
+  },
+  {
+    "PID": 3808,
+    "Merchant": "Monoprice",
+    "Availability": "In stock",
+    "Total": 1099.99
+  },
+  {
+    "PID": 3809,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 291.99
+  },
+  {
+    "PID": 3809,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 293.41
+  },
+  {
+    "PID": 3809,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 299
+  },
+  {
+    "PID": 3811,
+    "Merchant": "Newegg",
+    "Availability": "",
+    "Total": 1749.98
+  },
+  {
+    "PID": 3811,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1932.05
+  },
+  {
+    "PID": 3812,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3699.97
+  },
+  {
+    "PID": 3814,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 84.49
+  },
+  {
+    "PID": 3814,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 167.55
+  },
+  {
+    "PID": 3814,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 174.99
+  },
+  {
+    "PID": 3815,
+    "Merchant": "Newegg",
+    "Availability": "",
+    "Total": 1959.98
+  },
+  {
+    "PID": 3817,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 938.85
+  },
+  {
+    "PID": 3820,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 1349.99
+  },
+  {
+    "PID": 3820,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 1499.99
+  },
+  {
+    "PID": 3823,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 131.19
+  },
+  {
+    "PID": 3824,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1609.98
+  },
+  {
+    "PID": 3824,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1848
+  },
+  {
+    "PID": 3826,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 898.99
+  },
+  {
+    "PID": 3829,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 579.99
+  },
+  {
+    "PID": 3829,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 609.98
+  },
+  {
+    "PID": 3830,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 111
+  },
+  {
+    "PID": 3832,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1959.99
+  },
+  {
+    "PID": 3835,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 899.99
+  },
+  {
+    "PID": 3835,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1200
+  },
+  {
+    "PID": 3836,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 475.99
+  },
+  {
+    "PID": 3840,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 779.99
+  },
+  {
+    "PID": 3840,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 829.98
+  },
+  {
+    "PID": 3841,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 740.99
+  },
+  {
+    "PID": 3841,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 829.99
+  },
+  {
+    "PID": 3841,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1247.49
+  },
+  {
+    "PID": 3842,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 1319.99
+  },
+  {
+    "PID": 3842,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1329.98
+  },
+  {
+    "PID": 3844,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 409.98
+  },
+  {
+    "PID": 3845,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 548
+  },
+  {
+    "PID": 3846,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 589.99
+  },
+  {
+    "PID": 3851,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 339.98
+  },
+  {
+    "PID": 3853,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 619.99
+  },
+  {
+    "PID": 3856,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 819.98
+  },
+  {
+    "PID": 3858,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 529.95
+  },
+  {
+    "PID": 3860,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2917.24
+  },
+  {
+    "PID": 3861,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 889.99
+  },
+  {
+    "PID": 3861,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1254
+  },
+  {
+    "PID": 3862,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 128.09
+  },
+  {
+    "PID": 3862,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 128.09
+  },
+  {
+    "PID": 3863,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 1599.99
+  },
+  {
+    "PID": 3864,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 309.99
+  },
+  {
+    "PID": 3864,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 399.99
+  },
+  {
+    "PID": 3865,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2399.98
+  },
+  {
+    "PID": 3867,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 57.99
+  },
+  {
+    "PID": 3867,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 3868,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1093.69
+  },
+  {
+    "PID": 3870,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 2210.68
+  },
+  {
+    "PID": 3873,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 1329.99
+  },
+  {
+    "PID": 3873,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1806.99
+  },
+  {
+    "PID": 3876,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 817.12
+  },
+  {
+    "PID": 3877,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 699.99
+  },
+  {
+    "PID": 3878,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 572.99
+  },
+  {
+    "PID": 3879,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1006.49
+  },
+  {
+    "PID": 3883,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1019.99
+  },
+  {
+    "PID": 3883,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1629.66
+  },
+  {
+    "PID": 3885,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 2609.98
+  },
+  {
+    "PID": 3885,
+    "Merchant": "Monoprice",
+    "Availability": "In stock",
+    "Total": 3299.99
+  },
+  {
+    "PID": 3886,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 114.99
+  },
+  {
+    "PID": 3886,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119
+  },
+  {
+    "PID": 3889,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 459.99
+  },
+  {
+    "PID": 3893,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 1399
+  },
+  {
+    "PID": 3893,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1399
+  },
+  {
+    "PID": 3893,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1429.99
+  },
+  {
+    "PID": 3897,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 630.49
+  },
+  {
+    "PID": 3898,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 1049.99
+  },
+  {
+    "PID": 3898,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1906.49
+  },
+  {
+    "PID": 3901,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3248.12
+  },
+  {
+    "PID": 3909,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 489.98
+  },
+  {
+    "PID": 3909,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1099.99
+  },
+  {
+    "PID": 3913,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 634.98
+  },
+  {
+    "PID": 3913,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 669.99
+  },
+  {
+    "PID": 3914,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 459.98
+  },
+  {
+    "PID": 3917,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 617.99
+  },
+  {
+    "PID": 3917,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 629.98
+  },
+  {
+    "PID": 3917,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 639.49
+  },
+  {
+    "PID": 3919,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3909
+  },
+  {
+    "PID": 3919,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 4699.99
+  },
+  {
+    "PID": 3919,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 4859.93
+  },
+  {
+    "PID": 3919,
+    "Merchant": "Dell Technologies",
+    "Availability": "",
+    "Total": 4999.99
+  },
+  {
+    "PID": 3920,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 714
+  },
+  {
+    "PID": 3923,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 209.95
+  },
+  {
+    "PID": 3925,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 59.99
+  },
+  {
+    "PID": 3927,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 689.98
+  },
+  {
+    "PID": 3928,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 239.75
+  },
+  {
+    "PID": 3930,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1409.98
+  },
+  {
+    "PID": 3931,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1449.99
+  },
+  {
+    "PID": 3938,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 470.01
+  },
+  {
+    "PID": 3939,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1914.85
+  },
+  {
+    "PID": 3940,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 517.99
+  },
+  {
+    "PID": 3943,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 526.26
+  },
+  {
+    "PID": 3944,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 419.99
+  },
+  {
+    "PID": 3950,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 236.94
+  },
+  {
+    "PID": 3950,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 641.63
+  },
+  {
+    "PID": 3953,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 399.29
+  },
+  {
+    "PID": 3956,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 268
+  },
+  {
+    "PID": 3960,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 3962,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 749.99
+  },
+  {
+    "PID": 3962,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 919.98
+  },
+  {
+    "PID": 3962,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1079.99
+  },
+  {
+    "PID": 3963,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.98
+  },
+  {
+    "PID": 3963,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 83.25
+  },
+  {
+    "PID": 3964,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 1099.99
+  },
+  {
+    "PID": 3964,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1699.99
+  },
+  {
+    "PID": 3965,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 499.99
+  },
+  {
+    "PID": 3965,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 934.36
+  },
+  {
+    "PID": 3965,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 934.36
+  },
+  {
+    "PID": 3966,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 716.3
+  },
+  {
+    "PID": 3968,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 892.99
+  },
+  {
+    "PID": 3970,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1375.26
+  },
+  {
+    "PID": 3973,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 599.99
+  },
+  {
+    "PID": 3976,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 2315
+  },
+  {
+    "PID": 3976,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2319
+  },
+  {
+    "PID": 3976,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 2424.99
+  },
+  {
+    "PID": 3976,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 2499
+  },
+  {
+    "PID": 3976,
+    "Merchant": "Dell Technologies",
+    "Availability": "",
+    "Total": 2592.99
+  },
+  {
+    "PID": 3977,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 155.78
+  },
+  {
+    "PID": 3979,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1903.82
+  },
+  {
+    "PID": 3981,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 617.99
+  },
+  {
+    "PID": 3982,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1389
+  },
+  {
+    "PID": 3984,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 529.99
+  },
+  {
+    "PID": 3984,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1247.49
+  },
+  {
+    "PID": 3985,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2629
+  },
+  {
+    "PID": 3987,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 899
+  },
+  {
+    "PID": 3989,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 799.99
+  },
+  {
+    "PID": 3989,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3607.33
+  },
+  {
+    "PID": 3990,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1837.71
+  },
+  {
+    "PID": 3991,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 489.99
+  },
+  {
+    "PID": 3991,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 619.99
+  },
+  {
+    "PID": 3992,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 887.99
+  },
+  {
+    "PID": 4001,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 64.98
+  },
+  {
+    "PID": 4001,
+    "Merchant": "Dell",
+    "Availability": "",
+    "Total": 64.99
+  },
+  {
+    "PID": 4003,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2019.99
+  },
+  {
+    "PID": 4008,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 834.99
+  },
+  {
+    "PID": 4009,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 799.95
+  },
+  {
+    "PID": 4011,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 509.98
+  },
+  {
+    "PID": 4012,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 619.99
+  },
+  {
+    "PID": 4018,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 889.99
+  },
+  {
+    "PID": 4021,
+    "Merchant": "Monoprice",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 4021,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 180
+  },
+  {
+    "PID": 4022,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 666.84
+  },
+  {
+    "PID": 4022,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 666.84
+  },
+  {
+    "PID": 4023,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 549.99
+  },
+  {
+    "PID": 4024,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1499.95
+  },
+  {
+    "PID": 4027,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 484.5
+  },
+  {
+    "PID": 4028,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 645
+  },
+  {
+    "PID": 4032,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 4032,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 175.36
+  },
+  {
+    "PID": 4033,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 209.98
+  },
+  {
+    "PID": 4033,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 216.9
+  },
+  {
+    "PID": 4033,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 249
+  },
+  {
+    "PID": 4042,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1487.99
+  },
+  {
+    "PID": 4043,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 927.9
+  },
+  {
+    "PID": 4050,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1176.99
+  },
+  {
+    "PID": 4052,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 1089.99
+  },
+  {
+    "PID": 4052,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1699.99
+  },
+  {
+    "PID": 4061,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 69.94
+  },
+  {
+    "PID": 4062,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 609.98
+  },
+  {
+    "PID": 4063,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1239.98
+  },
+  {
+    "PID": 4064,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 349.99
+  },
+  {
+    "PID": 4065,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1479.98
+  },
+  {
+    "PID": 4065,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1799.99
+  },
+  {
+    "PID": 4073,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 2079.99
+  },
+  {
+    "PID": 4074,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3799.97
+  },
+  {
+    "PID": 4077,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 529.99
+  },
+  {
+    "PID": 4079,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 1419.99
+  },
+  {
+    "PID": 4080,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 449.99
+  },
+  {
+    "PID": 4082,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1399.99
+  },
+  {
+    "PID": 4084,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 449.99
+  },
+  {
+    "PID": 4088,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1899.67
+  },
+  {
+    "PID": 4093,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1175.82
+  },
+  {
+    "PID": 4097,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1409.98
+  },
+  {
+    "PID": 4101,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 296.79
+  },
+  {
+    "PID": 4102,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 128.02
+  },
+  {
+    "PID": 4110,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 4800
+  },
+  {
+    "PID": 4113,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1399.99
+  },
+  {
+    "PID": 4115,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 96.34
+  },
+  {
+    "PID": 4115,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.5
+  },
+  {
+    "PID": 4117,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 477
+  },
+  {
+    "PID": 4118,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 669.99
+  },
+  {
+    "PID": 4119,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1750
+  },
+  {
+    "PID": 4123,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2289.98
+  },
+  {
+    "PID": 4124,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1158.83
+  },
+  {
+    "PID": 4126,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 252.99
+  },
+  {
+    "PID": 4132,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 637.99
+  },
+  {
+    "PID": 4134,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 847.99
+  },
+  {
+    "PID": 4135,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 298.63
+  },
+  {
+    "PID": 4135,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 334.8
+  },
+  {
+    "PID": 4141,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 691.47
+  },
+  {
+    "PID": 4142,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1499
+  },
+  {
+    "PID": 4144,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2489
+  },
+  {
+    "PID": 4158,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 85.44
+  },
+  {
+    "PID": 4162,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1757.99
+  },
+  {
+    "PID": 4167,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 1179.99
+  },
+  {
+    "PID": 4167,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 1179.99
+  },
+  {
+    "PID": 4167,
+    "Merchant": "Newegg",
+    "Availability": "",
+    "Total": 1189.98
+  },
+  {
+    "PID": 4168,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1678.22
+  },
+  {
+    "PID": 4169,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1500
+  },
+  {
+    "PID": 4174,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 1099.99
+  },
+  {
+    "PID": 4176,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1668.88
+  },
+  {
+    "PID": 4179,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2808.05
+  },
+  {
+    "PID": 4180,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 4184,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2357.17
+  },
+  {
+    "PID": 4188,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1927.99
+  },
+  {
+    "PID": 4193,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 989.99
+  },
+  {
+    "PID": 4193,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1799.99
+  },
+  {
+    "PID": 4200,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 999
+  },
+  {
+    "PID": 4201,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 809.98
+  },
+  {
+    "PID": 4205,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 122.99
+  },
+  {
+    "PID": 4205,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134
+  },
+  {
+    "PID": 4206,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1277.61
+  },
+  {
+    "PID": 4206,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 1446.38
+  },
+  {
+    "PID": 4209,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 131.69
+  },
+  {
+    "PID": 4209,
+    "Merchant": "Dell",
+    "Availability": "",
+    "Total": 137.99
+  },
+  {
+    "PID": 4209,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 146.47
+  },
+  {
+    "PID": 4212,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 679.99
+  },
+  {
+    "PID": 4213,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 709
+  },
+  {
+    "PID": 4218,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 749.99
+  },
+  {
+    "PID": 4222,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1518.44
+  },
+  {
+    "PID": 4226,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1909.98
+  },
+  {
+    "PID": 4227,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1437.99
+  },
+  {
+    "PID": 4230,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 636.18
+  },
+  {
+    "PID": 4231,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1217.99
+  },
+  {
+    "PID": 4232,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1506.49
+  },
+  {
+    "PID": 4237,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 375.11
+  },
+  {
+    "PID": 4243,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 976.15
+  },
+  {
+    "PID": 4248,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 428.99
+  },
+  {
+    "PID": 4248,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 579.99
+  },
+  {
+    "PID": 4249,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 271.99
+  },
+  {
+    "PID": 4251,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 5319.75
+  },
+  {
+    "PID": 4256,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 790.94
+  },
+  {
+    "PID": 4256,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 887.74
+  },
+  {
+    "PID": 4257,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1009.98
+  },
+  {
+    "PID": 4259,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1208.26
+  },
+  {
+    "PID": 4265,
+    "Merchant": "B&H",
+    "Availability": "Out of stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 4270,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 699
+  },
+  {
+    "PID": 4271,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 239.89
+  },
+  {
+    "PID": 4276,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1209.98
+  },
+  {
+    "PID": 4276,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1499.99
+  },
+  {
+    "PID": 4277,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 999
+  },
+  {
+    "PID": 4278,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 895
+  },
+  {
+    "PID": 4280,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 289.99
+  },
+  {
+    "PID": 4280,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1556.67
+  },
+  {
+    "PID": 4284,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1289
+  },
+  {
+    "PID": 4290,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 422.33
+  },
+  {
+    "PID": 4293,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 369.99
+  },
+  {
+    "PID": 4293,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 908.99
+  },
+  {
+    "PID": 4311,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 319.99
+  },
+  {
+    "PID": 4317,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 309.99
+  },
+  {
+    "PID": 4320,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1909.98
+  },
+  {
+    "PID": 4320,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 2049.99
+  },
+  {
+    "PID": 4321,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1837.13
+  },
+  {
+    "PID": 4326,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1781.64
+  },
+  {
+    "PID": 4327,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1049.99
+  },
+  {
+    "PID": 4330,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 748
+  },
+  {
+    "PID": 4331,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 799.99
+  },
+  {
+    "PID": 4334,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3657.29
+  },
+  {
+    "PID": 4335,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 4336,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1999.11
+  },
+  {
+    "PID": 4340,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 1543
+  },
+  {
+    "PID": 4340,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1617.99
+  },
+  {
+    "PID": 4340,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1649.98
+  },
+  {
+    "PID": 4342,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 8899
+  },
+  {
+    "PID": 4345,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2650.25
+  },
+  {
+    "PID": 4346,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 369.99
+  },
+  {
+    "PID": 4347,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 679.98
+  },
+  {
+    "PID": 4348,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1199
+  },
+  {
+    "PID": 4352,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 100
+  },
+  {
+    "PID": 4354,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 659.98
+  },
+  {
+    "PID": 4364,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 2109.98
+  },
+  {
+    "PID": 4365,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 399.99
+  },
+  {
+    "PID": 4366,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 2149.99
+  },
+  {
+    "PID": 4367,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 799.99
+  },
+  {
+    "PID": 4377,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3061.11
+  },
+  {
+    "PID": 4379,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 219.99
+  },
+  {
+    "PID": 4388,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 72.99
+  },
+  {
+    "PID": 4388,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 4389,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1857.99
+  },
+  {
+    "PID": 4391,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 847.99
+  },
+  {
+    "PID": 4401,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 4401,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 707.94
+  },
+  {
+    "PID": 4402,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 185.02
+  },
+  {
+    "PID": 4403,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 459.98
+  },
+  {
+    "PID": 4413,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 876.15
+  },
+  {
+    "PID": 4414,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1109.98
+  },
+  {
+    "PID": 4422,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 5227
+  },
+  {
+    "PID": 4433,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1339
+  },
+  {
+    "PID": 4437,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1628.6
+  },
+  {
+    "PID": 4447,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 4466,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 76.31
+  },
+  {
+    "PID": 4467,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1826.49
+  },
+  {
+    "PID": 4477,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 739.9
+  },
+  {
+    "PID": 4480,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 479.99
+  },
+  {
+    "PID": 4489,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1109.98
+  },
+  {
+    "PID": 4491,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 749
+  },
+  {
+    "PID": 4493,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2489
+  },
+  {
+    "PID": 4502,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3506.84
+  },
+  {
+    "PID": 4503,
+    "Merchant": "ASUS",
+    "Availability": "Out of stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 4503,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1449.97
+  },
+  {
+    "PID": 4505,
+    "Merchant": "Other World Computing",
+    "Availability": "Out of stock",
+    "Total": 949.99
+  },
+  {
+    "PID": 4505,
+    "Merchant": "B&H",
+    "Availability": "In stock",
+    "Total": 1049.99
+  },
+  {
+    "PID": 4505,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1109.99
+  },
+  {
+    "PID": 4506,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 849.99
+  },
+  {
+    "PID": 4512,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2999.99
+  },
+  {
+    "PID": 4513,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 196.2
+  },
+  {
+    "PID": 4513,
+    "Merchant": "Walmart",
+    "Availability": "In stock",
+    "Total": 196.2
+  },
+  {
+    "PID": 4513,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 236.98
+  },
+  {
+    "PID": 4513,
+    "Merchant": "Dell",
+    "Availability": "",
+    "Total": 259.99
+  },
+  {
+    "PID": 4513,
+    "Merchant": "MemoryC",
+    "Availability": "In stock",
+    "Total": 268.96
+  },
+  {
+    "PID": 4513,
+    "Merchant": "Lenovo",
+    "Availability": "In stock",
+    "Total": 288.99
+  },
+  {
+    "PID": 4514,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 4523,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 799.99
+  },
+  {
+    "PID": 4523,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 4399.99
+  },
+  {
+    "PID": 4524,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 287.49
+  },
+  {
+    "PID": 4525,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 247.99
+  },
+  {
+    "PID": 4526,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 879.99
+  },
+  {
+    "PID": 4537,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1707.24
+  },
+  {
+    "PID": 4539,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 847.99
+  },
+  {
+    "PID": 4551,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 4284.91
+  },
+  {
+    "PID": 4552,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3623.53
+  },
+  {
+    "PID": 4554,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 93.14
+  },
+  {
+    "PID": 4561,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1300
+  },
+  {
+    "PID": 4576,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1979.98
+  },
+  {
+    "PID": 4598,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 146.27
+  },
+  {
+    "PID": 4606,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 225
+  },
+  {
+    "PID": 4607,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2699.99
+  },
+  {
+    "PID": 4608,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 457
+  },
+  {
+    "PID": 4616,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 679.98
+  },
+  {
+    "PID": 4627,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 587.99
+  },
+  {
+    "PID": 4627,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 4599.99
+  },
+  {
+    "PID": 4628,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 629.98
+  },
+  {
+    "PID": 4629,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 876.27
+  },
+  {
+    "PID": 4641,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1499.99
+  },
+  {
+    "PID": 4642,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 609.98
+  },
+  {
+    "PID": 4644,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 1509.98
+  },
+  {
+    "PID": 4650,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 704.99
+  },
+  {
+    "PID": 4652,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.99
+  },
+  {
+    "PID": 4653,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 604.6
+  },
+  {
+    "PID": 4661,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 4763
+  },
+  {
+    "PID": 4662,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 4663,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 355
+  },
+  {
+    "PID": 4665,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 795
+  },
+  {
+    "PID": 4666,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 856.41
+  },
+  {
+    "PID": 4676,
+    "Merchant": "Dell",
+    "Availability": "",
+    "Total": 149.99
+  },
+  {
+    "PID": 4676,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.66
+  },
+  {
+    "PID": 4676,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 159.8
+  },
+  {
+    "PID": 4676,
+    "Merchant": "MemoryC",
+    "Availability": "Out of stock",
+    "Total": 170.13
+  },
+  {
+    "PID": 4677,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 829.98
+  },
+  {
+    "PID": 4678,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1899.99
+  },
+  {
+    "PID": 4698,
+    "Merchant": "Newegg",
+    "Availability": "In stock",
+    "Total": 1848.99
+  },
+  {
+    "PID": 4698,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2409
+  },
+  {
+    "PID": 4699,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 134.15
+  },
+  {
+    "PID": 4700,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 924.84
+  },
+  {
+    "PID": 4706,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 520
+  },
+  {
+    "PID": 4719,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199
+  },
+  {
+    "PID": 4720,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 697.96
+  },
+  {
+    "PID": 4722,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1200
+  },
+  {
+    "PID": 4742,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 907.38
+  },
+  {
+    "PID": 4743,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 229.99
+  },
+  {
+    "PID": 4743,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 879.99
+  },
+  {
+    "PID": 4744,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 949.99
+  },
+  {
+    "PID": 4745,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 349.95
+  },
+  {
+    "PID": 4746,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 105.99
+  },
+  {
+    "PID": 4748,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 4790,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1396.72
+  },
+  {
+    "PID": 4791,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 174.99
+  },
+  {
+    "PID": 4807,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 75.47
+  },
+  {
+    "PID": 4826,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 105
+  },
+  {
+    "PID": 4827,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 296.99
+  },
+  {
+    "PID": 4841,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.98
+  },
+  {
+    "PID": 4843,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 497.99
+  },
+  {
+    "PID": 4867,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 78.08
+  },
+  {
+    "PID": 4868,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 499.99
+  },
+  {
+    "PID": 4868,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 509.98
+  },
+  {
+    "PID": 4868,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 728.99
+  },
+  {
+    "PID": 4869,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199.95
+  },
+  {
+    "PID": 4880,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 922.24
+  },
+  {
+    "PID": 4881,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 262.23
+  },
+  {
+    "PID": 4882,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 255
+  },
+  {
+    "PID": 4883,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 506.38
+  },
+  {
+    "PID": 4884,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1005.03
+  },
+  {
+    "PID": 4885,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1299
+  },
+  {
+    "PID": 4895,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 1677.99
+  },
+  {
+    "PID": 4896,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 4897,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 784.22
+  },
+  {
+    "PID": 4898,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 127.99
+  },
+  {
+    "PID": 4921,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.98
+  },
+  {
+    "PID": 4922,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1795
+  },
+  {
+    "PID": 4923,
+    "Merchant": "Adorama",
+    "Availability": "Out of stock",
+    "Total": 709.49
+  },
+  {
+    "PID": 4924,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 397.5
+  },
+  {
+    "PID": 4925,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 269.02
+  },
+  {
+    "PID": 4926,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 100
+  },
+  {
+    "PID": 4950,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2389
+  },
+  {
+    "PID": 4951,
+    "Merchant": "Newegg",
+    "Availability": "Out of stock",
+    "Total": 599.98
+  },
+  {
+    "PID": 4953,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 4956,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3500.99
+  },
+  {
+    "PID": 5002,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 869.99
+  },
+  {
+    "PID": 5003,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 122.99
+  },
+  {
+    "PID": 5003,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 297.93
+  },
+  {
+    "PID": 5004,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 139.99
+  },
+  {
+    "PID": 5023,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 579.99
+  },
+  {
+    "PID": 5024,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 446.93
+  },
+  {
+    "PID": 5050,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 79.99
+  },
+  {
+    "PID": 5053,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 138.02
+  },
+  {
+    "PID": 5077,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 5078,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 245
+  },
+  {
+    "PID": 5114,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 847.55
+  },
+  {
+    "PID": 5141,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 127.98
+  },
+  {
+    "PID": 5142,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1398
+  },
+  {
+    "PID": 5174,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 229.85
+  },
+  {
+    "PID": 5175,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 63.99
+  },
+  {
+    "PID": 5175,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 123.88
+  },
+  {
+    "PID": 5176,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 795
+  },
+  {
+    "PID": 5177,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 349
+  },
+  {
+    "PID": 5180,
+    "Merchant": "Best Buy",
+    "Availability": "Out of stock",
+    "Total": 419.99
+  },
+  {
+    "PID": 5215,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 399
+  },
+  {
+    "PID": 5216,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 68.98
+  },
+  {
+    "PID": 5241,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 5242,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 341.53
+  },
+  {
+    "PID": 5247,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 328.88
+  },
+  {
+    "PID": 5297,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 940
+  },
+  {
+    "PID": 5298,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1948.02
+  },
+  {
+    "PID": 5343,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 461.13
+  },
+  {
+    "PID": 5344,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 182.25
+  },
+  {
+    "PID": 5386,
+    "Merchant": "Amazon",
+    "Availability": "Out of stock",
+    "Total": 149
+  },
+  {
+    "PID": 5388,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 449.61
+  },
+  {
+    "PID": 5389,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 447
+  },
+  {
+    "PID": 5390,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 5391,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 409
+  },
+  {
+    "PID": 5393,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 269.99
+  },
+  {
+    "PID": 5394,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 499.99
+  },
+  {
+    "PID": 5395,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 547.5
+  },
+  {
+    "PID": 5446,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 5447,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 304.08
+  },
+  {
+    "PID": 5448,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 139.88
+  },
+  {
+    "PID": 5482,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1039.99
+  },
+  {
+    "PID": 5509,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179
+  },
+  {
+    "PID": 5511,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 105.52
+  },
+  {
+    "PID": 5512,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 503.51
+  },
+  {
+    "PID": 5513,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 499.99
+  },
+  {
+    "PID": 5537,
+    "Merchant": "B&H",
+    "Availability": "Available soon",
+    "Total": 1218.5
+  },
+  {
+    "PID": 5584,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 226.6
+  },
+  {
+    "PID": 5586,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3899.99
+  },
+  {
+    "PID": 5587,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.99
+  },
+  {
+    "PID": 5588,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 369
+  },
+  {
+    "PID": 5589,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 299.99
+  },
+  {
+    "PID": 5627,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 589
+  },
+  {
+    "PID": 5662,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.94
+  },
+  {
+    "PID": 5664,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 5666,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 159.99
+  },
+  {
+    "PID": 5667,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 546.92
+  },
+  {
+    "PID": 5748,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 179.99
+  },
+  {
+    "PID": 5750,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 5751,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 259.9
+  },
+  {
+    "PID": 5752,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.88
+  },
+  {
+    "PID": 5753,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 599
+  },
+  {
+    "PID": 5754,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 139.88
+  },
+  {
+    "PID": 5757,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 468.88
+  },
+  {
+    "PID": 5797,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 129.99
+  },
+  {
+    "PID": 5799,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 338.99
+  },
+  {
+    "PID": 5840,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 72.99
+  },
+  {
+    "PID": 5842,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 3243.38
+  },
+  {
+    "PID": 5844,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 149.09
+  },
+  {
+    "PID": 5845,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1499.89
+  },
+  {
+    "PID": 5846,
+    "Merchant": "EVGA",
+    "Availability": "Out of stock",
+    "Total": 107.99
+  },
+  {
+    "PID": 5847,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 217.08
+  },
+  {
+    "PID": 5958,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199
+  },
+  {
+    "PID": 5959,
+    "Merchant": "Corsair",
+    "Availability": "Out of stock",
+    "Total": 719.99
+  },
+  {
+    "PID": 6047,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 559
+  },
+  {
+    "PID": 6106,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 738
+  },
+  {
+    "PID": 6109,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 705
+  },
+  {
+    "PID": 6151,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 6191,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1221.09
+  },
+  {
+    "PID": 6200,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 848.88
+  },
+  {
+    "PID": 6271,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 559.95
+  },
+  {
+    "PID": 6272,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1449.5
+  },
+  {
+    "PID": 6273,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 6274,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 199
+  },
+  {
+    "PID": 6321,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 6405,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 119.99
+  },
+  {
+    "PID": 6410,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 99.98
+  },
+  {
+    "PID": 6419,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 2498
+  },
+  {
+    "PID": 6489,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 6494,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 124.99
+  },
+  {
+    "PID": 6650,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 742.5
+  },
+  {
+    "PID": 6742,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1698
+  },
+  {
+    "PID": 6832,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 169.99
+  },
+  {
+    "PID": 6833,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 352.58
+  },
+  {
+    "PID": 6835,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 699.99
+  },
+  {
+    "PID": 6836,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 685.98
+  },
+  {
+    "PID": 6837,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 860.43
+  },
+  {
+    "PID": 7362,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1385.12
+  },
+  {
+    "PID": 7735,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 1174.03
+  },
+  {
+    "PID": 8156,
+    "Merchant": "Amazon",
+    "Availability": "In stock",
+    "Total": 899.08
+  }
+]

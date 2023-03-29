@@ -1,0 +1,45 @@
+ID,Dictionary
+0,Radeon Vega 7
+1,Intel UHD Graphics 630
+2,Intel UHD Graphics 750
+3,Radeon Vega 8
+4,Radeon Vega 3
+5,Radeon Vega 11
+6,Intel UHD Graphics 730
+7,Intel HD Graphics 630
+8,Intel HD Graphics 530
+9,Intel UHD Graphics 610
+10,Intel HD Graphics 4600
+11,Radeon R5 (on die)
+12,Intel HD Graphics 4000
+13,Radeon R7 (on-die)
+14,Intel HD Graphics 2500
+15,Intel HD Graphics 2000
+16,Intel HD Graphics
+17,Intel HD Graphics 3000
+18,Radeon HD 8280
+19,Intel HD Graphics 610
+20,Intel HD Graphics 4400
+21,Intel HD Graphics 510
+22,Radeon HD 8670D
+23,Radeon HD 8400
+24,Radeon HD 8470D
+25,Radeon HD 8570D
+26,Radeon HD 7660D
+27,Radeon HD 8240
+28,Intel HD Graphics P630
+29,Radeon HD 6410D
+30,Iris Pro Graphics 6200
+31,Radeon HD 8370D
+32,Radeon HD 7480D
+33,Radeon HD 7560D
+34,Intel HD Graphics P4600
+35,Radeon HD 6530D
+36,Intel HD Graphics P4000
+37,Radeon HD 6550D
+38,Radeon HD 7540D
+39,Intel HD Graphics P530
+40,Radeon HD 8000 Series
+41,Radeon HD 6370D
+42,Radeon R3 (on die)
+43,Radeon HD 8650D

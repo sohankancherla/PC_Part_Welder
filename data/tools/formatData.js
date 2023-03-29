@@ -1,0 +1,816 @@
+// ==UserScript==
+// @name     Unnamed Script 680482
+// @version  1
+// @grant    none
+// ==/UserScript==
+
+function formatPIDRegistry(data) {
+ // n 
+}
+
+function linkPIDRegistry(data, derived) {
+  var manufacturer = this.distinct(data, 'Manufacturer', derivedTables);
+  var color = this.distinct(data, 'Color', derivedTables);
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    record['Manufacturer'] = manufacturer['Unique'][record['Manufacturer']];
+    record['Color'] = color['Unique'][record['Color']];
+  }
+
+  return {
+    'Manufacturer Dictionary': manufacturer['Distinct'],
+    'Color Dictionary': color['Distinct']
+  };
+}
+
+function trimPIDRegistry(data) {
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+
+    delete record['ProductCode'];						// Not used
+
+  }
+}
+
+function formatCase(data) {
+  const decimalMM = /(\d*\.?\d+) mm/g;
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    for (var key of Object.keys(record)) {
+      if (record[key] === 'None') {
+        record[key] = '';
+      } else if (record[key] === 'Yes') {
+        record[key] = 'Y';
+      } else if (record[key] === 'No') {
+        record[key] = 'N';
+      }
+    }
+
+    record['Power Supply'] = record['Power Supply'] === '' ? '' : parseInt(record['Power Supply']);
+
+    if (record['Maximum Video Card Length'] !== undefined) {
+      var maxGraphicsCardLengths = [...record['Maximum Video Card Length'].matchAll(decimalMM)];
+      if (maxGraphicsCardLengths[0] !== undefined) {
+        record['Max Graphics Card Length'] = parseFloat(maxGraphicsCardLengths[0][0]);
+      }
+      if (maxGraphicsCardLengths[1] !== undefined) {
+        record['Max Graphics Card Length No Drive Bay'] = parseFloat(maxGraphicsCardLengths[1][0]);
+      }
+    }
+
+    if (record['Dimensions'] !== undefined) {
+      var dimensions = [...record['Dimensions'].matchAll(decimalMM)];
+      if (dimensions[0] !== undefined) {
+        record['Length'] = parseFloat(dimensions[0][0]);
+      }
+      if (dimensions[1] !== undefined) {
+        record['Width'] = parseFloat(dimensions[1][0]);
+      }
+      if (dimensions[2] !== undefined) {
+        record['Height'] = parseFloat(dimensions[2][0]);
+      }
+    }
+  }
+}
+
+function linkCase(data, derivedTables) {
+  var type = this.distinct(data, 'Type', derivedTables);
+  var sidePanelWindow = this.distinct(data, 'Side Panel Window', derivedTables);
+
+  var frontPanelUSB = this.distinctSubtable(data, 'Front Panel USB', derivedTables);
+  var motherboardFormFactor = this.distinctSubtable(data, 'Motherboard Form Factor', derivedTables);
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    record['Type'] = type['Unique'][record['Type']];
+    record['Side Panel Window'] = sidePanelWindow['Unique'][record['Side Panel Window']];
+  }
+
+  return {
+    'Type Dictionary': type['Distinct'],
+    'Side Panel Window Dictionary': sidePanelWindow['Distinct'],
+    'Front Panel USB List': frontPanelUSB['Subtable'],
+    'Front Panel USB Dictionary': frontPanelUSB['Dictionary']['Distinct'],
+    'Motherboard Form Factor List': motherboardFormFactor['Subtable'],
+    'Motherboard Form Factor Dictionary': motherboardFormFactor['Dictionary']['Distinct']
+  };
+}
+
+function trimCase(data) {
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+
+    delete record['Front Panel USB'];						// Left Join 'Front Panel USB' On PID
+    delete record['Motherboard Form Factor'];		// Left Join 'Motherboard Form Factor' On PID
+    delete record['Maximum Video Card Length'];	// Separated to Max Graphics Card Length, Max Graphics Card Length No Drive Bay
+    delete record['Dimensions'];								// Separated to Length, Width, Height
+    delete record['Volume'];										// Volume is derived from Length*Width*Height
+
+  }
+}
+
+function formatStorage(data) {
+  const decimal = /(\d*\.?\d+)/g;
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    for (var key of Object.keys(record)) {
+      if (record[key] === 'None') {
+        record[key] = '';
+      } else if (record[key] === 'Yes') {
+        record[key] = 'Y';
+      } else if (record[key] === 'No') {
+        record[key] = 'N';
+      }
+    }
+
+    var capacity = [...record['Capacity'].matchAll(decimal)];
+    if (record['Capacity'].substring(record['Capacity'].length - 2) === 'TB') {
+      record['Capacity'] = parseFloat(capacity[0][0]) * 1000;
+    } else {
+      record['Capacity'] = parseFloat(capacity[0][0]);
+    }
+
+    if (record['Price / GB'] !== undefined) {
+      var pricePerGB = [...record['Price / GB'].matchAll(decimal)];
+      record['Price / GB'] = parseFloat(pricePerGB);
+    }
+    record['Cache'] = parseInt(record['Cache']);
+  }
+}
+
+function linkStorage(data) {
+  // n 
+}
+
+function trimStorage(data) {
+  // n 
+}
+
+function formatMemory(data, pidRegistry) {
+  const decimal = /(\d*\.?\d+)/g;
+  const memTypeSpeedReg = /(DDR\d*)-(\d*)/g;
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    var pidRecord = pidRegistry[record['PID']];
+    
+    var memTypeSpeed = [...pidRecord['ProductName'].matchAll(memTypeSpeedReg)];
+    record['Memory Type'] = memTypeSpeed[0][1];
+    record['Memory Speed'] = parseInt(memTypeSpeed[0][2]);
+    
+    for (var key of Object.keys(record)) {
+      if (record[key] === 'None') {
+        record[key] = '';
+      } else if (record[key] === 'Yes') {
+        record[key] = 'Y';
+      } else if (record[key] === 'No') {
+        record[key] = 'N';
+      }
+    }
+
+    var modules = [...record['Modules'].matchAll(decimal)];
+    var magnitude = record['Modules'].substring(record['Modules'].length - 2);
+
+    record['Modules'] = parseInt(modules[0][0]);
+    if (magnitude === 'GB') {
+      record['Capacity'] = parseInt(modules[1][0]) * 1024;
+    } else { // MB
+      record['Capacity'] = parseInt(modules[1][0])
+    }
+
+    if (record['Price / GB'] !== undefined) {
+      var pricePerGB = [...record['Price / GB'].matchAll(decimal)];
+      record['Price / GB'] = parseFloat(pricePerGB);
+    }
+    record['First Word Latency'] = parseFloat(record['First Word Latency']);
+    record['Voltage'] = parseFloat(record['Voltage']);
+
+    if (record['Timing'] !== undefined) {
+      var timings = record['Timing'].split('-');
+      record['CL'] = parseInt(timings[0]);
+      record['tRCD'] = parseInt(timings[1]);
+      record['tRP'] = parseInt(timings[2]);
+      record['tRAS'] = parseInt(timings[3]);
+    }
+  }
+}
+
+function linkMemory(data, derivedTables) {
+  var formFactor = this.distinct(data, 'Form Factor', derivedTables);
+  var eccRegistered = this.distinct(data, 'ECC / Registered', derivedTables);
+  var memoryType = this.distinct(data, 'Memory Type', derivedTables);
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    record['Form Factor'] = formFactor['Unique'][record['Form Factor']];
+    record['ECC / Registered'] = eccRegistered['Unique'][record['ECC / Registered']];
+    record['Memory Type'] = memoryType['Unique'][record['Memory Type']];
+  }
+
+  return {'Form Factor Dictionary': formFactor['Distinct'],
+          'ECC / Registered Dictionary': eccRegistered['Distinct'],
+          'Memory Type': memoryType['Distinct']
+         };
+}
+
+function trimMemory(data) {
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    
+    delete record['Timing'];		// CAS value
+    delete record['CAS Latency'];		// Separated values to CAS, tRCD, tRP, tRAS
+
+  }
+}
+
+function formatPowerSupply(data) {
+  const decimalMM = /(\d*\.?\d+) mm/g;
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    for (var key of Object.keys(record)) {
+      if (record[key] === 'None') {
+        record[key] = '';
+      } else if (record[key] === 'Yes') {
+        record[key] = 'Y';
+      } else if (record[key] === 'No') {
+        record[key] = 'N';
+      }
+    }
+
+    record['Wattage'] = parseInt(record['Wattage']);
+    record['Length'] = parseInt(record['Length']);
+
+  }
+}
+
+function linkPowerSupply(data, derivedTables) {
+  var formFactor = this.distinct(data, 'Form Factor', derivedTables);
+  var efficiencyRating = this.distinct(data, 'Efficiency Rating', derivedTables);
+  var modular = this.distinct(data, 'Modular',derivedTables);
+  var type = this.distinct(data, 'Type', derivedTables);
+
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    record['Form Factor'] = formFactor['Unique'][record['Form Factor']];
+    record['Efficiency Rating'] = efficiencyRating['Unique'][record['Efficiency Rating']];
+    record['Modular'] = modular['Unique'][record['Modular']];
+    record['Type'] = type['Unique'][record['Type']];
+  }
+
+  return {'Form Factor Dictionary': formFactor['Distinct'],
+          'Efficiency Rating Dictionary': efficiencyRating['Distinct'],
+          'Modular Dictionary': modular['Distinct'],
+          'Type Dictionary': type['Distinct']
+         };
+}
+
+function trimPowerSupply(data) {
+  // n
+}
+
+function formatVideoCard(data) {
+  const decimalMM = /(\d*\.?\d+) mm/g;
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    for (var key of Object.keys(record)) {
+      if (record[key] === 'None') {
+        record[key] = '';
+      } else if (record[key] === 'Yes') {
+        record[key] = 'Y';
+      } else if (record[key] === 'No') {
+        record[key] = 'N';
+      }
+    }
+
+    record['Memory'] = parseFloat(record['Memory']);
+    record['Core Clock'] = parseInt(record['Core Clock']);
+    record['Boost Clock'] = parseInt(record['Boost Clock']);
+    record['Effective Memory Clock'] = parseInt(record['Effective Memory Clock']);
+    record['Length'] = parseFloat(record['Length']);
+    record['TDP'] = parseInt(record['TDP']);
+    record['Cooling'] = parseInt(record['Cooling']);
+  }
+}
+
+function linkVideoCard(data, derivedTables) {
+  var chipset = this.distinct(data, 'Chipset', derivedTables);
+  var memoryType = this.distinct(data, 'Memory Type', derivedTables);
+  var interface = this.distinct(data, 'Interface', derivedTables);
+  var frameSync = this.distinct(data, 'Frame Sync', derivedTables);
+  var externalPower = this.distinct(data, 'External Power', derivedTables);
+
+  var sliCrossFire = this.distinctSubtable(data, 'SLI/CrossFire', derivedTables);
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    record['Chipset'] = chipset['Unique'][record['Chipset']];
+    record['Memory Type'] = memoryType['Unique'][record['Memory Type']];
+    record['Interface'] = interface['Unique'][record['Interface']];
+    record['Frame Sync'] = frameSync['Unique'][record['Frame Sync']];
+    record['External Power'] = externalPower['Unique'][record['External Power']];
+
+  }
+
+  return {
+    'Chipset Dictionary': chipset['Distinct'],
+    'Memory Type Rating Dictionary': memoryType['Distinct'],
+    'Interface Dictionary': interface['Distinct'],
+    'Frame Sync Dictionary': frameSync['Distinct'],
+    'External Power Dictionary': externalPower['Distinct'],
+    'SLI/CrossFire List': sliCrossFire['Subtable'],
+    'SLI/CrossFire Dictionary': sliCrossFire['Dictionary']['Distinct']
+  };
+}
+
+function trimVideoCard(data) {
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+
+    delete record['SLI/CrossFire']; // Left Join 'SLI/CrossFire' On PID
+
+  }
+}
+
+function formatCPU(data) {
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    for (var key of Object.keys(record)) {
+      if (record[key] === 'None') {
+        record[key] = '';
+      } else if (record[key] === 'Yes') {
+        record[key] = 'Y';
+      } else if (record[key] === 'No') {
+        record[key] = 'N';
+      }
+    }
+
+    record['Core Clock'] = parseInt(record['Core Clock']);
+    record['Boost Clock'] = parseInt(record['Boost Clock']);
+    record['TDP'] = parseInt(record['TDP']);
+    record['Maximum Supported Memory'] = parseInt(record['Maximum Supported Memory']);
+    record['Lithography'] = parseInt(record['Lithography']);
+    if (record['Simultaneous Multithreading'] !== 'N' && record['Simultaneous Multithreading'] !== '') {
+      record['Simultaneous Multithreading'] = 'Y';
+    }
+
+  }
+}
+
+function linkCPU(data, derivedTables) {
+  var series = this.distinct(data, 'Series', derivedTables);
+  var microarchitecture = this.distinct(data, 'Microarchitecture', derivedTables);
+  var coreFamily = this.distinct(data, 'Core Family', derivedTables);
+  var socket = this.distinct(data, 'Socket', derivedTables);
+  var integratedGraphics = this.distinct(data, 'Integrated Graphics', derivedTables);
+  var packaging = this.distinct(data, 'Packaging', derivedTables);
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    record['Series'] = series['Unique'][record['Series']];
+    record['Microarchitecture'] = microarchitecture['Unique'][record['Microarchitecture']];
+    record['Core Family'] = coreFamily['Unique'][record['Core Family']];
+    record['Socket'] = socket['Unique'][record['Socket']];
+    record['Integrated Graphics'] = integratedGraphics['Unique'][record['Integrated Graphics']];
+    record['Packaging'] = packaging['Unique'][record['Packaging']];
+
+  }
+
+  return {
+    'Series Dictionary': series['Distinct'],
+    'Microarchitecture Dictionary': microarchitecture['Distinct'],
+    'Core Family Dictionary': coreFamily['Distinct'],
+    'Socket Dictionary': socket['Distinct'],
+    'Integrated Graphics Dictionary': integratedGraphics['Distinct'],
+    'Packaging Dictionary': packaging['Distinct'],
+  };
+}
+
+function trimCPU(data) {
+  // n
+}
+
+
+function formatCooler(data) {
+  const decimalMM = /(\d*\.?\d+) mm/g;
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    for (var key of Object.keys(record)) {
+      if (record[key] === 'None') {
+        record[key] = '';
+      } else if (record[key] === 'Yes') {
+        record[key] = 'Y';
+      } else if (record[key] === 'No') {
+        record[key] = 'N';
+      }
+    }
+
+    if (record['Fan RPM'] !== undefined) {
+      var fanRPM = record['Fan RPM'].split('-');
+      var fanRPMMin = parseFloat(fanRPM[0]);
+      var fanRPMMax = parseFloat(fanRPM[1]);
+      if (!isNaN(fanRPMMin)) {
+        record['Fan RPM Min'] = fanRPMMin;
+      }
+
+      if (!isNaN(fanRPMMax)) {
+        record['Fan RPM Max'] = fanRPMMax;
+      }
+    }
+
+    if (record['Noise Level'] !== undefined) {
+      var noiseLevel = record['Noise Level'].split('-');
+      var noiseLevelMin = parseFloat(noiseLevel[0]);
+      var noiseLevelMax = parseFloat(noiseLevel[1]);
+      if (!isNaN(noiseLevelMin)) {
+        record['Noise Level Min'] = noiseLevelMin;
+      }
+
+      if (!isNaN(noiseLevelMax)) {
+        record['Noise Level Max'] = noiseLevelMax;
+      }
+    }
+
+    record['Height'] = parseFloat(record['Height']);
+
+    if (record['Water Cooled'] !== undefined) {
+      var waterCoolerRadiator = [...record['Water Cooled'].matchAll(decimalMM)];
+      if (waterCoolerRadiator[0] !== undefined) {
+        record['Water Cooler Radiator'] = parseInt(waterCoolerRadiator[0][0]);
+      }
+    }
+
+  }
+}
+
+function linkCooler(data, derivedTables) {
+  var bearing = this.distinct(data, 'Bearing', derivedTables);
+
+  var cpuSocket = this.distinctSubtable(data, 'CPU Socket', derivedTables);
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+
+    record['Bearing'] = bearing['Unique'][record['Bearing']];
+
+  }
+
+  return {
+    'Bearing Dictionary': bearing['Distinct'],
+    'CPU Socket List': cpuSocket['Subtable'],
+    'CPU Socket Dictionary': cpuSocket['Dictionary']['Distinct']
+  };
+}
+
+function trimCooler(data) {
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+
+    delete record['Fan RPM']; 			// Separated to Fan RPM Min, Fan RPM Max
+    delete record['Noise Level']; 	// Separated to Noise Level Min, Noise Level Max 
+    delete record['Water Cooled']; 	// Moved to Water Cooler Radiator
+    delete record['CPU Socket']; 		// Left Join 'CPU Socket' On PID
+
+  }
+}
+
+function formatMotherboard(data) {
+  const decimalMM = /(\d*\.?\d+) mm/g;
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+    for (var key of Object.keys(record)) {
+      if (record[key] === 'None') {
+        record[key] = '';
+      } else if (record[key] === 'Yes') {
+        record[key] = 'Y';
+      } else if (record[key] === 'No') {
+        record[key] = 'N';
+      }
+    }
+
+    record['Memory Max'] = parseInt(record['Memory Max']);
+
+    if (record['Memory Speed'] !== undefined) {
+      var memorySpeeds = record['Memory Speed'].split('\n');
+      if (memorySpeeds[0] !== undefined) {
+        record['Memory Speed Min'] = parseInt(memorySpeeds[0].substring(5));
+      }
+      if (memorySpeeds[memorySpeeds.length - 1] !== undefined) {
+        record['Memory Speed Max'] = parseInt(memorySpeeds[memorySpeeds.length - 1].substring(5));
+      }
+    }
+    
+    if (record['Onboard Video'] === 'Depends on CPU') {
+      record['Onboard Video'] === '';
+    }
+    
+    record['Socket'] = record['Socket / CPU']; // Rename 'Socket / CPU' to 'Socket'
+    record['Motherboard Form Factor'] = record['Form Factor']; // Rename 'Form Factor' to 'Motherboard Form Factor'
+
+  }
+}
+
+function linkMotherboard(data, derivedTables) {
+  var motherboardFormFactor = this.distinct(data, 'Motherboard Form Factor', derivedTables);
+  var chipset = this.distinct(data, 'Chipset', derivedTables);
+  var memoryType = this.distinct(data, 'Memory Type', derivedTables);
+  var socket = this.distinct(data, 'Socket', derivedTables);
+
+  var sliCrossFire = this.distinctSubtable(data, 'SLI/CrossFire', derivedTables);
+  
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+
+    record['Motherboard Form Factor'] = motherboardFormFactor['Unique'][record['Motherboard Form Factor']];
+    record['Chipset'] = chipset['Unique'][record['Chipset']];
+    record['Memory Type'] = memoryType['Unique'][record['Memory Type']];
+    record['Socket'] = socket['Unique'][record['Socket']];
+
+  }
+
+  return {
+    'Motherboard Form Factor': motherboardFormFactor['Distinct'],
+    'Chipset Dictionary': chipset['Distinct'],
+    'Memory Type Dictionary': memoryType['Distinct'],
+    'Socket Dictionary': socket['Distinct'],
+    'SLI/CrossFire List': sliCrossFire['Subtable'],
+    'SLI/CrossFire Dictionary': sliCrossFire['Dictionary']['Distinct']
+  };
+}
+
+
+function trimMotherboard(data) {
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var record = data[recordIndex];
+
+    delete record['SLI/CrossFire'] // Left Join 'SLI/CrossFire' On PID
+    
+    delete record['Memory Speed']; // Converted to range: Memory Speed Min, Memory Speed Max
+    delete record['Socket / CPU']; // Renamed
+    delete record['Form Factor']; // Renamed
+  }
+}
+
+
+
+// 
+// preload uncommented lines in environment
+// data is stored in:
+// -Modified
+// derivedTables
+//
+
+//var pidRegistryJSON;
+var pidRegistryJSONModified;
+//var caseJSON;
+var caseJSONModified;
+//var cpuCoolerJSON;
+var cpuCoolerJSONModified;
+//var cpuJSON;
+var cpuJSONModified;
+//var memoryJSON;
+var memoryJSONModified;
+//var motherboardJSON;
+var motherboardJSONModified;
+//var powerSupplyJSON;
+var powerSupplyJSONModified;
+//var storageJSON;
+var storageJSONModified;
+//var videoCardJSON;
+var videoCardJSONModified;
+
+var derivedTables = {};
+// start
+function initialize(){
+  this.setJSONCloneFunction();
+
+  if (pidRegistryJSON === undefined) {
+    console.log("pidRegistryJSON missing");
+    return;
+  }
+  pidRegistryJSONModified = JSON.clone(pidRegistryJSON);
+
+  if (caseJSON === undefined) {
+    console.log("caseJSON missing");
+    return;
+  }
+  caseJSONModified = JSON.clone(caseJSON);
+
+
+  if (cpuCoolerJSON === undefined) {
+    console.log("cpuCoolerJSON missing");
+    return;
+  }
+  cpuCoolerJSONModified = JSON.clone(cpuCoolerJSON);
+
+
+  if (cpuJSON === undefined) {
+    console.log("cpuJSON missing");
+    return;
+  }
+  cpuJSONModified = JSON.clone(cpuJSON);
+
+
+  if (memoryJSON === undefined) {
+    console.log("memoryJSON missing");
+    return;
+  }
+  memoryJSONModified = JSON.clone(memoryJSON);
+
+
+  if (motherboardJSON === undefined) {
+    console.log("motherboardJSON missing");
+    return;
+  }
+  motherboardJSONModified = JSON.clone(motherboardJSON);
+
+
+  if (powerSupplyJSON === undefined) {
+    console.log("powerSupplyJSON missing");
+    return;
+  }
+  powerSupplyJSONModified = JSON.clone(powerSupplyJSON);
+
+
+  if (storageJSON === undefined) {
+    console.log("storageJSON missing");
+    return;
+  }
+  storageJSONModified = JSON.clone(storageJSON);
+
+
+  if (videoCardJSON === undefined) {
+    console.log("videoCardJSON missing");
+    return;
+  }
+  videoCardJSONModified = JSON.clone(videoCardJSON);
+
+
+  derivedTables = {'SUBTABLES': {}};
+
+  // Append to pid table
+  this.moveToPIDRegistry(caseJSONModified, pidRegistryJSONModified);
+  this.moveToPIDRegistry(cpuCoolerJSONModified, pidRegistryJSONModified);
+  this.moveToPIDRegistry(cpuJSONModified, pidRegistryJSONModified);
+  this.moveToPIDRegistry(memoryJSONModified, pidRegistryJSONModified);
+  this.moveToPIDRegistry(motherboardJSONModified, pidRegistryJSONModified);
+  this.moveToPIDRegistry(powerSupplyJSONModified, pidRegistryJSONModified);
+  this.moveToPIDRegistry(storageJSONModified, pidRegistryJSONModified);
+  this.moveToPIDRegistry(videoCardJSONModified, pidRegistryJSONModified);
+
+  this.formatPIDRegistry(pidRegistryJSONModified);
+  this.linkPIDRegistry(pidRegistryJSONModified, derivedTables);
+  this.trimPIDRegistry(pidRegistryJSONModified);
+  
+  this.formatCase(caseJSONModified);
+  this.linkCase(caseJSONModified, derivedTables);
+  this.trimCase(caseJSONModified);
+
+  this.formatStorage(storageJSONModified);
+  this.linkStorage(storageJSONModified, derivedTables);
+  this.trimStorage(storageJSONModified);
+
+  this.formatMemory(memoryJSONModified, pidRegistryJSONModified);
+  this.linkMemory(memoryJSONModified, derivedTables);
+  this.trimMemory(memoryJSONModified);
+
+  this.formatPowerSupply(powerSupplyJSONModified);
+  this.linkPowerSupply(powerSupplyJSONModified, derivedTables);
+  this.trimPowerSupply(powerSupplyJSONModified);
+
+  this.formatVideoCard(videoCardJSONModified);
+  this.linkVideoCard(videoCardJSONModified, derivedTables);
+  this.trimVideoCard(videoCardJSONModified);
+
+  this.formatCPU(cpuJSONModified);
+  this.linkCPU(cpuJSONModified, derivedTables);
+  this.trimCPU(cpuJSONModified);
+
+  this.formatCooler(cpuCoolerJSONModified);
+  this.linkCooler(cpuCoolerJSONModified, derivedTables);
+  this.trimCooler(cpuCoolerJSONModified);
+
+  this.formatMotherboard(motherboardJSONModified);
+  this.linkMotherboard(motherboardJSONModified, derivedTables);
+  this.trimMotherboard(motherboardJSONModified);
+}
+
+function moveToPIDRegistry(data, pidRegistry) {
+  for (let i = 0; i < data.length; i++) {
+    var record = data[i];
+    //var pidRecord = pidRegistry.find(r => {return r['PID'] === record['PID']});
+    var pidRecord = pidRegistry[record['PID']];
+
+    if (pidRecord !== undefined) {
+      pidRecord['Manufacturer'] = record['Manufacturer'];
+      pidRecord['Part #'] = record['Part #'];
+      pidRecord['Color'] = record['Color'];
+
+      delete record['Manufacturer'];
+      delete record['Part #'];
+      delete record['Color'];
+      delete record['Model']; // Not used
+    }
+  } 
+}
+
+function setJSONCloneFunction() {
+  if (typeof JSON.clone !== "function") {
+    JSON.clone = function(obj) {
+      return JSON.parse(JSON.stringify(obj));
+    };
+  }
+}
+
+function distinct(data, column, derivedTables) {
+  var unique = [];
+  var distinct = [];
+  var id = 0;
+
+  if (derivedTables[column] !== undefined) {
+    unique = derivedTables[column]['Unique'];
+    distinct = derivedTables[column]['Distinct'];
+    id = derivedTables[column]['LastID'] + 1;
+  }
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    var code = data[recordIndex][column];
+    if (code === undefined) {
+      continue; 
+    }
+    
+    code = code.trim();
+    if (code !== undefined && code !== '' && unique[code] === undefined){
+      distinct.push({'ID': id, 'Dictionary': code});
+      unique[data[recordIndex][column]] = id;
+      id++;
+    }
+  }
+
+  var json = {'Distinct': distinct, 'Unique': unique, 'LastID': id};
+
+  derivedTables[column] = json;
+  return json;
+}
+
+function distinctSubtable(data, column, derivedTables) {
+  var unique = [];
+  var distinct = [];
+  var id = 0;
+
+  if (derivedTables[column] !== undefined) {
+    unique = derivedTables[column]['Unique'];
+    distinct = derivedTables[column]['Distinct'];
+    id = derivedTables[column]['LastID'] + 1;
+  }
+
+  var subtable = [];
+
+  for (let recordIndex = 0; recordIndex < data.length; recordIndex++){
+    if (data[recordIndex][column] === undefined) {
+      continue; 
+    }
+    var codes = data[recordIndex][column].split('\n');
+
+    for (let codeIndex = 0; codeIndex < codes.length; codeIndex++) {
+      var code = codes[codeIndex];
+      if (code === undefined) {
+        continue; 
+      }
+      code = code.trim();
+
+      if (code !== undefined && code !== '' && unique[code] === undefined){
+        distinct.push({'ID': id, 'Dictionary': code});
+        unique[code] = id;
+        id++;
+      }
+
+      if (code !== undefined && code !== '') {
+        subtable.push({'PID': data[recordIndex]['PID'], 'ID': unique[code]});
+      }
+    }
+  }
+
+  var json = {'Distinct': distinct, 'Unique': unique, 'LastID': id};
+
+  derivedTables[column] = json;
+  if (derivedTables['SUBTABLES'][column] !== undefined) {
+    derivedTables['SUBTABLES'][column].concat(subtable);
+  } else {
+    derivedTables['SUBTABLES'][column] = subtable;
+  }
+  return {'Dictionary': json, 'Subtable': subtable};
+}
+      
+      
+      
+      
+
+      
